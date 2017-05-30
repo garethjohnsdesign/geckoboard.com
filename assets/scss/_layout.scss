@@ -1,0 +1,183 @@
+//  Table of Contents:
+//
+//   1. Global
+//   2. Mixins
+//   3. Typography
+//   4. Page
+//   5. Navigation
+//   6. Index
+//   7. Excerpt
+//   8. Projects
+//   9. Project
+//   10. Profile
+//   11. Services
+//   12. Contact
+//   13. Footer
+
+// 1. Global
+// ---------
+
+body {  
+  cursor: default;
+}
+
+body {
+  opacity: 1;
+  transition: $primary-transition;
+  height: 100%;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+:focus {
+  outline: 0;
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+a {
+  transition: $primary-transition;
+}
+
+a:hover {
+  color: $color--black;
+}
+
+// 2. Mixins
+// ---------
+
+
+@mixin padding {
+  padding-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+//     transition: $primary-transition;
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+// 3. Typography
+// -------------
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+// x. Navigation
+// -------------
+
+.navigation {
+  background-color: $color--background-gray;
+  font-family: $header-font-family;
+  font-size: 0.8rem;
+  letter-spacing: $letter-spacing--looser;
+  text-transform: uppercase;
+  padding: 1rem;
+  a {
+    color: $color--mid-gray;
+  }
+}
+
+// x. Index
+// -------------
+
+.index__hero {
+  background-color: $color--background-gray;
+  color: $color--white;
+  padding: 4rem 2rem;
+}
+
+.index__highlight-banner {
+  background-color: $color--dark-blue;
+  color: $color--white;
+  padding: 1rem;
+}
+
+.index__used-by {
+  background-color: $color--blue-gray;
+  padding: 4rem 2rem;
+}
+
+.index__story {
+  padding: 4rem 2rem;
+}
+
+.index__story__header {
+  padding: 2rem;
+}
+
+.index__story__one, .index__story__two {
+  padding: 2rem 4rem;
+}
+
+.index__story__one .columns, .index__story__two .columns {
+  padding: 2rem;
+}
+
+.index__story__one__text, .index__story__two__text {
+  border-top: 2px solid #EBEDEF;
+  border-bottom: 2px solid #EBEDEF;
+  padding: 2rem;
+}
+
+.index__integrations {
+  background-color: $color--blue-gray;
+  padding: 4rem 2rem;
+}
+
+.index__integrations__cta {
+  padding: 2rem;
+}
+
+.index__quote {
+  background-color: $color--background-gray;
+}
+
+.footer {
+  padding: 1rem;
+  background-color: $color--dark-blue;
+}
+
+.footer a {
+  font-family: $header-font-family;
+  text-transform: uppercase;
+  color: $color--white;
+}

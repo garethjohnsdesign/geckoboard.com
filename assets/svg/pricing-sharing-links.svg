@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);fill:#8DC63F;}
+	.st2{clip-path:url(#SVGID_6_);}
+	.st3{clip-path:url(#SVGID_8_);fill:none;stroke:#ADDE6A;stroke-width:4;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_10_);fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M32,8C18.7,8,8,18.7,8,32s10.7,24,24,24s24-10.7,24-24S45.3,8,32,8"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		<defs>
+			<rect id="SVGID_3_" x="-687" y="-1752" width="1440" height="3431"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect x="3" y="3" class="st1" width="58" height="58"/>
+	</g>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_5_" cx="32" cy="32" r="21"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st2">
+		<defs>
+			<rect id="SVGID_7_" x="-687" y="-1752" width="1440" height="3431"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+		</clipPath>
+		<circle class="st3" cx="32" cy="32" r="21"/>
+	</g>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_9_" x="-687" y="-1752" width="1440" height="3431"/>
+	</defs>
+	<clipPath id="SVGID_10_">
+		<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st4" d="M25,37l-2,0c-2.5,0-5-2.5-5-5c0-2.5,2.5-5,5-5l7,0c2.5,0,5,2.4,5,5"/>
+	<path class="st4" d="M39.1,27l2,0c2.5,0,5,2.5,5,5c0,2.5-2.5,5-5,5l-7,0c-2.5,0-5-2.4-5-5"/>
+</g>
+</svg>

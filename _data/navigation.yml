@@ -1,0 +1,30 @@
+- title: Product
+  url: /product/
+
+- title: Pricing
+  url: /pricing/
+  
+- title: Blog
+  url: /blog/
+
+- title: More
+  url: /more/
+  sublinks:
+    - title: Integrations
+      url: /integrations/
+    - title: Dashboard Examples
+      url: /dashboard-examples/
+    - title: KPI Examples
+      url: /kpi-examples/
+    - title: Mobile App
+      url: /mobile-app/
+    - title: Case Studies
+      url: /case-studies/
+    - title: Support
+      url: /support/
+      
+- title: Login
+  url: /login/
+  
+- title: Book a Demo
+  url: /book-a-demo/

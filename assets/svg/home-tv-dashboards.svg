@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-751.000000, -1429.000000)">
+            <g id="Live-TV-Dashboards-Help..." transform="translate(146.000000, 1393.000000)">
+                <g id="Text" transform="translate(605.000000, 0.000000)">
+                    <g id="Main-Text">
+                        <g id="Title" transform="translate(0.000000, 33.000000)">
+                            <g id="Group-16" transform="translate(0.000000, 3.000000)">
+                                <path d="M24,0 C10.745,0 0,10.745 0,24 C0,37.255 10.745,48 24,48 C37.255,48 48,37.255 48,24 C48,10.745 37.255,0 24,0" id="Fill-3" fill="#8DC63F"></path>
+                                <g id="Group-14" transform="translate(20.285714, 31.857143)" stroke="#ADDE6A" stroke-width="2" stroke-linecap="round">
+                                    <path d="M7.71428571,0.142857143 L7.71428571,2.64285714 C7.71428571,3.16482716 7.32681733,3.64285714 6.78430683,3.64285714 C6.24179632,3.64285714 5.71428571,4.11994153 5.71428571,4.64285714 L5.71428571,7.14285714" id="Stroke-11" transform="translate(6.714286, 3.642857) scale(-1, 1) translate(-6.714286, -3.642857) "></path>
+                                    <path d="M1.71428571,0.142857143 L1.71428571,7.14285714" id="Stroke-12"></path>
+                                </g>
+                                <path d="M38.075,13 L8.925,13 C7.8624,13 7,13.7350406 7,14.6402294 L7,30.3587983 C7,31.2649594 7.8624,32 8.925,32 L38.075,32 C39.1376,32 40,31.2250961 40,30.3587983 L40,14.6402294 C40,13.7350406 39.1376,13 38.075,13 L38.075,13 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                                <rect id="Rectangle-7" fill="#8DC63F" x="9" y="15" width="29" height="15"></rect>
+                                <rect id="Rectangle-11" fill="#C5E698" x="11" y="17" width="5" height="5"></rect>
+                                <rect id="Rectangle-11-Copy-2" fill="#C5E698" x="11" y="23" width="5" height="5"></rect>
+                                <rect id="Rectangle-11-Copy-5" fill="#C5E698" x="31" y="17" width="5" height="11"></rect>
+                                <rect id="Rectangle-11-Copy" fill="#C5E698" x="17" y="17" width="13" height="11"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

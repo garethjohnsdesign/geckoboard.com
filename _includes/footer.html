@@ -1,0 +1,17 @@
+<section class="footer">
+<div class="row small-collapse align-middle align-justify">
+  
+  <div class="shrink columns align-middle">
+    <ul class="menu align-middle">
+      {% for link in site.data.footer %}
+      <li class="show-for-large"><a href="{{link.url}}">{{link.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="shrink columns">
+    © 2017 Geckoboard. All rights reserved.
+  </div>
+  
+</div>
+</section>

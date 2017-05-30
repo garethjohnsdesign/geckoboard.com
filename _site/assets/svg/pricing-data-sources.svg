@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#8CC640;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M24,20.9l-11-6.4l0,4l11,6.3l11-6.3v-3.9L24,20.9z"/>
+		<g>
+			<polygon class="st0" points="24,9.9 33.6,15.4 35,14.6 24,8.3 13,14.6 14.4,15.4 			"/>
+		</g>
+		<polygon class="st0" points="24,28.8 13,22.4 13,26.4 24,32.7 35,26.4 35,22.5 		"/>
+		<polygon class="st0" points="24,36.7 13,30.3 13,34.2 24,40.5 35,34.2 35,30.3 		"/>
+		<g>
+			<g>
+				<polygon class="st0" points="16.4,28.3 13,30.3 14.4,31.1 17.8,29.1 				"/>
+			</g>
+			<g>
+				<polygon class="st0" points="30.2,29.1 33.6,31.1 35,30.3 31.6,28.3 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st0" points="16.4,20.5 13,22.4 14.4,23.2 17.8,21.3 				"/>
+			</g>
+			<g>
+				<polygon class="st0" points="30.2,21.3 33.6,23.2 35,22.5 31.6,20.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st0" d="M24,2c12.1,0,22,9.9,22,22s-9.9,22-22,22S2,36.1,2,24S11.9,2,24,2 M24,0C10.7,0,0,10.7,0,24s10.7,24,24,24
+			s24-10.7,24-24S37.3,0,24,0L24,0z"/>
+	</g>
+</g>
+</svg>
