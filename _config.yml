@@ -15,7 +15,8 @@ defaults:
   values:
     permalink: "/blog/:title/"
 url: http://isintown.com
-description: Use Geckoboard to build clear, effective data dashboards for your business that keep teams informed, motivated and aligned around your KPIs. Try for free.
+description: Use Geckoboard to build clear, effective data dashboards for your business
+  that keep teams informed, motivated and aligned around your KPIs. Try for free.
 permalink: pretty
 exclude:
 - Gemfile
@@ -41,8 +42,8 @@ highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Geckoboard
 email: support@geckoboard.com
-google_site_verification:
-analytics:
+google_site_verification: 
+analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
