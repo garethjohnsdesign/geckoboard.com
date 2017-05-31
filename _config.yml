@@ -44,7 +44,7 @@ company: Geckoboard
 email: support@geckoboard.com
 google_site_verification: 
 analytics: 
-logo: "/assets/img/logo.svg"
+logo: 
 per_page: 12
 date_format: "%d %B %Y"
 future: true
