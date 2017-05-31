@@ -14,7 +14,7 @@ defaults:
     type: posts
   values:
     permalink: "/blog/:title/"
-url: http://isintown.com
+url: http://geckoboard.com
 description: Use Geckoboard to build clear, effective data dashboards for your business
   that keep teams informed, motivated and aligned around your KPIs. Try for free.
 permalink: pretty
