@@ -1,6 +1,6 @@
 ---
 title: How to avoid the most common mistakes in dashboard design
-date: 2017-05-31 11:29:00 Z
+date: 2017-05-25 11:29:00 Z
 author: Laura Tyson
 ---
 
