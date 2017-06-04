@@ -1,5 +1,6 @@
 ---
-title: 7 tech founders lift the lid on how they set seven
+title: 7 tech founders lift the lid on how they set hello
+regenerate: true
 date: 2017-06-02 17:06:00 Z
 type: 
 description: There’s test no one-size-fits-all approach to goal setting. So we’ve

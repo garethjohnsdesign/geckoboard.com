@@ -1,6 +1,7 @@
 ---
 title: Blog
 date: 2014-06-10 10:00:00 Z
+regenerate: true
 description: The latest insights, news and announcements from Geckoboard HQ.
 blog_title: The Geckoboard Blog
 blog_description: Helping leaders focus their team and grow their company.
