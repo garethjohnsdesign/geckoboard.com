@@ -1,14 +1,14 @@
 ---
 title: Highrise Dashboard
 date: 2014-06-03 14:32:00 Z
+categories:
+- CRM
 type: ServicePost
 servicename: highrise
 templateversion: '1'
 others: salesforce, pipedrive, google-analytics, paypal
 assets:
 - path: "/uploads/highrise.png"
-categories:
-- CRM
 ---
 
 Build a **Highrise dashboard** that enables your team to monitor key information from your Highrise account on TVs around your office.

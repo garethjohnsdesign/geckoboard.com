@@ -1,6 +1,9 @@
 ---
 title: The 19 Best Training Resources to Learn Salesforce
 date: 2016-03-01 09:00:00 Z
+tags:
+- Salesforce
+- management
 type: 
 description: Find the right Salesforce training tools for your sales team - whether
   in-person classes, online classes or an assortment of supplemental resources.
@@ -13,9 +16,6 @@ assets:
   name: salesforce-training-image
 - path: "/uploads/salesforce-specific-search.png"
   name: salesforce-specific-search
-tags:
-- Salesforce
-- management
 Topics:
 - Salesforce
 - Sales

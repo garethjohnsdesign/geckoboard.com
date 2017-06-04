@@ -1,6 +1,9 @@
 ---
 title: Jenkins Dashboard
 date: 2014-06-03 14:33:00 Z
+categories:
+- Infrastructure
+- DevOps
 type: ServicePost
 servicename: jenkins
 templateversion: '1'
@@ -8,9 +11,6 @@ examples: dev-ops
 others: jira, airbrake, github, pingdom
 assets:
 - path: "/uploads/jenkins.png"
-categories:
-- Infrastructure
-- DevOps
 ---
 
 Build a **Jenkins dashboard** so your team can monitor the status of Jenkins jobs live on TVs around your workspace. 

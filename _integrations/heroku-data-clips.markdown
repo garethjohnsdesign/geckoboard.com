@@ -1,14 +1,14 @@
 ---
 title: Heroku Dataclips Dashboard
 date: 2014-06-03 14:32:00 Z
+categories:
+- Infrastructure
 type: ServicePost
 servicename: herokudataclip
 templateversion: '1'
 others: amazon-cloudwatch, airbrake, new-relic, jenkins, jira, pingdom
 assets:
 - path: "/uploads/heroku.png"
-categories:
-- Infrastructure
 ---
 
 Build **Heroku Dataclips dashboards** that bring live metrics from your Heroku Postgres database together for monitoring on TVs around a workspace. 

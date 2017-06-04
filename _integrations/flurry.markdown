@@ -1,14 +1,14 @@
 ---
 title: Flurry Dashboard
 date: 2014-06-03 14:30:00 Z
+categories:
+- Mobile Analytics
 type: ServicePost
 servicename: flurry
 templateversion: '1'
 others: gosquared, mixpanel
 assets:
 - path: "/uploads/flurry.png"
-categories:
-- Mobile Analytics
 ---
 
 Build an easy-to-understand **Flurry dashboard** to display key mobile app metrics on TVs around your office, and focus your team on prioritizing actions. 

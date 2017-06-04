@@ -1,6 +1,8 @@
 ---
 title: ChartMogul Dashboard
 date: 2016-12-07 14:57:00 Z
+categories:
+- Sales & Finance
 type: 
 servicename: chartmogul
 related1: 
@@ -12,8 +14,6 @@ others: stripe, recurly, paypal, twitter, google-adsense
 assets:
 - path: "/uploads/chartmogul.png"
   name: chartmogul
-categories:
-- Sales & Finance
 ---
 
 Build a **ChartMogul dashboard** that enables your team to monitor key revenue metrics from your ChartMogul account on TVs around your office.

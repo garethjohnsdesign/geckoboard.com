@@ -1,6 +1,10 @@
 ---
 title: Salesforce Dashboard
 date: 2014-06-03 11:37:00 Z
+categories:
+- CRM
+- Sales & Finance
+- Project Management
 type: ServicePost
 servicename: salesforce
 templateversion: '1'
@@ -17,10 +21,6 @@ highlight-colour: "#8dc63f"
 assets:
 - path: "/uploads/salesforce.png"
   name: salesforce
-categories:
-- CRM
-- Sales & Finance
-- Project Management
 ---
 
 Build live **Salesforce dashboards** to display on TVs around your workspace to focus your team on improving key metrics from Salesforce. 

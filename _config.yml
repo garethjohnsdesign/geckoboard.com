@@ -5,13 +5,15 @@ collections:
   posts:
     title: Blog
     output: true
+  integrations:
+    title: Integrations
+    output: true
+  learn:
+    title: Learn
+    output: true
   uploads:
     title: Uploads
     output: false
-  learn:
-    output: true
-  integrations:
-    output: true
 defaults:
 - scope:
     path: ''

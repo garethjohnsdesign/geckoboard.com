@@ -1,6 +1,8 @@
 ---
 title: Google Analytics Dashboard
 date: 2014-06-03 12:30:00 Z
+categories:
+- Web Analytics
 type: ServicePost
 servicename: ga2
 templateversion: '1'
@@ -17,8 +19,6 @@ highlight-colour: "#8dc63f"
 assets:
 - path: "/uploads/google-analytics.png"
   name: google-analytics
-categories:
-- Web Analytics
 ---
 
 Build an easy-to-understand **Google Analytics dashboard** to display live website metrics on TVs and focus your team on hitting goals. 

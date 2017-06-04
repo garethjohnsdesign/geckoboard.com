@@ -1,14 +1,14 @@
 ---
 title: GoSquared Dashboard
 date: 2014-06-03 14:31:00 Z
+categories:
+- Web Analytics
 type: ServicePost
 servicename: gosquared
 others: google-analytics, chartbeat, mixpanel, pingdom
 templateversion: '1'
 assets:
 - path: "/uploads/gosquared.png"
-categories:
-- Web Analytics
 ---
 
 Build an easy-to-understand **GoSquared dashboard** to display live website metrics on TVs and focus your team on achieving their targets. 

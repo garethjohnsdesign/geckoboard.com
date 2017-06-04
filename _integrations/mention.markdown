@@ -1,6 +1,9 @@
 ---
 title: Mention Dashboard
 date: 2014-06-03 14:34:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
 type: ServicePost
 servicename: mention
 templateversion: '1'
@@ -8,9 +11,6 @@ others: facebook, twitter, buffer, linkedin, youtube
 assets:
 - path: "/uploads/mention.png"
   name: mention
-categories:
-- Social Media
-- Advertising/Marketing
 ---
 
 Build a live **Mention dashboard** so that your team can monitor brand mentions on TVs around the office and improve social media engagement.

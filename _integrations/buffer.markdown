@@ -1,6 +1,9 @@
 ---
 title: Buffer Dashboard
 date: 2014-06-03 14:27:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
 type: ServicePost
 servicename: buffer
 featured: '1'
@@ -9,9 +12,6 @@ examples:
 others: facebook, twitter, linkedin, mention, youtube
 assets:
 - path: "/uploads/buffer.png"
-categories:
-- Social Media
-- Advertising/Marketing
 ---
 
 Focus your team on improving engagement on your social media accounts with a live **Buffer dashboard**, designed for TVs.

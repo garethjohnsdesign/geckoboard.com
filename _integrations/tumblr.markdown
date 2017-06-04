@@ -1,15 +1,15 @@
 ---
 title: Tumblr Dashboard
 date: 2014-06-03 14:40:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
 type: ServicePost
 servicename: tumblr
 templateversion: '1'
 others: twitter, facebook, linkedin, mention, bitly, youtube
 assets:
 - path: "/uploads/tumblr.png"
-categories:
-- Social Media
-- Advertising/Marketing
 ---
 
 Focus your team on improving engagement on your social media accounts with a live **Tumblr dashboard**, designed for TVs.

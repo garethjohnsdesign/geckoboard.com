@@ -1,14 +1,14 @@
 ---
 title: StatusCake Dashboard
 date: 2014-06-03 13:39:00 Z
+categories:
+- Infrastructure
 type: ServicePost
 servicename: statuscake
 templateversion: '1'
 others: pingdom, airbrake, amazon-cloudwatch, new-relic, jenkins
 assets:
 - path: "/uploads/statuscake.png"
-categories:
-- Infrastructure
 ---
 
 Build live **StatusCake dashboards** so that your team can monitor and improve the performance of your website.

@@ -1,6 +1,9 @@
 ---
 title: GitHub Dashboard
 date: 2014-06-03 12:31:00 Z
+categories:
+- Project Management
+- DevOps
 type: ServicePost
 servicename: github3
 templateversion: '1'
@@ -12,9 +15,6 @@ examples: dev-ops
 others: jira, airbrake, new-relic, jenkins, pingdom
 assets:
 - path: "/uploads/github.png"
-categories:
-- Project Management
-- DevOps
 ---
 
 Build a **GitHub dashboard** so your team can monitor live metrics from your GitHub account on TVs around your workspace to improve performance. 

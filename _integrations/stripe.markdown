@@ -1,6 +1,8 @@
 ---
 title: Stripe Dashboard
 date: 2016-12-07 15:05:00 Z
+categories:
+- Sales & Finance
 type: 
 servicename: stripe
 related1: 
@@ -12,8 +14,6 @@ others: chartmogul, recurly, paypal, google-analytics
 assets:
 - path: "/uploads/stripe.png"
   name: stripe
-categories:
-- Sales & Finance
 ---
 
 Build a **Stripe dashboard** that enables your team to monitor key subscription metrics from your Stripe account on TVs around your office.

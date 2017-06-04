@@ -1,6 +1,9 @@
 ---
 title: JIRA Dashboard
 date: 2014-06-03 12:33:00 Z
+categories:
+- Project Management
+- DevOps
 type: ServicePost
 servicename: jira
 templateversion: '1'
@@ -12,9 +15,6 @@ examples: dev-ops
 others: airbrake, new-relic, github, jenkins, pingdom
 assets:
 - path: "/uploads/jira.png"
-categories:
-- Project Management
-- DevOps
 ---
 
 Build a **JIRA dashboard** so your team can  monitor the status of JIRA projects live on TVs around your workspace. 

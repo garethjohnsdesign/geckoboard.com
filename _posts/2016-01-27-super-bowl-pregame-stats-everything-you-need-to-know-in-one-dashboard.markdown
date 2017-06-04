@@ -1,6 +1,9 @@
 ---
 title: 'Super Bowl Pregame Stats: Everything You Need to Know in One Live Dashboard'
 date: 2016-01-27 23:38:00 Z
+tags:
+- dashboard
+- Super Bowl
 type: 
 description: Get your game on for Super Bowl 50 as you track predictions, breaking
   news, and more in this live pre-game dashboard.
@@ -9,9 +12,6 @@ assets:
   name: Super-bowl-dashboard-hero-image2-min
 - path: "/uploads/geckoboard-super-bowl-pre-game-dashboard.png"
   name: geckoboard-super-bowl-pre-game-dashboard
-tags:
-- dashboard
-- Super Bowl
 Topics:
 - Dashboard
 - Metrics

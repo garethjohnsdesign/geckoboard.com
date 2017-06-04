@@ -1,14 +1,14 @@
 ---
 title: RSS/Atom Feed Dashboard
 date: 2014-06-03 14:37:00 Z
+categories:
+- Advertising/Marketing
 type: ServicePost
 servicename: rss/atom_feed
 templateversion: '1'
 others: google-calendar, basecamp, pivotal-tracker, trello
 assets:
 - path: "/uploads/rss.png"
-categories:
-- Advertising/Marketing
 ---
 
 Add an **RSS or Atom feed** to your TV dashboard to give visibility to lists of news, content and other information that can help keep your team informed and on track.

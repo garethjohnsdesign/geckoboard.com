@@ -1,14 +1,14 @@
 ---
 title: Chartbeat Dashboard
 date: 2014-06-03 14:28:00 Z
+categories:
+- Web Analytics
 type: ServicePost
 servicename: chartbeat
 templateversion: '1'
 others: google-analytics, gosquared, mixpanel
 assets:
 - path: "/uploads/chartbeat.png"
-categories:
-- Web Analytics
 ---
 
 Build an easy-to-understand **Chartbeat dashboard** to display live website metrics on TVs and focus your team on hitting goals. 

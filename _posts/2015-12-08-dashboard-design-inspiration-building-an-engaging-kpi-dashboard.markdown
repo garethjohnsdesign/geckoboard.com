@@ -1,14 +1,14 @@
 ---
 title: 'Dashboard design inspiration: Building an engaging KPI dashboard'
 date: 2015-12-08 12:24:00 Z
+tags:
+- design
+- dashboard design
 type: 
 description: 
 assets:
 - path: "/uploads/dashboard-design-inspiration.png"
   name: dashboard-design-inspiration
-tags:
-- design
-- dashboard design
 Topics:
 - Dashboard Design
 - examples

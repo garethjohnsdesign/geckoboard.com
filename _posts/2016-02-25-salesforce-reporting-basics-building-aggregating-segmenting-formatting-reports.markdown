@@ -2,6 +2,10 @@
 title: 'Salesforce Reporting Basics: Building, Aggregating, Segmenting and Formatting
   Reports'
 date: 2016-02-25 09:00:00 Z
+tags:
+- Salesforce
+- KPIs
+- dashboard
 type: 
 description: Understand the fundamentals of Salesforce reporting tools in this step-by-step
   tutorial so you can get the most out of your sales metrics.
@@ -26,10 +30,6 @@ assets:
   name: 6-summary-metric-salesforce-reporting
 - path: "/uploads/5-multiple-groupings-salesforce-reporting.png"
   name: 5-multiple-groupings-salesforce-reporting
-tags:
-- Salesforce
-- KPIs
-- dashboard
 Topics:
 - Metrics
 - Sales

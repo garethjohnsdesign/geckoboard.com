@@ -1,15 +1,15 @@
 ---
 title: Vimeo Dashboard
 date: 2014-06-03 14:41:00 Z
+categories:
+- Advertising/Marketing
+- Social Media
 type: ServicePost
 servicename: vimeo
 templateversion: '1'
 others: youtube, twitter, instagram, buffer, mention
 assets:
 - path: "/uploads/vimeo.png"
-categories:
-- Advertising/Marketing
-- Social Media
 ---
 
 Focus your team on improving the performance of your Vimeo channel with a live **Vimeo dashboard**, designed for displaying on TVs.

@@ -1,6 +1,10 @@
 ---
 title: Pingdom Dashboard
 date: 2014-06-03 12:36:00 Z
+categories:
+- Infrastructure
+- DevOps
+- Web Analytics
 type: ServicePost
 servicename: pingdom
 templateversion: '1'
@@ -12,10 +16,6 @@ examples: dev-ops
 others: amazon-cloudwatch, airbrake, new-relic, jira
 assets:
 - path: "/uploads/pingdom.png"
-categories:
-- Infrastructure
-- DevOps
-- Web Analytics
 ---
 
 Build live **Pingdom dashboards** so that your team can monitor and improve the performance of your website. 

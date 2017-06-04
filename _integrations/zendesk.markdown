@@ -1,6 +1,9 @@
 ---
 title: Zendesk Dashboard
 date: 2014-06-03 12:42:00 Z
+categories:
+- CRM
+- Support
 type: ServicePost
 servicename: zendesk
 templateversion: '1'
@@ -13,9 +16,6 @@ others: twitter, salesforce, google-sheets
 assets:
 - path: "/uploads/zendesk.png"
   name: zendesk
-categories:
-- CRM
-- Support
 ---
 
 Build a live **Zendesk dashboard** to monitor and improve the quality and speed of your support. 

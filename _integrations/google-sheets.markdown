@@ -1,6 +1,8 @@
 ---
 title: Google Sheets Dashboard
 date: 2014-06-03 11:30:00 Z
+categories:
+- Spreadsheets
 type: ServicePost
 servicename: gdocs
 templateversion: '1'
@@ -17,8 +19,6 @@ highlight-colour: "#8dc63f"
 assets:
 - path: "/uploads/google-sheets.png"
   name: google-sheets
-categories:
-- Spreadsheets
 ---
 
 Easily build live **Google Sheets TV dashboards** to focus your team on improving key metrics. 

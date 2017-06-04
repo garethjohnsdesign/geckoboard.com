@@ -1,14 +1,14 @@
 ---
 title: PayPal Dashboard
 date: 2014-06-03 14:36:00 Z
+categories:
+- Sales & Finance
 type: ServicePost
 servicename: paypal
 templateversion: '1'
 others: twitter, recurly, shopify, google-adsense
 assets:
 - path: "/uploads/paypal.png"
-categories:
-- Sales & Finance
 ---
 
 Build a **PayPal dashboard** that enables your team to monitor your current PayPal account balance on TVs around your office.

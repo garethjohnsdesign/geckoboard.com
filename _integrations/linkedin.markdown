@@ -1,15 +1,15 @@
 ---
 title: LinkedIn Dashboard
 date: 2014-06-03 14:34:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
 type: ServicePost
 servicename: linkedin2
 templateversion: '1'
 others: twitter, instagram, buffer, mention, youtube
 assets:
 - path: "/uploads/linkedin.png"
-categories:
-- Social Media
-- Advertising/Marketing
 ---
 
 Focus your team on improving the performance of your company’s LinkedIn activity with a live **LinkedIn dashboard**, designed for TVs.

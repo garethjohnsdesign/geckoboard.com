@@ -1,14 +1,14 @@
 ---
 title: Trello Dashboard
 date: 2014-06-03 14:40:00 Z
+categories:
+- Project Management
 type: ServicePost
 servicename: trello
 templateversion: '1'
 others: jira, github
 assets:
 - path: "/uploads/trello.png"
-categories:
-- Project Management
 ---
 
 Build a live **Trello dashboard** to monitor the status of a particular project on TVs around your workspace. 

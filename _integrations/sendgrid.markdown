@@ -1,14 +1,14 @@
 ---
 title: SendGrid Dashboard
 date: 2014-06-03 14:38:00 Z
+categories:
+- Email
 type: ServicePost
 servicename: sendgrid
 templateversion: '1'
 others: mailchimp, google-analytics, campaign-monitor
 assets:
 - path: "/uploads/sendgrid.png"
-categories:
-- Email
 ---
 
 Build an easy-to-understand **SendGrid dashboard** to display key email metrics on TVs around your office, and focus your team on prioritizing actions. 

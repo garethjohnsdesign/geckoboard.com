@@ -1,6 +1,8 @@
 ---
 title: Pivotal Tracker Dashboard
 date: 2014-06-03 14:36:00 Z
+categories:
+- Project Management
 type: ServicePost
 servicename: pivotal
 templateversion: '1'
@@ -8,8 +10,6 @@ others: jira, github, trello, pingdom, google-analytics
 assets:
 - path: "/uploads/pivotal-tracker.png"
   name: pivotal-tracker
-categories:
-- Project Management
 ---
 
 Build a **Pivotal Tracker dashboard** so your team can  monitor the status of projects in Pivotal Tracker live on TVs around your workspace. 

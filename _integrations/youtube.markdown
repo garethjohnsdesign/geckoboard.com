@@ -1,15 +1,15 @@
 ---
 title: YouTube Dashboard
 date: 2014-06-03 13:41:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
 type: ServicePost
 servicename: youtube4
 templateversion: '1'
 others: vimeo, twitter, instagram, buffer, mention
 assets:
 - path: "/uploads/youtube.png"
-categories:
-- Social Media
-- Advertising/Marketing
 ---
 
 Focus your team on improving the performance of your YouTube channel with a live **YouTube dashboard**, designed for displaying on TVs.

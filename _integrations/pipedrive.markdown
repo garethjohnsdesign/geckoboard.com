@@ -1,14 +1,14 @@
 ---
 title: Pipedrive Dashboard
 date: 2014-06-03 14:36:00 Z
+categories:
+- Sales & Finance
 type: ServicePost
 servicename: pipedrive
 templateversion: '1'
 others: salesforce, shopify, google-analytics, paypal
 assets:
 - path: "/uploads/pipedrive.png"
-categories:
-- Sales & Finance
 ---
 
 Build a **Pipedrive dashboard** that enables your team to monitor key information from your Pipedrive account on TVs around your office.

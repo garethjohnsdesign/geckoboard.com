@@ -1,6 +1,9 @@
 ---
 title: Mixpanel Dashboard
 date: 2014-06-03 12:35:00 Z
+categories:
+- Web Analytics
+- Mobile Analytics
 type: ServicePost
 servicename: mixpanel
 templateversion: '1'
@@ -12,9 +15,6 @@ examples: aarrr-pirate-metrics, web-analytics
 others: google-analytics, gosquared, flurry
 assets:
 - path: "/uploads/mixpanel.png"
-categories:
-- Web Analytics
-- Mobile Analytics
 ---
 
 Build an easy-to-understand **Mixpanel dashboard** to display key web and mobile app metrics on TVs around your office, and focus your team on prioritizing actions. 

@@ -1,16 +1,16 @@
 ---
 title: HubSpot Dashboard
 date: 2014-06-26 09:53:00 Z
+categories:
+- Advertising/Marketing
+- Email
+- CRM
 type: ServicePost
 servicename: hubspot
 templateversion: '1'
 others: zendesk, excel, google-sheets, salesforce, highrise
 assets:
 - path: "/uploads/Hubspot_logo.png"
-categories:
-- Advertising/Marketing
-- Email
-- CRM
 ---
 
 Build live **HubSpot dashboards** to display on TVs around your workspace to focus your team on improving key metrics from HubSpot. 

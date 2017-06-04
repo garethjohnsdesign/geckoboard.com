@@ -1,15 +1,15 @@
 ---
 title: Bitly Dashboard
 date: 2014-06-03 14:27:00 Z
+categories:
+- Social Media
+- Web Analytics
 type: ServicePost
 servicename: bitly
 templateversion: '1'
 others: facebook, twitter, linkedin, mention, youtube
 assets:
 - path: "/uploads/bitly.png"
-categories:
-- Social Media
-- Web Analytics
 ---
 
 Focus your team on improving engagement on your social media accounts with a live **Bitly dashboard**, designed for TVs.

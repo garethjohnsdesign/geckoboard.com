@@ -1,6 +1,10 @@
 ---
 title: Twitter Dashboard
 date: 2014-06-03 12:40:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
+- Support
 type: ServicePost
 servicename: twitter2
 templateversion: '1'
@@ -12,10 +16,6 @@ examples: marketing, ceo
 others: facebook, buffer, facebook-ads, linkedin, youtube
 assets:
 - path: "/uploads/twitter.png"
-categories:
-- Social Media
-- Advertising/Marketing
-- Support
 ---
 
 Focus your team on improving Twitter performance with a live **Twitter dashboard**, designed for TVs. 

@@ -1,6 +1,11 @@
 ---
 title: 'The Lamborghini Aventador: A case study in poor dashboard design'
 date: 2012-04-25 11:05:00 Z
+tags:
+- dashboard
+- design
+- dashboard design
+- case study
 type: BlogPost
 assets:
 - path: "/uploads/hero10-1.jpg"
@@ -11,11 +16,6 @@ assets:
   type: BlogAsset
 - path: "/uploads/2-reventondash2.jpg.scaled10002-300x179-2.jpg"
   type: BlogAsset
-tags:
-- dashboard
-- design
-- dashboard design
-- case study
 ---
 
 <p>I don’t watch a lot of TV but back in January I sat down to indulge a guilty pleasure and turned on an episode of BBC’s Top Gear. For the uninitiated Top Gear is about as cliched and over-the-top as you could imagine a TV show dedicated to cliched and over-the-top automobiles might be.</p>

@@ -1,6 +1,8 @@
 ---
 title: Google AdWords Dashboard
 date: 2014-06-03 10:26:00 Z
+categories:
+- Advertising/Marketing
 type: ServicePost
 servicename: adwords
 templateversion: '1'
@@ -13,8 +15,6 @@ others: google-analytics, facebook-ads, salesforce
 assets:
 - path: "/uploads/google-adwords.png"
   name: google-adwords
-categories:
-- Advertising/Marketing
 ---
 
 Build a live **Google Adwords dashboard** so that your team can monitor and improve the performance of paid ad campaigns. 

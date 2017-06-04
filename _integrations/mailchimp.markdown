@@ -1,6 +1,8 @@
 ---
 title: MailChimp Dashboard
 date: 2014-06-03 12:34:00 Z
+categories:
+- Email
 type: ServicePost
 servicename: mailchimp2
 templateversion: '1'
@@ -12,8 +14,6 @@ examples: marketing
 others: google-analytics, facebook, twitter, campaign-monitor
 assets:
 - path: "/uploads/mailchimp.png"
-categories:
-- Email
 ---
 
 Build an easy-to-understand **MailChimp dashboard** to display key email campaign metrics on TVs around your office, and focus your team on prioritizing actions. 

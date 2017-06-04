@@ -1,6 +1,8 @@
 ---
 title: Best 25 Free Salesforce AppExchange Apps By Category
 date: 2016-02-18 09:00:00 Z
+tags:
+- Salesforce
 type: 
 description: Don't let all the Salesforce apps overwhelm you! Get a quick overview
   of the highest rated, most popular, FREE Salesforce apps (organized by category).
@@ -11,8 +13,6 @@ newslettersignupbutton: Yes, send me their stories
 assets:
 - path: "/uploads/3-01.png"
   name: 3-01
-tags:
-- Salesforce
 Topics:
 - Sales
 - Salesforce

@@ -1,14 +1,14 @@
 ---
 title: FreshBooks Dashboard
 date: 2014-06-03 14:30:00 Z
+categories:
+- Sales & Finance
 type: ServicePost
 servicename: freshbooks2
 templateversion: '1'
 others: paypal, shopify, recurly, twitter
 assets:
 - path: "/uploads/freshbooks.png"
-categories:
-- Sales & Finance
 ---
 
 Build a **FreshBooks dashboard** that enables your team to monitor and improve your business’ finances on TVs around your office.

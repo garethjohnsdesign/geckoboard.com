@@ -1,15 +1,15 @@
 ---
 title: Twilio Dashboard
 date: 2014-06-03 14:40:00 Z
+categories:
+- Infrastructure
+- DevOps
 type: ServicePost
 servicename: twilio
 templateversion: '1'
 others: new-relic, jira, github, pingdom, google-analytics
 assets:
 - path: "/uploads/twillio.png"
-categories:
-- Infrastructure
-- DevOps
 ---
 
 Build a **Twilio dashboard** so your team can monitor Twilio usage stats live on TVs around your workspace. 

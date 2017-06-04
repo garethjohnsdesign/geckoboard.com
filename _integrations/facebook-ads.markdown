@@ -1,6 +1,8 @@
 ---
 title: Facebook Ads Dashboard
 date: 2014-10-16 10:16:00 Z
+categories:
+- Advertising/Marketing
 type: ServicePost
 servicename: facebookads
 templateversion: '1'
@@ -13,8 +15,6 @@ others: google-analytics, google-adwords, facebook, salesforce
 featured: 'no'
 assets:
 - path: "/uploads/facebook-ads.png"
-categories:
-- Advertising/Marketing
 ---
 
 Build a live **Facebook Ads dashboard** so that your team can monitor and improve the performance of paid ad campaigns. 

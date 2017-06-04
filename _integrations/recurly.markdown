@@ -1,14 +1,14 @@
 ---
 title: Recurly Dashboard
 date: 2014-06-03 14:37:00 Z
+categories:
+- Sales & Finance
 type: ServicePost
 servicename: recurly
 templateversion: '1'
 others: chartmogul, stripe, paypal, shopify, twitter, google-adsense
 assets:
 - path: "/uploads/recurly.png"
-categories:
-- Sales & Finance
 ---
 
 Build a **Recurly dashboard** that enables your team to monitor key information from your Recurly account on TVs around your office.

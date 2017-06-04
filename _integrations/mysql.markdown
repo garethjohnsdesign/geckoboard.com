@@ -1,6 +1,8 @@
 ---
 title: MySQL Dashboard
 date: 2017-06-02 11:20:00 Z
+categories:
+- Databases
 type: ServicePost
 servicename: mysql
 related1: 
@@ -12,8 +14,6 @@ others: postgresql, sqlite, excel, google-sheets
 assets:
 - path: "/uploads/mysql.png"
   name: mySQL
-categories:
-- Databases
 ---
 
 Easily build a **MySQL dashboard** that enables your team to monitor key metrics from your database on TVs around your office. 

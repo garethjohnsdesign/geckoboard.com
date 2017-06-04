@@ -1,6 +1,10 @@
 ---
 title: New Relic Dashboard
 date: 2014-06-03 11:35:00 Z
+categories:
+- Infrastructure
+- Web Analytics
+- DevOps
 type: ServicePost
 servicename: newrelic
 templateversion: '1'
@@ -12,10 +16,6 @@ examples: dev-ops
 others: airbrake, amazon-cloudwatch, jenkins, jira, pingdom
 assets:
 - path: "/uploads/new-relic.png"
-categories:
-- Infrastructure
-- Web Analytics
-- DevOps
 ---
 
 Build live **New Relic dashboards** so that your team can monitor and improve the performance of your web application. 

@@ -1,6 +1,9 @@
 ---
 title: PagerDuty Dashboard
 date: 2014-06-03 14:35:00 Z
+categories:
+- Project Management
+- DevOps
 type: ServicePost
 servicename: pagerduty2
 templateversion: '1'
@@ -8,9 +11,6 @@ others: pingdom, amazon-cloudwatch, new-relic, jenkins, jira
 assets:
 - path: "/uploads/pagerduty.png"
   name: pagerduty
-categories:
-- Project Management
-- DevOps
 ---
 
 Build live **PagerDuty dashboards** so that your team can monitor key alerts and incidents on TVs around your workspace.

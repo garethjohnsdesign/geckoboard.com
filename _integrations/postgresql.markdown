@@ -1,6 +1,8 @@
 ---
 title: PostgreSQL Dashboard
 date: 2017-06-02 11:31:00 Z
+categories:
+- Databases
 type: ServicePost
 servicename: postgresql
 related1: 
@@ -12,8 +14,6 @@ others: mysql, sqlite, excel, google-sheets
 assets:
 - path: "/uploads/postgresql.png"
   name: postgreSQL
-categories:
-- Databases
 ---
 
 Easily build a **PostgreSQL dashboard** that enables your team to monitor key metrics from your database on TVs around your office. 

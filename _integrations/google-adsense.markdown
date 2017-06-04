@@ -1,6 +1,9 @@
 ---
 title: Google Adsense Dashboard
 date: 2014-06-03 14:26:00 Z
+categories:
+- Sales & Finance
+- e-commerce
 type: ServicePost
 servicename: adsense
 templateversion: '1'
@@ -8,9 +11,6 @@ others: google-analytics, shopify, paypal
 assets:
 - path: "/uploads/google-adsense.png"
   name: google-adsense
-categories:
-- Sales & Finance
-- e-commerce
 ---
 
 Build a **Google AdSense dashboard** that enables your team to monitor key information from your Google AdSense account on TVs around your office.

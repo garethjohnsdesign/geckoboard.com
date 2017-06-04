@@ -1,6 +1,8 @@
 ---
 title: Delighted Dashboard
 date: 2014-06-03 14:29:00 Z
+categories:
+- Advertising/Marketing
 type: ServicePost
 servicename: delighted
 templateversion: '1'
@@ -8,8 +10,6 @@ examples: aarrr-pirate-metrics
 others: zendesk, twitter, facebook
 assets:
 - path: "/uploads/delighted.png"
-categories:
-- Advertising/Marketing
 ---
 
 Build a **Delighted dashboard** so your team can monitor live NPS data on TVs around your workspace. 

@@ -1,6 +1,9 @@
 ---
 title: Shopify Dashboard
 date: 2014-06-03 14:38:00 Z
+categories:
+- Sales & Finance
+- e-commerce
 type: ServicePost
 servicename: shopify
 templateversion: '1'
@@ -8,9 +11,6 @@ others: google-analytics, paypal, recurly, facebook-ads
 assets:
 - path: "/uploads/shopify.png"
   name: shopify
-categories:
-- Sales & Finance
-- e-commerce
 ---
 
 Build a live **Shopify dashboard** so that your team can monitor and improve the performance of your online store.

@@ -2,6 +2,10 @@
 title: 'Customer interview: How one SaaS business used data to save time and improve
   customer experience'
 date: 2016-02-11 08:29:00 Z
+tags:
+- dashboard
+- KPIs
+- dashboard design
 type: 
 description: Learn how real-time metrics on display motivate employees to do a better
   job and how you can see the same results at your company.
@@ -18,10 +22,6 @@ assets:
   name: DevOps-dashboard-example
 - path: "/uploads/Customer-Service-Dashboard-Example.png"
   name: Customer-Service-Dashboard-Example
-tags:
-- dashboard
-- KPIs
-- dashboard design
 Topics:
 - examples
 - interview

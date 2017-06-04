@@ -1,14 +1,14 @@
 ---
 title: Basecamp Dashboard
 date: 2014-06-03 14:27:00 Z
+categories:
+- Project Management
 type: ServicePost
 servicename: basecampnew
 templateversion: '1'
 others: pivotal-tracker, jira, github, trello, pingdom
 assets:
 - path: "/uploads/basecamp.png"
-categories:
-- Project Management
 ---
 
 Build a **Basecamp dashboard** so your team can monitor the status of projects in Basecamp 2 live on TVs around your workspace. 

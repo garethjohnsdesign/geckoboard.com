@@ -1,15 +1,15 @@
 ---
 title: Instagram Dashboard
 date: 2014-06-03 14:33:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
 type: ServicePost
 servicename: instagram
 templateversion: '1'
 others: twitter, linkedin, buffer, mention, youtube
 assets:
 - path: "/uploads/instagram.png"
-categories:
-- Social Media
-- Advertising/Marketing
 ---
 
 Focus your team on improving the performance of your company’s Instagram activity with a live **Instagram dashboard**, designed for TVs.

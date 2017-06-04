@@ -1,6 +1,9 @@
 ---
 title: Facebook Dashboard
 date: 2014-06-03 11:29:00 Z
+categories:
+- Social Media
+- Advertising/Marketing
 type: ServicePost
 servicename: facebook3
 templateversion: '1'
@@ -12,9 +15,6 @@ examples: social-media-monitoring, digital-marketing, marketing
 others: twitter, instagram, buffer, facebook-ads, youtube
 assets:
 - path: "/uploads/facebook.png"
-categories:
-- Social Media
-- Advertising/Marketing
 ---
 
 Focus your team on improving the performance of your Facebook activity with a live **Facebook dashboard**, designed for TVs. 

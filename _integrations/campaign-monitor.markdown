@@ -1,14 +1,14 @@
 ---
 title: Campaign Monitor Dashboard
 date: 2014-06-03 13:27:00 Z
+categories:
+- Email
 type: ServicePost
 servicename: campaignmonitor
 templateversion: '1'
 others: mailchimp, google-analytics, facebook, twitter
 assets:
 - path: "/uploads/campaign-monitor.png"
-categories:
-- Email
 ---
 
 Build an easy-to-understand **Campaign Monitor dashboard** to display key email campaign metrics on TVs around your office, and focus your team on prioritizing actions. 

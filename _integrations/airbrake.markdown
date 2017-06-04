@@ -1,15 +1,15 @@
 ---
 title: AirBrake Dashboard
 date: 2014-06-03 14:26:00 Z
+categories:
+- Infrastructure
+- Project Management
 type: ServicePost
 servicename: airbrake
 templateversion: '1'
 others: jenkins, new-relic, github, jira, pingdom
 assets:
 - path: "/uploads/airbrake.png"
-categories:
-- Infrastructure
-- Project Management
 ---
 
 Build an **AirBrake dashboard** so your team can spot errors instantly using TVs around your workspace and react faster. 

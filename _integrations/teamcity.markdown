@@ -1,15 +1,15 @@
 ---
 title: TeamCity Dashboard
 date: 2014-06-03 14:39:00 Z
+categories:
+- Project Management
+- DevOps
 type: ServicePost
 servicename: teamcity
 templateversion: '1'
 others: jenkins, airbrake, new-relic, github, pingdom
 assets:
 - path: "/uploads/team-city.png"
-categories:
-- Project Management
-- DevOps
 ---
 
 Build a **TeamCity dashboard** so your team can monitor the status of builds live on TVs around your workspace. 

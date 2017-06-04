@@ -1,6 +1,8 @@
 ---
 title: CSV Dashboard
 date: 2014-06-03 11:28:00 Z
+categories:
+- Spreadsheets
 type: ServicePost
 servicename: csv
 templateversion: '1'
@@ -12,8 +14,6 @@ examples: excel
 others: excel, google-sheets, salesforce, google-analytics
 assets:
 - path: "/uploads/csv.png"
-categories:
-- Spreadsheets
 ---
 
 Focus your team on improving key business metrics with a live **CSV dashboard** to monitor goal progress. 

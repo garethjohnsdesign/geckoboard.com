@@ -1,6 +1,10 @@
 ---
 title: Designing and Building Great Dashboards - An Example
 date: 2012-07-26 10:19:00 Z
+tags:
+- dashboard
+- design
+- example
 type: BlogPost
 description: In this example, you'll see firsthand how to create a dashboard from
   start to finish using the six golden rules of dashboard design.
@@ -11,10 +15,6 @@ assets:
   type: BlogAsset
 - path: "/uploads/0-dashboard_example-300x208-2.jpg"
   type: BlogAsset
-tags:
-- dashboard
-- design
-- example
 ---
 
 <p>Over the last couple of weeks I've published a series of articles called 'Designing and Building Great Dashboards. The <a href="https://www.geckoboard.com/blog/building-great-dashboards-6-golden-rules-to-successful-dashboard-design/">first post</a> in the series introduced 6 Golden Rules of Dashboard design and in the <a href="https://www.geckoboard.com/blog/designing-and-building-dashboards-data-visualisations/">second post</a> in the series I discussed the use of good data visualizations. In this post I use the rules and tips from the previous posts in this series to create a dashboard.</p>

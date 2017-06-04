@@ -2,9 +2,9 @@
 title: 7 tech founders lift the lid on how they set seven
 date: 2017-06-02 17:06:00 Z
 type: 
-description: There’s test no one-size-fits-all approach to goal setting. So we’ve compiled
-  several goal setting approaches from founders with different team structures, sizes,
-  and cultures.
+description: There’s test no one-size-fits-all approach to goal setting. So we’ve
+  compiled several goal setting approaches from founders with different team structures,
+  sizes, and cultures.
 templateversion: 
 newslettersignup: 'yes'
 newslettersignupheader: Can we send you a short bi-weekly email with lessons learned

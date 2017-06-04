@@ -1,14 +1,14 @@
 ---
 title: Chargify Dashboard
 date: 2014-06-03 14:28:00 Z
+categories:
+- Sales & Finance
 type: ServicePost
 servicename: chargify
 templateversion: '1'
 others: recurly, twitter, shopify, google-adsense, paypal
 assets:
 - path: "/uploads/chargify.png"
-categories:
-- Sales & Finance
 ---
 
 Build a **Chargify dashboard** that enables your team to monitor key information from your Chargify account on TVs around your office.

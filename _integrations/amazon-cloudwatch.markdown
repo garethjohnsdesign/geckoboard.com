@@ -1,6 +1,9 @@
 ---
 title: Amazon Cloudwatch Dashboard
 date: 2014-06-03 11:28:00 Z
+categories:
+- Infrastructure
+- DevOps
 type: ServicePost
 servicename: cloudwatch
 templateversion: '1'
@@ -12,9 +15,6 @@ examples: dev-ops
 others: airbrake, new-relic, jenkins, jira, pingdom, google-analytics
 assets:
 - path: "/uploads/amazon-cloudwatch.png"
-categories:
-- Infrastructure
-- DevOps
 ---
 
 Build **AWS dashboards** that bring live Amazon EC2, RDS, EBS and ELB metrics from CloudWatch together for monitoring on TVs around a workspace. 

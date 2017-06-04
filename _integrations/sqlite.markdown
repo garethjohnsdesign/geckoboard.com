@@ -1,6 +1,8 @@
 ---
 title: SQLite Dashboard
 date: 2017-06-02 11:34:00 Z
+categories:
+- Databases
 type: ServicePost
 servicename: sqlite
 related1: 
@@ -12,8 +14,6 @@ others: postgresql, mysql, excel, google-sheets
 assets:
 - path: "/uploads/sqlite.png"
   name: SQLite
-categories:
-- Databases
 ---
 
 Easily build a **SQLite dashboard** that enables your team to monitor key metrics from your database on TVs around your office. 

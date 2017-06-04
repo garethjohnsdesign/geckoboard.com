@@ -1,14 +1,14 @@
 ---
 title: AppFigures Dashboard
 date: 2014-06-03 14:27:00 Z
+categories:
+- Mobile Analytics
 type: ServicePost
 servicename: appfigures2
 templateversion: '1'
 others: gosquared, mixpanel, pingdom, intercom
 assets:
 - path: "/uploads/app-figures.png"
-categories:
-- Mobile Analytics
 ---
 
 Build an easy-to-understand **appFigures dashboard** to display key mobile app metrics on TVs around your office, and focus your team on prioritizing actions. 

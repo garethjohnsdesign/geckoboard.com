@@ -1,6 +1,9 @@
 ---
 title: Intercom Dashboard
 date: 2014-06-03 14:33:00 Z
+categories:
+- CRM
+- Advertising/Marketing
 type: ServicePost
 servicename: intercom
 templateversion: '1'
@@ -8,9 +11,6 @@ others: zendesk, twitter, salesforce, google-sheets
 assets:
 - path: "/uploads/intercom.png"
   name: intercom-new
-categories:
-- CRM
-- Advertising/Marketing
 ---
 
 Build a live **Intercom dashboard** to monitor and improve the quality and speed of your customer feedback.

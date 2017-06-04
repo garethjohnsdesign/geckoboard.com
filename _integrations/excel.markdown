@@ -1,6 +1,8 @@
 ---
 title: Excel Dashboard
 date: 2014-06-05 06:25:00 Z
+categories:
+- Spreadsheets
 type: ServicePost
 servicename: excel
 templateversion: '1'
@@ -12,8 +14,6 @@ examples: excel
 others: google-sheets, csv, salesforce, google-analytics
 assets:
 - path: "/uploads/excel.png"
-categories:
-- Spreadsheets
 ---
 
 Focus your team on improving key business metrics with a live **Microsoft Excel TV dashboard** to monitor goal progress. 

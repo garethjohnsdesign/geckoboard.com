@@ -1,15 +1,15 @@
 ---
 title: 'Super Bowl 50 Live Dashboard: Monitor Performance of the Top 10 Advertisers'
 date: 2016-02-02 16:12:00 Z
+tags:
+- dashboard
+- Super Bowl
 type: 
 description: Enjoy a whole new level of engagement during Super Bowl 50 by tracking
   advertising metrics in real-time.
 assets:
 - path: "/uploads/Super-bowl-dashboard-hero-image.png"
   name: Super-bowl-dashboard-hero-image
-tags:
-- dashboard
-- Super Bowl
 Topics:
 - Dashboard
 - Metrics
