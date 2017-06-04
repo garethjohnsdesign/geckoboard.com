@@ -1,0 +1,29 @@
+---
+title: Instagram Dashboard
+date: 2014-06-03 14:33:00 Z
+type: ServicePost
+servicename: instagram
+templateversion: '1'
+others: twitter, linkedin, buffer, mention, youtube
+assets:
+- path: "/uploads/instagram.png"
+categories:
+- Social Media
+- Advertising/Marketing
+---
+
+Focus your team on improving the performance of your company’s Instagram activity with a live **Instagram dashboard**, designed for TVs.
+
+Geckoboard makes it quick and easy to build actionable TV dashboards that broadcast live metrics from your brand’s Instagram account so your team can prioritize actions to improve key metrics.
+
+Create, edit, iterate and display focused metrics dashboards around your workspace that give your team full visibility on social media KPIs including likes and follower count. 
+
+<div class="useful-resources widget-main__inner">
+<h3>Key features</h3>
+<ul class="resources-links">
+<li><span>Focus teams to improve key social media metrics with a highly visible dashboard powered by your Instagram account</span></li>
+<li><span>Clear visualizations make metrics and current targets easy-to-understand and actionable for everybody</span></li>
+<li><span>Drag-and-drop interface makes building and editing live TV dashboards quick and simple</span></li>
+<li><span>Combine metrics from other tools into a great-looking dashboard using 60+ pre-built integrations, or from any other source using our API</span></li>
+</ul>
+</div>

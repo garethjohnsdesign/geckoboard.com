@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<!-- Journal -->
+<section class="journal page">
+  {% for post in site.posts %}
+  <div class="row align-center">
+      <div class="small-11 medium-8 columns journal__post">
+      <a href="{{post.url}}"><h3>{{ post.title }}</h3></a>
+      <h6>{{ post.date | date: site.date_format }}</h6>
+      </div>
+  </div>
+  {% endfor %}
+</section>
+<!-- End Journal -->

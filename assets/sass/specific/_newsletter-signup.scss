@@ -1,0 +1,21 @@
+.url-newsletter-signup {
+  background-color: #fff;
+
+  .main-content {
+    position: relative;
+
+    .container {
+      padding: 2em 1em;
+      text-align: center;
+
+      @include mq($medium) {
+        padding: 4em 2em;
+      }
+    }
+  }
+
+  .newsletter-signup-content {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}

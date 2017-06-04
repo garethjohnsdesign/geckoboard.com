@@ -1,0 +1,53 @@
+/*--- 404 and Subscribed ---*/
+.not-found, .subscribed {
+  &.main-content {
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    background-color: $brand-grey;
+    min-height: 700px;
+    color: $light-grey;
+    &::after {
+      content: "";
+      background: url(../img/product-hero3.jpg);
+      background-size: cover;
+      opacity: 0.1;
+      top: -136px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+    }
+
+    h1 {
+      @include font-size(40px);
+      margin-bottom: 1em;
+      color: inherit;
+      @include mq($medium){
+        @include font-size(60px);
+        line-height: 1.6em;
+        margin-bottom: .3em;
+      }
+    }
+
+    p {
+      @include font-size(20px);
+      color: inherit;
+      line-height: 1.5;
+    }
+    .oward-links {
+      margin: 2em auto;
+      max-width: 100%;
+      @include mq($medium){
+        max-width: 70%;
+      }
+    }
+
+    a {
+      @include font-size(20px);
+      color: $brand-green;
+      border-bottom: solid 2px $brand-green;
+    }
+  }
+}//404

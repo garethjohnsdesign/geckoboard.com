@@ -1,0 +1,53 @@
+<div class="sticky-social">
+  <div class="sticky-anchor"></div>
+  <div class="sticky-social__inner">
+    <ul>
+      <li>
+        <a class="pocket" id="pocket" href="https://getpocket.com/save?url={{permalink}}&title={{title}}" target="_blank">
+          <img src="/assets/svg/social-icon-pocket.svg"/>
+        </a>
+      </li>
+      <li>
+        <a class="twitter" id="twitter" href="http://twitter.com/intent/tweet?status={{title}}+{{permalink}}" target="_blank">
+          <img src="/assets/svg/social-icon-twitter.svg"/>
+        </a>
+      </li>
+      <li>
+        <a class="facebook" id="facebook" href="http://www.facebook.com/share.php?u={{permalink}}&title={{title}}" target="_blank">
+          <img src="/assets/svg/social-icon-facebook.svg"/>
+        </a>
+      </li>
+      <li>
+        <a class="buffer" id="buffer" href="https://bufferapp.com/add?url={{permalink}}&amp;text={{title}}" target="_blank">
+          <img src="/assets/svg/social-icon-buffer.svg"/>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<script>
+$(window).load(function(){
+  $(function() {
+    var top = $('.sticky-social').offset().top - parseFloat($('.sticky-social').css('marginTop').replace(/auto/, 0));
+    var footTop = $('.sticky-footer').offset().top - parseFloat($('.sticky-footer').css('marginTop').replace(/auto/, 0));
+
+    var maxY = footTop - $('.sticky-social').outerHeight();
+
+    $(window).scroll(function(evt) {
+        var y = $(this).scrollTop();
+        if (y > top) {
+            if (y < maxY) {
+                $('.sticky-social').addClass('scroll').removeAttr('style');
+            } else {
+                $('.sticky-social').removeClass('scroll').css({
+                    position: 'absolute',
+                    top: (maxY - top) + 'px'
+                });
+            }
+        } else {
+            $('.sticky-social').removeClass('scroll');
+        }
+    });
+  });
+});
+</script>

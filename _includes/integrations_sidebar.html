@@ -1,0 +1,35 @@
+{% capture tags %}
+  {% for service in sorted_services %}
+      {% for tag in service.taxonomy.categories %}
+      {{tag.value}}\{{tag.url}}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  {% endfor %}
+{% endcapture %}
+
+{% assign tags = tags | strip_newlines | split:',' | sort: tag_parts.first %}
+<div class="dropdown-wrap">
+  <a class="dropdown" id="dropdown-int" tabindex="1">Filter<div class="nav__down-arrow"></div></a>
+</div>
+<ul id="int-nav-hideable">
+  <li><a class="filter active" data-filter="all">All</a></li>
+  <li><a class="filter" href="#advertisingmarketing" data-filter=".advertisingmarketing">Advertising/Marketing</a></li>
+  <li><a class="filter" href="#crm" data-filter=".crm">CRM</a></li>
+  <li><a class="filter" href="#databases" data-filter=".databases">Databases</a></li>
+  <li><a class="filter" href="#devops" data-filter=".devops">DevOps</a></li>
+  <li><a class="filter" href="#e-commerce" data-filter=".e-commerce">Ecommerce</a></li>
+  <li><a class="filter" href="#email" data-filter=".email">Email</a></li>
+  <li><a class="filter" href="#infrastructure" data-filter=".infrastructure">Infrastructure</a></li>
+  <li><a class="filter" href="#mobileanalytics" data-filter=".mobileanalytics"> Mobile Analytics</a></li>
+  <li><a class="filter" href="#projectmanagement" data-filter=".projectmanagement">Project Management</a></li>
+  <li><a class="filter" href="#salesandfinance" data-filter=".salesandfinance">Sales &amp; Finance</a></li>
+  <li><a class="filter" href="#socialmedia" data-filter=".socialmedia">Social Media</a></li>
+  <li><a class="filter" href="#support" data-filter=".support">Support</a></li>
+  <li><a class="filter" href="#webanalytics" data-filter=".webanalytics">Web Analytics</a></li>
+</ul>
+<script>
+  $(function() {
+    $("#dropdown-int").click(function() {
+      $("#int-nav-hideable").toggleClass("active");
+    });
+  });
+</script>

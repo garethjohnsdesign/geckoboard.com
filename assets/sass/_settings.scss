@@ -1,0 +1,57 @@
+/* Settings */
+$base-font-size: 15px!default;
+$base-line-height: 23px!default;
+
+$default-serif: "chaparral-pro",serif!default;
+$default-sans: "brandon-grotesque",sans-serif!default;
+$default-mono: Menlo, Monaco, Lucida Console, monospace!default;
+
+$font-color: #3d4351!default;
+$link-color: #3d4351!default;
+$link-hover: #8dc63f!default;
+$selection-color: #8dc63f!default;
+$error: #ff4a22!default;
+
+$brand-green: #8dc63f!default;
+$brand-grey: #3d4351!default;
+$brand-mid-grey: #9da0a7!default;
+$brand-light-grey: #7a859e!default;
+$light-grey: #f9f9f9!default;
+$light-blue-grey: #f5f7f9!default;
+$mid-grey: #eff0f3!default;
+$body-grey: #6b6f78!default;
+$bg-grey: #5C6B78!default;
+$bg-links: #AFB9C2!default;
+$electric-blue: #5A7CCC!default;
+
+
+$facebook: #3b5998 !default;
+$twitter: #55acee !default;
+$linkedin: #0077b5 !default;
+$buffer: #323b43 !default;
+$intercom: #1f8ceb !default;
+$hubspot: #f7751f !default;
+$google: #4285f4 !default;
+$pocket: #F23B51 !default;
+
+$base-spacing-unit: $base-line-height!default;
+$half-spacing-unit: $base-spacing-unit / 2!default;
+$line-height-ratio: $base-line-height / $base-font-size;
+
+//$max-width: 87.5em; // 1400px
+$max-width: 75em;  // 1200px
+
+
+// Pixel settings (auto convereted to em's)
+$tiny: 320;
+$tiny-small: 400;
+$small: 600;
+$medium: 760;
+$med-large: 860;
+$large-small: 960;
+$large: 1100;
+$extra-large: 1200;
+$x-extra-large: 1280;
+
+//animation
+$transition-speed: all 0.2s ease-out;

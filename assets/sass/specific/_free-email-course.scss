@@ -1,0 +1,307 @@
+/*--- product ---*/
+.url-free-email-course {
+  .hero-container {
+    padding-top: 0;
+    background-color: $brand-grey;
+    position: relative;
+    padding: 2em 0;
+    max-width: 80em;
+    margin: 0 auto;
+
+    .hero-text {
+      position: relative;
+      border-top: 1px solid;
+      border-color: rgba(255,255,255,.1);
+      padding: 2em 1em;
+
+      @include mq($tiny-small) {
+        padding: 2em 1.5em;
+      }
+
+      @include mq($medium) {
+        padding: 2em;
+      }
+
+      @include mq($med-large) {
+        margin-right: 1.5em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        padding-left: 500px;
+        border-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+      }
+
+      @include mq($large) {
+        padding-left: 600px;
+      }
+
+      .hero-container__text {
+        position: relative;
+        @include font-size(24px);
+        line-height: 1.6em;
+        max-width: 100%;
+        margin-bottom: 0;
+        text-align: center;
+
+        @include mq($tiny-small) {
+          line-height: 1.6em;
+        }
+
+        @include mq($small) {
+          @include font-size(28px);
+        }
+
+        @include mq($med-large) {
+          @include font-size(32px);
+          text-align: left;
+        }
+
+        @include mq($large) {
+          max-width: 34em;
+        }
+      }
+
+      .hero-container__sub-heading {
+        color: #fff;
+        margin-bottom: 1em;
+        font-weight: 500;
+        letter-spacing: .025em;
+        text-align: center;
+        opacity: .75;
+        @include font-size(24px);
+        line-height: 1.6em;
+
+        @include mq($med-large) {
+          text-align: left;
+        }
+      }
+
+      form {
+        @include mailchimp-signup;
+
+        .input-container {
+          width: 100%;
+          display: block;
+          margin: 1em 0;
+
+          @include mq($small) {
+            @include display-flex;
+            @include flex-wrap(wrap);
+          }
+
+          .mc-field-group {
+            width: 100%;
+            display: block;
+            margin-bottom: 1em;
+
+            @include mq($small) {
+              width: 49%;
+              margin-right: 2%;
+              display: inline-block;
+              margin-bottom: 0;
+
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+
+            input::-webkit-input-placeholder {
+              color: $brand-grey !important;
+            }
+
+            input:-moz-placeholder {
+              color: $brand-grey !important;
+            }
+
+            input::-moz-placeholder {
+              color: $brand-grey !important;
+            }
+
+            input:-ms-input-placeholder {
+              color: $brand-grey !important;
+            }
+          }
+        }
+
+        input {
+          float: none;
+          width: 100%;
+          max-width: 100%;
+          border-radius: 3px;
+          -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+          -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+          box-shadow: inset 0 3px 1px rgba(0,0,0,0.1);
+
+          @include mq($med-large) {
+            max-width: 420px;
+          }
+        }
+
+        .email {
+          width: 100%;
+
+          @include mq($tiny-small) {
+            width: 100%;
+          }
+        }
+
+        .button {
+          float: none;
+          width: 100%;
+          max-width: 100%;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+
+          @include mq($small) {
+            max-width: 260px;
+            margin: 0 auto;
+            display: block;
+          }
+
+          @include mq($med-large) {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .hero-overlay {
+      margin: 0 auto;
+      bottom: 0;
+      z-index: 100;
+      padding: 0;
+      display: block;
+      overflow: hidden;
+      height: 400px;
+      width: 320px;
+      height: 214px;
+
+      @include mq($tiny-small) {
+        width: 400px;
+        height: 294px;
+      }
+
+      @include mq($small) {
+        width: 520px;
+        height: 382px;
+      }
+
+      @include mq($med-large) {
+        position: absolute;
+        max-width: 500px;
+        height: 460px;
+        width: 100%;
+        left: -12px;
+      }
+
+      @include mq($large) {
+        max-width: 600px;
+        height: 410px;
+      }
+
+      @include mq($extra-large) {
+        max-width: 600px;
+        height: 410px;
+      }
+
+      img {
+        display: block;
+      }
+    }
+  }
+
+  .main-content {
+    border-top: 1px solid;
+    border-color: rgba(61,67,81,0.1);
+
+    .container {
+      padding: 3em 1.5em;
+
+      @include mq($small) {
+        padding: 3em 2em;
+      }
+    }
+
+    .key-points {
+      max-width: 960px;
+      margin: 0 auto;
+
+      h3 {
+        color: $brand-grey;
+        font-family: $default-serif;
+        @include font-size(24px);
+        text-transform: none;
+        font-weight: 400;
+        line-height: 1.6em;
+        margin-bottom: 2em;
+
+        span {
+          display: block;
+          font-weight: 600;
+          @include font-size(24px)
+        }
+      }
+    }
+
+    ul {
+      padding: 0;
+      padding-right: 1em;
+      position: relative;
+      margin-bottom: 2em;
+
+      @include mq($medium) {
+        margin-bottom: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &:nth-child(2n) {
+        padding-right: 0;
+      }
+
+      li {
+        @include font-size(18px);
+        line-height: 1.6em;
+        margin-left: 0;
+        list-style-type: none;
+        padding-bottom: 2em;
+        position: relative;
+
+        @include mq($medium) {
+          margin-left: 1em;
+        }
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+
+        span {
+          color: $brand-grey;
+          @include font-size(18px);
+          line-height: 1.6em;
+          position: relative;
+          display: block;
+          margin-left: 25px;
+
+          &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: -24px;
+            height: 8px;
+            width: 8px;
+            background: #fff;
+            border: 2px solid $brand-green;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}

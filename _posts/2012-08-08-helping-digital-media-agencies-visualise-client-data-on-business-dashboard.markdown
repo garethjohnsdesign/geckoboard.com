@@ -1,0 +1,20 @@
+---
+title: 'Guest Blog: Helping digital media agencies visualise client data on a business
+  dashboard'
+date: 2012-08-08 11:37:10 Z
+type: BlogPost
+assets:
+- path: "/uploads/hero8-2.jpg"
+  type: BlogAsset
+- path: "/uploads/0-screen-shot-2012-08-08-at-11.19.20-2.png"
+  type: BlogAsset
+---
+
+<p><em>This is a guest blog post by Cyrus Ghalambor, founder and CEO of Adigami, a <a href="http://www.adigami.com" target="_blank">data integration and visualisation company</a> in Newport Beach, California. Adigami is focused on digital media analytics and helps companies collect, analyse and visualise their online analytics data. They use Geckoboard to display this data on a business dashboard.</em></p>
+<p><img alt="" class="alignnone size-full wp-image-541" height="353" src="/uploads/0-screen-shot-2012-08-08-at-11.19.20-2.png" title="Screen Shot 2012-08-08 at 11.19.20" width="601"></p>
+<p>Internet advertising has become a complex and multi-dimensional process involving many channels and data sources. Most advertisers have to create awareness on more than just the search channel. Nowadays you have to maintain a strong presence on Facebook and Twitter and it doesn’t hurt to have an email campaign on the side. In order to see progress for a client, the agency has to download performance data from all these sources on a regular basis, clean and collate it, and put it in a format that highlights the campaign’s areas of strength (and weakness). This involves a lot of manual work and is very error-prone.</p>
+<p>Creating custom client dashboards is another big challenge for agencies. Clients want to know how their campaigns are progressing and are increasingly asking for access to their latest performance data. Agencies on the other hand want to present the correct data and avoid information overload. They often have a specific format and granularity in mind for each type of client and they want to control the type and amount of data that the client sees. In short, they need a very configurable dashboard solution.</p>
+<p>We first learned about Geckoboard, providers of such a configurable <a href="http://www.geckoboard.com" target="_blank">business dashboard</a> solution, in 2011 while refining our data integration product. Geckoboard was a natural fit for our visualisation layer because it offers a <a href="http://www.geckoboard.com/developers/" target="_blank">flexible API</a> for presenting meaningful data to our customers and their clients.</p>
+<p>In early 2012 an agency asked us to build dashboards for clients like Disney, Kraft, and Toyota. The client had another business dashboard tool in mind that offered some analysis features and had a much higher cost. The client didn’t really need the analytical and drill-down features; all they wanted was to show results in a clean dashboard. We convinced them to consider Geckoboard for three key reasons: <em>aesthetics, simplicity, and flexibility</em>. The design simplicity of Geckoboard resonates with many clients and helps present complex data in a more digestible fashion. Their configuration simplicity helps speed up deployment, and design flexibility lets us create custom widgets quickly. This last point is critical because clients tend to have very specific needs when it comes to presentation.</p>
+<p>Geckoboard has two other features we really like: Sharing URLs and the new Push API. Each dashboard has a URL which can be shared with people to give them access to a read-only view of the dashboard. We believe this is ideal for agencies because the alternative (“client login”) has its own drawbacks with not much of a clear security advantage. The new Push API allows the Adigami platform to push data into widgets when they need updating and avoids callbacks from dashboard(s). Our system can handle a sizeable number of simultaneous calls, but the push approach removes any potential performance risks.</p>
+<p>We have been very happy with our Geckoboard experience and look forward to working more closely with the company and implementing many more business dashboards for our clients.</p>

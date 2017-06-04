@@ -1,0 +1,12 @@
+<script>
+  $(document).ready(function(){
+    $("#search-form").submit(function(e){
+      var searchQuery = $("#search-input").val();
+      if (searchQuery) {
+        window.location = '/learn/search.html#stp=1&stq=' + searchQuery
+      }
+      e.preventDefault()
+    })
+  })
+</script>
+{% include 'includes/placeholder_scripts' %}

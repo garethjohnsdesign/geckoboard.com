@@ -1,0 +1,21 @@
+<div class="blog-footer">
+  <div class="container">
+    <div class="col-1">
+      <h3 class="blog-footer__heading">Recent posts</h3>
+      <ul class="blog-footer__list">
+        {% for post in site.pages['blog'].posts limit:5 %}
+        <li><a href="{{post.url}}/">{{post.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col-2">
+      <h3 class="blog-footer__heading">Posts by topic</h3>
+      <ul class="blog-footer__list">
+        {% for tag in site.pages['blog'].taxonomy['topics'] | limit:5  %}
+        <li><a href="{{tag.url}}/">{{tag.value}}<span>({{tag.posts | size}})</span></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

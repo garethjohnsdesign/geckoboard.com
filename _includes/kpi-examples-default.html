@@ -1,0 +1,49 @@
+{% capture extrascripts %}
+  {% include 'includes/learn_search' %}
+{% endcapture %}{% capture content %}
+<section class="main-content learn-section">
+  <div class="container learn-outer">
+    <div class="table-container_learn">
+      <div class="table-container-row_learn">
+        {% include 'includes/learn_menu_kpi-example' %}
+        <div class="learn-content general-styles">
+          <section class="hero-container green-bg">
+            <div class="hero-container__img grey-bg"></div>
+            <div class="hero-container__text green-bg">
+            <a class="crumbs-back" href="{{parent.url}}/" title="{{parent.title | replace:'KPIs','KPI'}} Examples">
+              <h3 data-swiftype-name="grouping">&larr; {{parent.title | replace:'KPIs','KPI'}} Examples</h3>
+            </a>
+            <h1 data-swiftype-name="title">{{title}}</h1>
+            </div>
+          </section>
+          <div class="container text__info">
+            <div data-swiftype-name="body" data-swiftype-type="text" data-swiftype-index='true'>{{body}}</div>
+            <div class="share-section">
+              <p>Share via:</p>
+              <div class="addthis_sharing_toolbox"></div>
+            </div>
+            <div class="comments-section">
+          <div id="disqus_thread"></div>
+          <script>
+            var disqus_shortname = 'geckoboard';
+            var disqus_url = 'http://www.geckoboard.com{{url}}';
+            var disqus_identifier = '{{slug}}';
+
+            /* * * DON'T EDIT BELOW THIS LINE - disqus copy and paste code* * */
+            (function() {
+               var dsq = document.createElement('script'); dsq.async = true;
+               dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+          </div>
+        </div>
+        {% include 'includes/learn-recommend' %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endcapture %}{% include 'layouts/default' %}

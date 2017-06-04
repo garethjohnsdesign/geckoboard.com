@@ -1,0 +1,93 @@
+@import "compass/css3/box-sizing";
+
+/* Page Footer */
+.page-foot.thank-you {
+  background-color: $light-blue-grey;
+  border-bottom: 1px solid rgba($brand-grey,.1);
+  border-top: 1px solid rgba($brand-grey,.1);
+
+  @include mq($small) {
+    border: 0;
+  }
+
+  .container {
+    @extend %clearfix;
+    max-width: 1280px;
+    padding: 0;
+
+    @include mq($small) {
+      padding: 18px 10px;
+    }
+  }
+
+  a {
+    color: $brand-mid-grey;
+
+    &:hover {
+      color: $brand-grey;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+
+    @include mq($small) {
+      @include display-flex;
+      @include justify-content(center);
+    }
+
+    li {
+      position: relative;
+      padding: 0;
+
+      @include mq($small) {
+        padding-right: 24px;
+
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 4px;
+          height: 4px;
+          right: 10px;
+          top: 50%;
+          @include transform(translate(0,-50%));
+          background-color: rgba($brand-grey,.1);
+          @include border-radius(50%);
+        }
+
+        &:last-child {
+          padding-right: 0;
+
+          &:after {
+            display: none;
+          }
+        }
+      }
+
+      a {
+        font-family: $default-sans;
+        text-transform: uppercase;
+        @include font-size(12px);
+        font-weight: 700;
+        line-height: 1.0;
+        letter-spacing: 0.05em;
+        width: 100%;
+        display: block;
+        padding: 14px 10px;
+        border-bottom: 1px solid rgba($brand-grey,.1);
+
+        @include mq($small) {
+          border: 0;
+          padding: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}

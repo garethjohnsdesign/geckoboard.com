@@ -1,0 +1,493 @@
+@import "compass/css3/box-sizing";
+
+/* Page Footer */
+.page-foot {
+  .container {
+    @extend %clearfix;
+    max-width: 1280px;
+    padding: 1em 0;
+
+    @include mq($large) {
+      padding: 0 1em;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .footer-column {
+    @include display-flex;
+    @include flex-wrap(wrap);
+    width: 100%;
+
+    &.bottom-strip {
+      .one-two {
+        @include mq($med-large) {
+          padding: 1em;
+        }
+      }
+    }
+
+    .col {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%;
+      padding: 1em;
+
+      @include mq($medium) {
+        padding: 2em;
+      }
+
+      @include mq($large) {
+        display: inline-block;
+        padding: 3em 1em;
+      }
+
+      &.twenty {
+        @include mq($small) {
+          width: 49%;
+        }
+
+        @include mq($large) {
+          width: 23%;
+        }
+      }
+
+      &.thirty {
+        @include mq($small) {
+          width: 49%;
+        }
+
+        @include mq($large) {
+          width: 30%;
+        }
+      }
+
+      &.forty {
+        @include mq($large) {
+          width: 40%;
+        }
+      }
+
+      &.fifty {
+        &.bottom-strip {
+          width: 100%;
+          padding: 1.5em 1.5em 0 1.5em;
+
+          @include mq($med-large) {
+            width: 50%;
+            padding: 1em;
+          }
+        }
+
+        @include mq($med-large) {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .footer-signup {
+    background: darken($brand-grey,4%);
+    padding: 1em;
+    width: 100%;
+    @include border-radius(5px);
+
+    form {
+      @include mailchimp-signup;
+
+      input {
+        margin-bottom: 0;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      #mc_embed_signup_scroll {
+        @include mq($small) {
+          @include display-flex;
+        }
+      }
+
+      .fname {
+        @include mq($small) {
+          width: 37%;
+          margin-right: 3%;
+        }
+      }
+
+      .email {
+        width: 100%;
+        @include border-radius(3px);
+        margin-bottom: 1em;
+
+        @include mq($small) {
+          margin-bottom: 0;
+          @include border-top-left-radius(3px);
+          @include border-bottom-left-radius(3px);
+          @include border-top-right-radius(0);
+          @include border-bottom-right-radius(0);
+        }
+      }
+
+      .button {
+        @include font-size(14px);
+        float: none;
+        width: 100%;
+        @include border-radius(3px);
+
+        @include mq($small) {
+          width: 220px;
+          @include border-top-right-radius(3px);
+          @include border-bottom-right-radius(3px);
+          @include border-top-left-radius(0);
+          @include border-bottom-left-radius(0);
+        }
+      }
+    }
+
+    @include mq($small) {
+      width: 75%;
+    }
+
+    @include mq($med-large) {
+      width: 60%;
+    }
+
+    @include mq($large) {
+      width: 100%;
+    }
+
+    h4 {
+      color: #fff;
+      font-size: 14px;
+      opacity: 1;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1em;
+    }
+
+    h5 {
+      @include font-size(15px);
+      margin-bottom: 0;
+      line-height: 1.6em;
+      color: #fff;
+      opacity: .5;
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 500;
+      margin-top: 1em;
+    }
+
+    a {
+      @include font-size(15px);
+      font-weight: 600;
+      display: inline;
+      color: #fff;
+      border-bottom: 2px solid;
+      border-color: rgba(255,255,255,.1);
+      font-family: $default-sans;
+
+      &:hover {
+        border-color: rgba(255,255,255,.25);
+      }
+    }
+  }
+
+  .logo {
+    margin: 0;
+    margin-bottom: 1em;
+    float: none;
+  }
+
+  .page-foot__social {
+    margin: 0;
+    margin-top: 1em;
+    text-align: left;
+    margin-bottom: 0;
+
+    @include mq($tiny-small) {
+      margin: 0;
+      margin-top: 1em;
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    @include mq($large) {
+      margin: 1em 0;
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    li {
+      display: inline-block;
+      margin-left: 0.5em;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      a {
+        @extend %hide-text;
+        width: 42px;
+        height: 42px;
+        display: block;
+        background-color: darken($brand-grey,5%);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 50% 50%;
+        border-radius: 4px;
+
+        &.twitter {
+          @extend %twitter;
+        }
+
+        &.facebook {
+          @extend %facebook;
+        }
+
+        &.gplus {
+          @extend %gplus;
+        }
+
+        &.linkedin {
+          @extend %linkedin;
+        }
+
+        &.rssfeed {
+          @extend %rssfeed;
+        }
+
+        &:hover {
+          background-color: lighten($brand-grey,10%);
+        }
+      }
+    }
+  }//page-foot__social
+
+  .page-foot__default {
+    @include border-radius(5px);
+
+    li {
+      margin-top: 1em;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      a {
+        font-family: $default-sans;
+        font-weight: 500;
+        @include font-size(16px);
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      &.selected {
+        a {
+          color: #fff;
+          opacity: 1;
+        }
+      }
+
+      .title {
+        font-size: 16px;
+        color: #fff;
+        opacity: 1;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        opacity: 1;
+
+        &:hover {
+          opacity: .75;
+        }
+
+        &:after {
+          content: "";
+          display: block;
+          background: #fff;
+          opacity: 0.1;
+          width: 100%;
+          height: 1px;
+          margin-top: 1em;
+        }
+
+      }
+    }
+
+    &.latest-blog {
+      background: darken($brand-grey,4%);
+      padding: 1em;
+      list-style-type: none;
+      margin-top: 1em;
+
+      @include mq($small) {
+        width: 75%;
+      }
+
+      @include mq($med-large) {
+        width: 60%;
+      }
+
+      @include mq($large) {
+        width: 100%;
+      }
+
+      li {
+        .title {
+          font-size: 14px;
+          opacity: 1;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+
+          &:after {
+            display: none;
+          }
+        }
+      }
+
+      .visit {
+        font-family: $default-sans;
+        @include font-size(14px);
+        border-bottom: 2px solid;
+        color: $brand-green;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 1em;
+        display: inline-block;
+
+        &:hover {
+          color: darken($brand-green, 10%);
+        }
+      }
+    }
+
+    &.highlight {
+      li {
+        a {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .page-foot__bottom-strip {
+    background: darken($brand-grey,4%);
+
+    .container {
+      @extend %clearfix;
+      padding: 0em;
+
+      @include mq($med-large) {
+        padding: 0 1em;
+      }
+    }
+
+    .footer-column {
+      align-items: center;
+    }
+
+    .col {
+      padding: 1em;
+
+      &.fifty {
+        vertical-align: middle;
+      }
+
+    }
+
+    .page-foot__link-row {
+      list-style-type: none;
+      text-align: left;
+      line-height: 2;
+
+      @include mq($tiny-small) {
+        float: left;
+      }
+
+      li {
+        display: inline-block;
+        margin-right: 1em;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          font-family: $default-sans;
+          text-transform: uppercase;
+          font-weight: 500;
+          @include font-size(12px);
+          letter-spacing: 0.05em;
+          color: #9da0a7;
+
+          &:hover {
+            color: #fff;
+          }
+
+          .color-dot {
+            border-radius: 99px;
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            margin-left: 6px;
+            top: -1px;
+            position: relative;
+
+            &.critical {
+              background-color:#e94a4a;
+            }
+            &.major {
+              background-color:#e98a4a;
+            }
+            &.minor {
+              background-color:#ffd800;
+            }
+            &.none {
+              background-color:#ABDC67;
+            }
+          }
+        }
+
+        &.selected {
+          a {
+            color: #fff;
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .page-foot__site-details {
+      color: $brand-mid-grey;
+      text-align: left;
+      font-size: 14px;
+      margin-bottom: 1.5em;
+
+      @include mq($tiny-small) {
+        text-align: left;
+      }
+
+      @include mq($med-large) {
+        text-align: right;
+        margin-bottom: 0;
+      }
+
+      a {
+        color: #9da0a7;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

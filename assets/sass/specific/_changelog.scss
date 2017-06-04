@@ -1,0 +1,188 @@
+/*--- changelog ---*/
+.url-changelog {
+
+  .changelog {
+    padding: 2em 0;
+
+    @include mq($tiny-small) {
+      padding: 2em 1em;
+    }
+
+    @include mq($small) {
+      padding: 2em;
+    }
+
+    @include mq($medium) {
+      padding: 2em;
+    }
+
+    @include mq($med-large) {
+      padding: 3em 2em;
+    }
+  }
+
+  .changelogitems {
+    padding: 0;
+  }
+
+  .section-heading {
+    text-align: center;
+    margin-bottom: 1em;
+
+    @include mq($med-large) {
+      margin-bottom: 1.25em;
+    }
+  }
+
+  .changelogitems__box {
+    max-width: 910px;
+    display: block;
+    background: #fff;
+    padding: 1.6em 1.6em .6em 1.6em;
+    margin: 0 auto;
+    margin-bottom: 1.6em;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+
+    h2 {
+      text-align: left;
+      font-size: 18px;
+
+      &:after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid #f6f6f6;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+    }
+
+    li {
+      display: table;
+      width: 100%;
+      margin-bottom: 24px;
+
+      .desc {
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 15px;
+
+        @include mq($tiny-small) {
+          padding-top: 0;
+        }
+
+        &.added, &.improved, &.fixed, &.updated, &.removed {
+          p {
+            display: table-cell;
+            vertical-align: middle;
+
+            &:before {
+              content: '';
+              display: inline-block;
+              width: 5px;
+              height: 5px;
+              top: -3px;
+              position: relative;
+              margin-right: 10px;
+
+              @include mq($tiny-small) {
+                content: '';
+                margin: 0;
+                display: none;
+                background: none;
+              }
+            }
+          }
+        }
+
+        &.added {
+          p {
+            &:before {
+              background: #ABDC67;
+            }
+          }
+        }
+
+        &.improved {
+          p {
+            &:before {
+              background: #451044;
+            }
+          }
+        }
+
+        &.fixed {
+         p {
+            &:before {
+              background: #00ACA1;
+            }
+          }
+        }
+
+        &.updated {
+         p {
+            &:before {
+              background: #3F4949;
+            }
+          }
+        }
+
+        &.removed {
+         p {
+            &:before {
+              background: #F05133;
+            }
+          }
+        }
+      }
+
+      .change-item {
+        padding-right: 20px;
+        display: table-row;
+        width: 85px;
+        vertical-align: middle;
+
+        @include mq($tiny-small) {
+          display: table-cell;
+        }
+
+        .change {
+          padding: 3px 4px;
+          border-radius: 2px;
+          font-family: $default-sans;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #fff;
+          width: 75px;
+          font-size: 12px;
+          text-align: center;
+
+          @include mq($medium) {
+            padding: 0;
+            font-size: small;
+            width: 85px;
+          }
+
+          &.added {
+            background: #ABDC67;
+          }
+
+          &.improved {
+            background: #451044;
+          }
+
+          &.fixed {
+            background: #00ACA1;
+          }
+
+          &.updated {
+            background: #3F4949;
+          }
+
+          &.removed {
+            background: #F05133;
+          }
+        }
+      }
+    }
+  }
+}

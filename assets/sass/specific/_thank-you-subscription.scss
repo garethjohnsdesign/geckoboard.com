@@ -1,0 +1,62 @@
+.url-thanks-for-subscribing, .url-subscription-confirmed {
+  background-color: #fff;
+
+  .main-content {
+    position: relative;
+
+    .container {
+      padding: 2em 1em;
+      text-align: center;
+
+      @include mq($medium) {
+        padding: 4em 2em;
+      }
+    }
+  }
+
+  .thank-you-icon {
+    max-width: 102px;
+    height: 70px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+
+    @include mq($small) {
+      margin-bottom: 3em;
+    }
+  }
+
+  p {
+    margin-bottom: 12px;
+    max-width: 480px;
+    display: block;
+    color: $body-grey;
+    @include font-size(18px);
+    line-height: 1.6em;
+    margin: 0 auto;
+    margin-bottom: 12px;
+
+    @include mq($medium) {
+      max-width: 620px;
+      @include font-size(20px);
+      line-height: 1.6em;
+    }
+  }
+
+  .round-btn {
+    margin: 0 auto;
+    margin-top: 2em;
+
+    @include mq($small) {
+      max-width: 280px;
+    }
+  }
+}
+
+.url-thanks-for-subscribing {
+  .thank-you-icon {
+    max-width: 96px;
+    height: 70px;
+  }
+}

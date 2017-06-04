@@ -1,0 +1,13 @@
+.gb-app {
+  background-color: #3d4351; }
+
+.widget .widget-inner > header {
+  background-color: #323742; }
+
+.widget .widget-inner > header h1 {
+  color: #ffffff;
+  font-weight: normal;
+  text-shadow: none; }
+
+.widget {
+  box-shadow: none; }

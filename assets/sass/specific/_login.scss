@@ -1,0 +1,37 @@
+/*--- login ---*/
+.url-login {
+
+  .main-content {
+    background-color: darken($brand-grey, 5%);
+  }
+
+  .form-list {
+    margin-bottom: 2em;
+
+    //mqs
+    @include mq($medium) {
+      background: #fff;
+      padding: 3em;
+    }
+    //mqs
+  }
+
+  .container {
+    text-align: center;
+  }
+
+}//url-login
+
+.forgot-password {
+  @include font-size(18px);
+  color: lighten($brand-grey,40%);
+  text-align: center;
+  display: inline-block;
+  //width: 100%;
+  clear: both;
+  border-bottom: solid 2px lighten($brand-grey,40%);
+
+  &:hover {
+    border-color: $brand-green ;
+  }
+}

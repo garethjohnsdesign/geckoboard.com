@@ -1,0 +1,663 @@
+/* Font size */
+@mixin font-size($font-size){
+    font-size: $font-size;
+    font-size: ($font-size / $base-font-size)*1rem;
+    line-height: ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
+}
+
+/* Vendor */
+@mixin vendor($property, $value...){
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+/* Placeholder Form */
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+/* Mailchimp Forms */
+
+@mixin mailchimp-signup {
+  width: 100%;
+  text-align: left;
+  position: relative;
+
+  .email, .button, input {
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .email, .fname {
+    border: none;
+    display: inline;
+    padding: 0 0.75em;
+    font-size: 1em;
+    width: 100%;
+    font-weight: normal;
+    width: 100%;
+    height: 48px;
+
+    &:focus {
+      background-color: #eaf5dc;
+      outline: none;
+    }
+  }
+
+  input {
+    margin-bottom: 1em;
+    cursor: text;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  input {
+    border: none;
+    display: inline;
+    padding: 0 0.75em;
+    font-size: 1em;
+    width: 100%;
+    font-weight: normal;
+    width: 100%;
+    height: 48px;
+
+    &:focus {
+      background-color: #eaf5dc;
+    }
+
+    @include mq($tiny-small) {
+      width: 65%;
+    }
+  }
+
+  .button {
+    border: none;
+    color: #fff;
+    background-color: $brand-green;
+    width: 100%;
+    height: 48px;
+    font-family: $default-sans;
+    text-transform: uppercase;
+    font-weight: 500;
+    @include font-size(14px);
+    margin-top: 1em;
+    transition: background-color .2s;
+    float:right;
+    margin-top: 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($brand-green,7%);
+    }
+  }
+}
+
+/* SelectBoxIt */
+
+@mixin selectboxit {
+  .selectboxit-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    transition: none;
+
+    * {
+      @include font-size(13px);
+      font-family: $default-sans;
+      font-weight: 600;
+      text-transform: uppercase;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: -moz-none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      outline: none;
+      white-space: nowrap;
+      text-indent: 0;
+    }
+
+    .selectboxit {
+      width: 100%;
+      cursor: pointer;
+      margin: 0;
+      padding: 0;
+      border-radius: 4px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      padding: 2px 20px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        bottom: 0;
+        right: 8px;
+        width: 12px;
+        background: url("../svg/down-arrow.svg") no-repeat;
+        background-size: 12px 12px;
+      }
+    }
+
+    span, .selectboxit-options a {
+      line-height: 36px;
+      display: block;
+      transition: all .1s;
+    }
+
+    .selectboxit:focus {
+      outline: 0;
+    }
+  }
+
+  .selectboxit.selectboxit-disabled, .selectboxit-options .selectboxit-disabled {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    cursor: default;
+    color: #c7c7c7;
+  }
+
+  .selectboxit-text {
+    text-indent: 5px;
+    text-overflow: ellipsis;
+    float: left;
+  }
+
+  .selectboxit .selectboxit-option-icon-container {
+    margin-left: 0;
+  }
+
+  .selectboxit-container .selectboxit-options {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 100%;
+    *width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    cursor: pointer;
+    display: none;
+    z-index: 9999999999999;
+    border-radius: 4px;
+    text-align: left;
+    top: 36px !important;
+    border: 1px solid;
+    border-color: rgba(61,67,87,0.2);
+    box-shadow: 0;
+    outline-offset: 0;
+    outline: 0;
+  }
+
+  .selectboxit-option {
+    text-indent: 5px;
+    margin: 0;
+    list-style-type: none;
+    padding: 2px 10px;
+
+    &.selectboxit-selected a {
+      color: $brand-grey;
+    }
+
+    .selectboxit-option-anchor {
+      padding: 0 10px;
+
+      &:hover {
+        color: #fff;
+        background-color: $brand-green;
+        border-radius: 2px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .selectboxit-optgroup-header {
+    text-indent: 5px;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .selectboxit-option-first {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+
+  .selectboxit-optgroup-header + .selectboxit-option-first {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .selectboxit-option-last {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .selectboxit-optgroup-header {
+    font-weight: bold;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  .selectboxit-option-icon-container {
+    float: left;
+  }
+
+  .selectboxit-container .selectboxit-option-icon {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+  }
+
+  .selectboxit-option-icon-url {
+    width: 18px;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    float: left;
+  }
+
+  .selectboxit-rendering {
+    display: inline-block !important;
+    *display: inline !important;
+    zoom: 1 !important;
+    visibility: visible !important;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+
+  .jqueryui {
+    .ui-icon {
+      background-color: inherit;
+    }
+    .ui-icon-triangle-1-s {
+      background-position: -64px -16px;
+    }
+  }
+
+  .selectboxit-btn {
+    background: #fff;
+    border: 1px solid;
+    border-color: rgba(61,67,87,0.1);
+
+    &.selectboxit-open {
+      @include mq($small) {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+
+    &:hover {
+      border-color: rgba(61,67,87,0.2);
+    }
+
+    &.selectboxit-enabled {
+      &:hover, &:focus, &:active {
+        border-color: rgba(61,67,87,0.2);
+      }
+
+      &:hover, &:focus {
+        text-decoration: none;
+        background-position: 0 -15px;
+      }
+    }
+  }
+
+  .selectboxit-list {
+    background: #fff;
+    border: 1px solid;
+    border-color: rgba(61,67,87,0.25);
+
+    .selectboxit-option-anchor {
+      color: #9da0a7;
+    }
+    > {
+
+      .selectboxit-disabled > .selectboxit-option-anchor {
+        color: #c7c7c7;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/* Buttons */
+@mixin round-btn-small {
+  padding: .5em 2em;
+  background: $brand-green;
+  border-radius: 10000px;
+  line-height: 1.91667;
+  border: 0;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-family: $default-sans;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  @include font-size(13px);
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background: darken($brand-green,5%);
+  }
+}
+
+@mixin round-btn-small-dark {
+  padding: .5em 2em;
+  background: $brand-grey;
+  border-radius: 10000px;
+  line-height: 1.91667;
+  border: 0;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-family: $default-sans;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  @include font-size(13px);
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background: darken($brand-grey,10%);
+  }
+}
+
+@mixin round-btn {
+  background-color: $brand-green;
+  display: block;
+  text-transform: uppercase;
+  font-family: $default-sans;
+  font-weight: 900;
+  @include font-size(13px);
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1em 2em;
+  min-width: 100%;
+
+  @include mq($tiny-small) {
+    min-width: 260px;
+  }
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background: darken($brand-green, 5%);
+  }
+}
+
+@mixin round-btn-flat {
+  @include round-btn;
+  box-shadow: none;
+}
+
+@mixin round-btn-dark {
+  background-color: $brand-grey;
+  display: block;
+  text-transform: uppercase;
+  font-family: $default-sans;
+  font-weight: 900;
+  @include font-size(13px);
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1em 2em;
+  min-width: 100%;
+
+  @include mq($tiny-small) {
+    min-width: 260px;
+  }
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+    background: darken($brand-grey,10%);
+  }
+}
+
+@mixin round-btn-dark-flat {
+  @include round-btn-dark;
+  box-shadow: none;
+}
+
+@mixin g-signup-button {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  background-color: $google;
+  padding: 3px;
+  @include border-radius(4px);
+  color: #fff;
+  font-family: $default-sans;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  height: 42px;
+  display: table;
+
+  &:hover {
+    background-color: darken($google,5%);
+    color: #fff;
+  }
+
+  .g-logo {
+    background-color: #fff;
+    display: table-cell;
+    border-radius: 2px 0 0 2px;
+    height: 42px;
+    width: 42px;
+    vertical-align: middle;
+    text-align: center;
+
+    i {
+      background-image: url(/assets/svg/google-logo-small.svg);
+      background-size: 24px 24px;
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+    }
+  }
+
+  span {
+    line-height: 42px;
+    margin-left: 10px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+  }
+}
+
+@mixin underline-inner-heading {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: $default-sans;
+  font-weight: 900;
+  @include font-size(14px);
+  letter-spacing: 0.1em;
+  text-align: center;
+  //width: 130px;
+  margin: 0 auto 2em auto;
+  color: $brand-grey;
+  text-decoration: none;
+}
+
+@mixin underline-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: $default-sans;
+  font-weight: 900;
+  @include font-size(14px);
+  letter-spacing: 0.1em;
+  text-align: center;
+  //width: 130px;
+  margin: 0 auto 2em auto;
+  color: $brand-green;
+  text-decoration: none;
+  border-bottom: solid 3px $brand-green;
+
+  &:hover {
+    color: $brand-grey;
+    border-color: $brand-grey;
+  }
+}
+
+@mixin play-btn {
+  @extend %play;
+  background-position: .5em 50%;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  color: #fff;
+  text-align: left;
+  font-family: $default-sans;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  @include font-size(20px);
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.8em 0.8em 0.8em 3.3em;
+
+  &:hover {
+    color: #fff;
+    opacity: 0.6;
+  }
+}
+
+@mixin play-btn-csw {
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  font-family: $default-sans;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  @include font-size(20px);
+  text-transform: uppercase;
+
+  svg {
+    width: 64px;
+    height: 64px;
+
+    #inner-fill {
+      fill: #fff;
+      @include transition(all .2s);
+    }
+  }
+
+  &:hover {
+    svg {
+      #inner-fill {
+        fill: $brand-green;
+      }
+    }
+
+    opacity: 1;
+  }
+}
+
+@mixin keyframes($animation-name){
+  @-webkit-keyframes $animation-name {
+    @content;
+  }
+  @-moz-keyframes $animation-name {
+    @content;
+  }
+  @-o-keyframes $animation-name {
+    @content;
+  }
+  @keyframes $animation-name {
+    @content;
+  }
+}
+
+@mixin animation-name($name) {
+  -webkit-animation-name: $name;
+  -moz-animation-name:    $name;
+  animation-name:         $name;
+}
+
+@mixin animation-duration($s) {
+  -webkit-animation-duration: $s;
+  -moz-animation-duration:    $s;
+  animation-duration:         $s;
+}
+
+@mixin animation-timing-function($bezier) {
+  -webkit-animation-timing-function: $bezier;
+  -moz-animation-timing-function:    $bezier;
+  animation-timing-function:         $bezier;
+}
+
+@mixin animation-fill-mode($mode) {
+  -webkit-animation-fill-mode: $mode;
+  -moz-animation-fill-mode:    $mode;
+  animation-fill-mode:         $mode;
+}
+
+@mixin animation-delay($s) {
+  -webkit-animation-delay: $s;
+  -moz-animation-delay:    $s;
+  animation-delay:         $s;
+}
+
+/* MQs */
+@mixin mq($point, $IE9: false, $query1: min, $query2: width){
+  @if $IE9 == true{
+    .lt-ie9 & {
+      @content;
+    }
+  }
+
+  @media (#{$query1}-#{$query2}: $point / 16 +em){
+    @content;
+  }
+}
+
+@mixin orient($orientation: landscape){
+  @media (orientation : $orientation){
+    @content;
+  }
+}
+
+@mixin retina {
+  @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    @content;
+  }
+}

@@ -1,0 +1,47 @@
+<div class="rec-container">
+  <nav class="learn-recommend">
+     <ul class="recommend-list">
+      <h3 class="list-title">Recommended</h3>
+        <li>
+          <a href="/learn/guides/displaying-your-dashboard-on-a-screen/">
+          <img alt="Food for Growth cover" src="/assets/png/display-dashboard-on-screen.png">
+          <div class="recommend-desc">
+              <h4>Display dashboards on a screen</h4>
+              <p>Make your key metrics visible</p>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="/learn/guides/mushroom-management/">
+          <img alt="Mushroom Management cover" src="/assets/png/mushroom-management-cover.png">
+          <div class="recommend-desc">
+              <h4>Mushroom Management</h4>
+              <p>80% of employees want more performance information</p>
+          </div>
+          </a>
+        </li>
+        <li>
+          <a href="/learn/guides/data-dashboards-best-practices/">
+          <img alt="Data Dashboards: Best Practices cover" src="/assets/png/data_thumb.png">
+          <div class="recommend-desc">
+              <h4>Data Dashboards: Best Practices</h4>
+              <p>How effective is your dashboard?</p>
+          </div>
+          </a>
+        </li>
+      </ul>
+      <div class="blog-list_container">
+       <ul class="blog-list">
+        <h3 class="list-title">New on the Blog</h3>
+        <ul>
+          {% assign latest_posts = site.pages['blog'].posts %}
+          {% for post in latest_posts limit:3 %}
+          <li>
+            <a href="{{ post.url }}/">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </ul>
+    </div>
+  </nav>
+</div>

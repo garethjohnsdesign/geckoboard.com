@@ -1,0 +1,50 @@
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience.","dismiss":" ","learnMore":"More info","link":"/legal","theme":"/assets/css/dark-top.css"};
+</script>
+<header class="page-head">
+  <div class="navigation animated">
+    <div class="container">
+      <a href="/" title="KPI dashboards for data-driven businesses" class="logo">Geckoboard</a>
+        <div class="menu-btn" id="js-menu-btn">
+          <div class="menu-btn-inner">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <nav class="page-head__nav hidden" data-state="closed" id="js-main-nav">
+        <ul>
+<!--           <li {% if title == "Product" %}class="selected"{% endif %}> -->
+          <li>
+            <a href="/product/" title="Real-time KPI dashboards">Product</a>
+          </li>
+          <li {% if title == "Pricing" %}class="selected"{% endif %}><a href="/pricing/" title="Geckoboard pricing">Pricing</a></li>
+          <li {% if title == "Blog" %}class="selected"{% endif %}><a href="/blog/" title="Learn about KPIs, metrics and data">Blog</a></li>
+          <li class="dropdown-nav">
+            <input type="checkbox" class="nav-checkbox" id="show-more-nav">
+            <label for="show-more-nav" class="more-label">
+              <a class="dropdown" tabindex="1">More<div class="nav__down-arrow"></div></a>
+            </label>
+            <ul class="sub-nav nav-more">
+              <li><a href="/integrations/" title="Integrations">Integrations</a></li>
+              <li><a href="/learn/dashboard-examples/" title="Dashboard Examples">Dashboard Examples</a></li>
+              <li><a href="/learn/kpi-examples/" title="KPI Examples">KPI Examples</a></li>
+              <li><a href="/mobile-app/" title="Mobile App">Mobile App</a></li>
+              <li><a href="/learn/case-studies/" title="Case Studies">Case Studies</a></li>
+              <li><a href="/support/" title="Global Support">Support</a></li>
+            </ul>
+          </li>
+          <li><a href="{{site.meta.app-login}}" class="login-button" title="Log in to Geckoboard">Login</a></li>
+          <li id="demo-CTA-main-menu-demo-button">{% if site.meta['book-a-demo'] == 'yes' %}<a href="/book-a-demo/" class="demo-button" title="Book a Demo">Book a Demo</a>{% else %}<a href="{{site.meta['watch-a-demo-link']}}" class="demo-button" title="Watch a Demo">Watch a Demo</a>{% endif %}</li>
+          <li id="try-CTA-main-menu-try-button">
+            <form action="/try-geckoboard/" method="get" class="nav-signup">
+              <input type="email" name="email" placeholder="Email address" />
+              <button class="btn">Free Trial</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

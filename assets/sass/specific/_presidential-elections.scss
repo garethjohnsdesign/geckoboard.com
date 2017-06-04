@@ -1,0 +1,407 @@
+.url-presidential-election-dashboards {
+  .main-content .container {
+    padding: 1.5em 1em;
+
+    @include mq($small) {
+      padding: 4em 2em;
+      max-width: 80em;
+    }
+  }
+
+  .hero-container {
+    @include mq($medium) {
+      padding: 3em 0;
+    }
+  }
+
+  .hero-container__main-heading {
+    @include font-size(24px);
+    margin-bottom: 0.3em;
+    line-height: 1.6em;
+
+    @include mq($small) {
+      @include font-size(28px);
+      line-height: 1.6em;
+    }
+
+    @include mq($large) {
+      @include font-size(36px);
+      line-height: 1.6em;
+    }
+  }
+
+  .hero-container__sub-heading {
+    max-width: 32em;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  .dashboard-grid__title {
+    display: block;
+    text-align: left;
+    @include font-size(18px);
+    text-transform: uppercase;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #e7e9ed;
+      margin-top: .5em;
+      margin-bottom: 2em;
+    }
+  }
+
+  .default-grid__list.col-3 {
+    left: 0;
+    max-width: 100%;
+
+    li {
+      margin-right: 0;
+      width: 100%;
+      position: relative;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &.inactive {
+        .inactive-label {
+          position: absolute;
+          margin: 0;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          padding: 2px;
+          background-color: rgba(0,0,0,.1);
+          display: inline-block;
+          border-radius: 4px;
+
+          span {
+            font-family: $default-sans;
+            text-transform: uppercase;
+            background: #eee;
+            color: darken(#9da0a7,25%);
+            border-radius: 3px;
+            padding: .5em 1em;
+            font-weight: 600;
+            display: inline-block;
+          }
+        }
+
+        .default-grid__content {
+          opacity: .5;
+        }
+
+        .default-grid__img {
+          opacity: .5;
+          img {
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      @include mq($med-large) {
+        width: 31%;
+        margin-bottom: 0;
+        margin-right: 3.5%;
+
+        &:nth-child(2n) {
+          margin-right: 3.5%;
+        }
+
+        &:nth-child(3n) {
+          margin-right: 0;
+        }
+      }
+
+      .default-grid__img {
+        img {
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+        }
+      }
+
+      .default-grid__content {
+        border: 1px solid #e7e9ed;
+        padding: .75em;
+        border-top: 0;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        text-align: left;
+
+        h2, a {
+          margin-bottom: 0;
+          text-align: left;
+
+          &:hover {
+            h2 {
+              color: $brand-grey;
+              border-bottom: 2px solid rgba(61,67,81,0.15);
+            }
+          }
+        }
+
+        h2 {
+          @include font-size(16px);
+          text-align: left;
+          display: inline;
+          letter-spacing: 0.01em;
+          border-bottom: 2px solid transparent;
+        }
+
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.url-presidential-election-dashboards-democratic-primary-data-dashboard, .url-presidential-election-dashboards-republican-primary-data-dashboard, .url-presidential-election-dashboards-us-presidential-election-data-dashboard {
+  body {
+    background-color: #fff;
+  }
+
+  .wrapper {
+    height: 100%;
+  }
+
+  #iframe {
+    height: 100%;
+  }
+
+  .show {
+    color: #fff;
+    padding: 1.25em;
+    margin-right: 1em;
+    background-color: #3d4351;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    float: right;
+    background-image: url('/assets/svg/arrow-down-toggle.svg');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    outline: none;
+    position: absolute;
+    top: -40px;
+    right: 0;
+
+    &.active {
+      background-image: url('/assets/svg/arrow-up-toggle.svg');
+    }
+
+    @include mq($medium) {
+      margin-right: 1.5em;
+    }
+  }
+
+  #toolbar-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    -ms-transition: all .35s ease;
+    transition: all .35s ease;
+    min-width: 1200px;
+    background-color: $brand-grey;
+
+    &.hideDown {
+      bottom: -140px;
+    }
+  }
+
+  #toolbar {
+    max-width: 1440px;
+    bottom: 0;
+    background-color: $brand-grey;
+    padding: 0 1em;
+    @include display-flex;
+    align-content: center;
+    align-items: center;
+    height: 140px;
+    margin: 0 auto;
+
+    .social-sharing {
+      position: relative;
+      display: inline-block;
+      width: 320px;
+      margin-right: auto;
+      text-align: left;
+
+      a {
+        margin-right: 5px;
+
+        &:last-child {
+          margin-right: 0;
+          margin-bottom: 0;
+        }
+      }
+
+      h1 {
+        color: #fff;
+        text-transform: none;
+        font-weight: 500;
+        @include font-size(17px);
+        line-height: 1.6em;
+        margin-bottom: .5em;
+
+        a {
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 600;
+          display: inline-block;
+
+          i {
+            @include font-size(18px);
+            margin-right: 6px;
+            color: #9da0a7;
+          }
+
+          &:hover {
+            color: #9da0a7;
+          }
+        }
+
+        span {
+          display: block;
+        }
+      }
+
+      .share-button {
+        color: #fff;
+        padding: .5em 1em;
+        border-radius: 3px;
+        font-family: $default-sans;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        display: inline-block;
+
+        &.facebook {
+          background-color: #3b5998;
+          margin-bottom: 1em;
+
+          &:hover {
+            background-color: lighten(#3b5998,5%);
+          }
+        }
+
+        &.twitter {
+          background-color: #55acee;
+
+          &:hover {
+            background-color: lighten(#55acee,5%);
+          }
+        }
+
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .branded-share__title {
+    display: inline-block;
+    margin-bottom: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 560px;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    padding: 1em;
+    margin: 0 1em;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgba(255,255,255,.1);
+
+    .logo-powered {
+      max-width: 32px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 1em;
+      vertical-align: middle;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    h2 {
+      @include font-size(16px);
+      color: #fff;
+      text-transform: none;
+      margin-bottom: .5em;
+      font-weight: 500;
+      font-family: $default-serif;
+    }
+
+    .round-btn-small {
+      opacity: 1;
+      padding: .25em 1.25em;
+      background: $brand-green;
+      border-radius: 999px;
+      border: 0;
+      color: #fff;
+      font-family: $default-sans;
+      text-transform: uppercase;
+      font-weight: 600;
+      @include font-size(13px);
+      margin: 0 auto;
+
+      &:hover {
+        background: darken($brand-green,7%);
+        border: 0;
+      }
+    }
+  }
+
+  .powered-by {
+    color: #fff;
+    text-align: right;
+    vertical-align: middle;
+    width: 320px;
+    margin-left: auto;
+
+    span {
+      @include font-size(16px);
+      color: #9da0a7;
+
+      a {
+        color: #fff;
+        border-bottom: 2px solid transparent;
+        margin-top: .25em;
+        display: block;
+
+        &:hover {
+          color: #fff;
+          border-bottom: 2px solid;
+        }
+
+        img {
+          width: 100px;
+          margin: 0 auto;
+          display: inline-block;
+          margin-left: 5px;
+          margin-top: 0;
+
+          &:hover {
+            opacity: .75;
+          }
+        }
+      }
+    }
+  }
+}

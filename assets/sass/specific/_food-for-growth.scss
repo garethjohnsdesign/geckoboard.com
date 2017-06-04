@@ -1,0 +1,133 @@
+/*--- food for growth ---*/
+.url-learn-guides {
+
+  .icon-1-2 {
+    max-width: 180px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .section-heading-1-2 {
+    text-align: center;
+  }
+
+  .ebook-container, .ebook-quote-container {
+    padding: 100px 30px 350px 30px;
+    width: 100%;
+    color: #fff;
+    max-width: 75em;
+    margin: 0 auto;
+    }
+
+  .ebook-container img{
+    float: left;
+    margin: 0 5% 7% 0;
+    width: 30%;
+    border: 1px solid #444;
+    box-shadow: 0 0 20px #2D3444;
+    }
+
+  .ebook-primer {
+    h1 {
+      text-align: left;
+    }
+    p {
+    margin-top: 40px;
+    font-size: 1.2em;
+    }
+  }
+
+  .ebook-quote-container {
+    padding: 50px 30px;
+  }
+
+  .ebook-quote {
+    padding: 20px;
+    margin-bottom: 70px;
+
+    img {
+      margin-right: 20px;
+      height: auto;
+      float: left;
+      max-width: 130px;
+    }
+  }
+
+  .quote {
+    text-align: left;
+    color: #444;
+    font-size: 24px;
+    width: 80%;
+
+    a {
+      color: #8dc63f;
+      &:hover {
+      border-bottom: 3px solid #8dc63f;
+      }
+    }
+  }
+
+  .addthis_sharing_toolbox {
+    padding: 30px 0;
+    float: right;
+    width: 100%;
+  }
+
+  a.click-to-tweet {
+    color: #8dc63f !important;
+  }
+  .ebook-cta-container {
+    margin-top: 70px;
+    float: left;
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+
+  #mc_embed_signup_foodforgrowth {
+    margin-bottom: 40px;
+    font-size: 0.8em;
+    background:none;
+    clear:left;
+
+    h4 {
+      padding-bottom: 20px;
+      text-align: left;
+    }
+
+    #mc-embedded-subscribe {
+      font-family: "brandon-grotesque",sans-serif;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 1em;
+      font-weight: bold;
+      background: #8dc63f;
+      padding: 1em 0.4em;
+      border: 3px solid #484f60;
+      float: right;
+      width: 20%;
+    }
+
+    #mce-EMAIL {
+      float: left;
+      font-size: 1.4em;
+      font-family: "brandon-grotesque",sans-serif;
+      padding: 0.5em;
+      border: 3px solid #484f60;
+      width: 80%;
+    }
+  }
+
+  .ebook-secondary {
+    background: #fff;
+    color: #444;
+    h1 {
+    color: #444;
+    margin-bottom: 20px;
+    }
+  }
+  .download-file-button {
+    margin: 0;
+    width: 100%;
+  }
+}

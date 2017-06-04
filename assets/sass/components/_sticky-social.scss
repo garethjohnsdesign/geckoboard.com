@@ -1,0 +1,104 @@
+.sticky-social {
+  position: absolute;
+  z-index: 10;
+  display: none;
+
+  &.scroll {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+  }
+
+  @include mq($med-large) {
+    display: block;
+  }
+
+  .sticky-anchor {
+    height: 2em;
+    position: relative;
+  }
+
+  .sticky-social__inner {
+    ul {
+      list-style-type: none;
+      margin-bottom: 2em;
+
+      li {
+        margin-bottom: 12px;
+        list-style-type: none;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        a {
+          background-color: $brand-mid-grey;
+          width: 42px;
+          height: 42px;
+          display: block;
+          @include border-radius(50%);
+          position: relative;
+
+          img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform(translate(-50%,-50%));
+          }
+
+          &:hover {
+            border-bottom: 0;
+          }
+        }
+
+        .facebook {
+          background-color: $facebook;
+
+          &:hover {
+            background-color: darken($facebook,7%);
+          }
+
+          img {
+            width: 12px;
+          }
+        }
+
+        .twitter {
+          background-color: $twitter;
+
+          &:hover {
+            background-color: darken($twitter,7%);
+          }
+
+          img {
+            width: 21px;
+          }
+        }
+
+        .pocket {
+          background-color: $pocket;
+
+          &:hover {
+            background-color: darken($pocket,7%);
+          }
+
+          img {
+            width: 21px;
+          }
+        }
+
+        .buffer {
+          background-color: $buffer;
+
+          &:hover {
+            background-color: darken($buffer,7%);
+          }
+
+          img {
+            width: 21px;
+          }
+        }
+      }
+    }
+  }
+}

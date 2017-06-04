@@ -8,12 +8,17 @@ collections:
   uploads:
     title: Uploads
     output: false
+  learn:
+    output: true
+  integrations:
+    output: true
 defaults:
 - scope:
     path: ''
     type: posts
   values:
     permalink: "/blog/:title/"
+    layout: post
 url: http://geckoboard.com
 description: Use Geckoboard to build clear, effective data dashboards for your business
   that keep teams informed, motivated and aligned around your KPIs. Try for free.
@@ -45,7 +50,7 @@ email: support@geckoboard.com
 google_site_verification: 
 analytics: 
 logo: 
-per_page: 12
+per_page: 36
 date_format: "%d %B %Y"
 future: true
 social:
@@ -58,3 +63,4 @@ compress_html:
   - " -->"
   blanklines: true
   profile: false
+ampdir: amp

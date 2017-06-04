@@ -1,0 +1,13 @@
+<div class="blog-selection">
+  <div class="overflow">
+    <ul class="blog-selection__list">
+      <li {% if current.slug == "blog" %}class="selected"{% endif %}><a href="/blog/">Most Recent</a></li>
+      <li {% if current.slug == "growth-and-culture" %}class="selected"{% endif %}><a href="/blog/topics/growth-and-culture/">Growth and Culture</a></li>
+      <li {% if current.slug == "metrics-and-kpis" %}class="selected"{% endif %}><a href="/blog/topics/metrics-and-kpis/">Metrics and KPIs</a></li>
+      <li {% if current.slug == "leadership" %}class="selected"{% endif %}><a href="/blog/topics/leadership/">Leadership</a></li>
+      <li {% if current.slug == "interview" %}class="selected"{% endif %}><a href="/blog/topics/interview/">Interviews</a></li>
+      <li {% if current.slug == "product" %}class="selected"{% endif %}><a href="/blog/topics/product/">Product News</a></li>
+    </ul>
+    <div class="overflow-gradient"></div>
+  </div>
+</div>

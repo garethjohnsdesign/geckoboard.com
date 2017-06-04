@@ -1,0 +1,37 @@
+<script async charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+<script>
+(function(){
+
+  var isMobile = {
+      Android: function() {
+          return /Android/i.test(navigator.userAgent);
+      },
+      BlackBerry: function() {
+          return /BlackBerry/i.test(navigator.userAgent);
+      },
+      iOS: function() {
+          return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+      },
+      Windows: function() {
+          return /IEMobile/i.test(navigator.userAgent);
+      },
+      any: function() {
+          return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+      }
+  };
+
+  $('a[class^=wistia-popover]').each(function(){
+    if (!isMobile.any()) {
+      $( this ).attr('href', $( this ).attr('href') + "&playButton=false&autoPlay=true&popover=true")
+    } else {
+      $( this ).attr('href', $( this ).attr('href') + "&playButton=true")
+    }
+  });
+
+  $(document.body).on('click', 'a[class$=home__play-btn]', function(e){
+    var link = $(this).parent().find('a[class^=wistia-popover]');
+    wistiaJQuery(link).first().click();
+    e.preventDefault();
+  })
+})()
+</script>

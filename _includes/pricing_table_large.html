@@ -1,0 +1,158 @@
+<ul class="pricing-table">
+  <li class="starter">
+    <div class="pricing-table__item-head">
+      <h2 class="pricing-table__title">Starter</h2>
+      <p class="pricing-table__info">For startups and small teams starting to build goal-oriented teams.</p>
+    </div>
+    <div class="pricing-table__price starterprice">
+      <div class="pricing-table__price-wrapper">
+        <span class="unit">$</span>
+        <span class="amount starter" id="starter-price">25</span>
+        <span class="billing-type">/ Mo</span>
+      </div>
+      <div class="pricing-table__price-discount">
+        <span>Includes <strong>one month free</strong></span>
+      </div>
+      <div class="pricing-table__price-vat">
+        <span>*All prices exclude VAT</span>
+      </div>
+
+    </div>
+    <ul class="pricing-table__plan-details highlight">
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="dashboard">
+          <span>1 Dashboard</span>
+        </div>
+      </li>
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="user">
+          <span>1 User</span>
+        </div>
+      </li>
+    </ul>
+    <div class="pricing-table__cta">
+      <span class="item-highlight-sub__strong">+$25 per extra dashboard</span>
+      <span>Up to 4 dashboards</span>
+      <span>Each extra dashboard adds one user</span>
+      <div class="cta-btn__wrapper">
+        <a href="/try-geckoboard/" class="try-btn">Try free for 30 Days</a>
+      </div>
+    </div>
+    <ul class="pricing-table__plan-details">
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="emailsupport">
+          <span>Email Support</span>
+        </div>
+      </li>
+      <li class="plan-item">
+        <div class="plan-item-inner"data-tooltip-index="geckobranded">
+          <span>Geckoboard Branding</span>
+        </div>
+      </li>
+    </ul>
+  </li>
+  <li class="team">
+    <div class="pricing-table__item-head">
+      <span class="pricing-table__item-title">Most Popular</span>
+      <h2 class="pricing-table__title">Growth</h2>
+      <p class="pricing-table__info">For growing businesses who want broader usage to focus their teams.</p>
+    </div>
+    <div class="pricing-table__price growthprice">
+      <div class="pricing-table__price-wrapper">
+        <span class="unit">$</span>
+        <span class="amount" id="growth-price">149</span>
+        <span class="billing-type">/ Mo</span>
+      </div>
+      <div class="pricing-table__price-discount">
+        <span>Includes <strong>one month free</strong></span>
+      </div>
+      <div class="pricing-table__price-vat">
+        <span>*All prices exclude VAT</span>
+      </div>
+    </div>
+    <ul class="pricing-table__plan-details highlight">
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="dashboard">
+          <span>5 Dashboards</span>
+        </div>
+      </li>
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="user">
+          <span>Unlimited Users</span>
+        </div>
+      </li>
+    </ul>
+    <div class="pricing-table__cta">
+      <span class="item-highlight-sub__strong">+$25 per extra dashboard</span>
+      <span>Up to 10 dashboards</span>
+      <div class="cta-btn__wrapper">
+        <a href="/try-geckoboard/" class="try-btn">Try free for 30 Days</a>
+      </div>
+    </div>
+    <ul class="pricing-table__plan-details">
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="priorityemail">
+          <span>Priority Email Support</span>
+        </div>
+      </li>
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="customthemes">
+          <span>Custom Themes</span>
+        </div>
+      </li>
+    </ul>
+  </li>
+  <li class="company">
+    <div class="pricing-table__item-head">
+      <h2 class="pricing-table__title">Company</h2>
+      <p class="pricing-table__info">Everything you need for a company-wide rollout to improve key metrics.</p>
+    </div>
+    <div class="pricing-table__price companyprice">
+      <div class="pricing-table__price-wrapper">
+        <span class="unit">$</span>
+        <span class="amount" id="company-price">599</span>
+        <span class="billing-type">/ Mo</span>
+      </div>
+      <div class="pricing-table__price-discount">
+        <span>Includes <strong>one month free</strong></span>
+      </div>
+      <div class="pricing-table__price-vat">
+        <span>*All prices exclude VAT</span>
+      </div>
+    </div>
+    <ul class="pricing-table__plan-details highlight">
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="dashboard">
+          <span>Unlimited Dashboards</span>
+        </div>
+      </li>
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="user">
+          <span>Unlimited Users</span>
+        </div>
+      </li>
+    </ul>
+    <div class="pricing-table__cta">
+      <div class="cta-btn__wrapper">
+        <a href="/try-geckoboard/" class="try-btn outline">Try free for 30 Days</a>
+        {% if site.meta['book-a-demo'] == 'yes' %}
+        <a href="/book-a-demo/" class="demo-btn">Book a Demo</a>
+        {% else %}
+        <a href="{{site.meta['watch-a-demo-link']}}" class="demo-btn">Watch a Demo</a>
+        {% endif %}
+      </div>
+    </div>
+    <ul class="pricing-table__plan-details">
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="dedicsm">
+          <span>Dedicated Customer Success Manager</span>
+        </div>
+      </li>
+      <li class="plan-item">
+        <div class="plan-item-inner" data-tooltip-index="customthemes">
+          <span>Custom Themes</span>
+        </div>
+      </li>
+    </ul>
+  </li>
+</ul>

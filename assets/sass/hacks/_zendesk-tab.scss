@@ -1,0 +1,11 @@
+/// Contains overrides for the "help" tab
+
+#zenbox_tab {
+  border: none !important;
+  opacity: .9;
+  background-color: darken($brand-grey, 5%) !important;
+  border-radius: 0 4px 4px 0;
+  &:hover {
+    background:darken($brand-grey, 10%) !important; 
+  }
+}

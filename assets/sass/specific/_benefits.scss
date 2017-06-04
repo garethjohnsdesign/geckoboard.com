@@ -1,0 +1,76 @@
+.url-benefits {
+  .title-container {
+    @include mq($medium) {
+      padding: 5em 2em;
+    }
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  .hero-container {
+    @include mq($medium) {
+      padding: 10em 0;
+    }
+  }
+
+  .hero-container__img {
+    background-image: url(../img/benefits-hero4.jpg);
+    opacity: 0.7;
+  }
+
+  .hero-container__main-heading {
+    @include font-size(36px);
+
+    @include mq($medium) {
+      margin-bottom: 0.1em;
+      @include font-size(42px);
+    }
+  }
+
+  .hero-container__sub-heading {
+    @include mq($medium) {
+      width: 100%;
+      margin: 0 auto;
+      line-height: 1.6em;
+    }
+  }
+
+  .call-to-action {
+    background: $brand-green;
+    color: #fff;
+
+    .call-to-action__heading {
+      @include mq($large) {
+        @include font-size(40px);
+        margin-bottom: 0.6em;
+      }
+    }
+
+    .call-to-action__sub-heading {
+      @include font-size(20px);
+      line-height: 1.6em;
+      margin-bottom: 1em;
+
+      @include mq($medium) {
+        @include font-size(20px);
+        line-height: 1.6em;
+        margin-bottom: 1.7em;
+        max-width: 80%;
+        display: inline-block;
+      }
+    }
+
+    .call-to-action__btn {
+      display: inline-block;
+      color: $brand-green;
+      background: #fff;
+
+      &:hover {
+        text-decoration: none;
+        background: darken(#fff,5%);
+      }
+    }
+  }
+}//url-benefits

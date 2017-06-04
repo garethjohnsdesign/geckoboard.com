@@ -1,0 +1,55 @@
+{% capture content %}
+{% include 'includes/blog_signup' %}
+{% assign blog_posts = site.pages['blog'].posts %}
+<section class="hero-container blog">
+  <div class="splat one"></div>
+  <div class="splat two"></div>
+  <div class="splat three"></div>
+  <div class="splat four"></div>
+  <div class="hero-container__text">
+    <div class="blog-logo"></div>
+    <h1 class="hero-container__main-heading title-spark-light">Geckoboard Blog</h1>
+    <h2 class="hero-container__sub-heading">Helping growth leaders <span>focus their team</span> and <span>grow their company</span>.</h2>
+  </div>
+</section>
+<section class="main-content blog">
+  {% include 'includes/blog_categories' %}
+  <div class="blog-list">
+    {% for post in blog_posts offset:post_offset limit:8 %}
+    <div class="post-item {{tag.value}}">
+      <div class="post-item__inner flex">
+        <ul class="post-topic">
+          {% for tag in post.taxonomy['topics'] %}
+          <li>
+            <a href="{{tag.url}}/" class="{{ tag.value | handleize }}" itemprop="articleSection">{{tag.value}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        <div class="flex-col col-1of2">
+          <a href="{{post.url}}/">
+            <h2 class="post-title">{{post.title}}</h2>
+          </a>
+          <span class="post-author">by {{post.author.firstname}} {{post.author.lastname}}</span>
+          <span class="post-date">{{post.date | date: "%B %-d, %Y"}}</span>
+        </div>
+        <div class="flex-col col-1of2 post-excerpt">
+          <a href="{{post.url}}/">
+            <p>{{post.excerpt | strip_html | truncate: 170}}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="blog-nav">
+    <div class="container">
+      <a href="{{previous_page_url}}" class="post-nav left">Newer posts</a>
+      {% assign last_index = post_offset | plus:8 %}
+      {% if blog_posts.size >= last_index %}
+      <a href="{{next_page_url}}" class="post-nav right">Older posts</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endcapture %}
+{% include 'layouts/default-blog' %}

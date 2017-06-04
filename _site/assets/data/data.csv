@@ -1,0 +1,618 @@
+date,5-year,acquirer,ceo,acquisition,industry,cost,costBucket,costGroup,industrySort1,cost2
+13 Aug 2007,2006--2010,Microsoft,Steve Ballmer,AdECN,Advertising,50,Less than $100 million,2Cost,11advertising,$50.0m
+9 Jun 2011,2011--present,Google,Larry Page,Admeld,Advertising,400,$100 - $499 million,3Cost,11advertising,$400.0m
+9 Nov 2009,2006--2010,Google,Eric Schmidt,AdMob,Advertising,750,$500 - $999 million,4Cost,11advertising,$750.0m
+6 May 2014,2011--present,Google,Larry Page,Adometry,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+16 Feb 2007,2006--2010,Google,Eric Schmidt,Adscape,Advertising,23,Less than $100 million,2Cost,11advertising,$23.0m
+1 Apr 2003,2001--2005,Google,Eric Schmidt,Applied Semantics,Advertising,102,$100 - $499 million,3Cost,11advertising,$102.0m
+13 Aug 2007,2006--2010,Microsoft,Steve Ballmer,aQuantive,Advertising,6333,$1 - 10 billion,5Cost,11advertising,"$6,333.0m"
+28 Feb 2013,2011--present,Facebook,Mark Zuckerberg,Atlas,Advertising,100,$100 - $499 million,3Cost,11advertising,$100.0m
+8 Dec 2013,2011--present,Google,Larry Page,Autofuss,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+17 Jan 2006,2006--2010,Google,Eric Schmidt,dMarc Broadcasting,Advertising,102,$100 - $499 million,3Cost,11advertising,$102.0m
+13 Apr 2007,2006--2010,Google,Eric Schmidt,DoubleClick,Advertising,3100,$1 - 10 billion,5Cost,11advertising,"$3,100.0m"
+15 Apr 1998,1996-2000,Microsoft,Bill Gates,Firefly,Advertising,40,Less than $100 million,2Cost,11advertising,$40.0m
+3 Jun 2010,2006--2010,Google,Eric Schmidt,Invite Media,Advertising,81,Less than $100 million,2Cost,11advertising,$81.0m
+6 Nov 1998,1996-2000,Microsoft,Bill Gates,LinkExchange,Advertising,265,$100 - $499 million,3Cost,11advertising,$265.0m
+14 Aug 2014,2011--present,Facebook,Mark Zuckerberg,LiveRail,Advertising,500,$500 - $999 million,4Cost,11advertising,$500.0m
+19 Jun 2014,2011--present,Google,Larry Page,mDialog,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+18 Jun 2008,2006--2010,Microsoft,Steve Ballmer,Navic Networks,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+5 Jan 2010,2006--2010,Apple,Steve Jobs,Quattro Wireless,Advertising,275,$100 - $499 million,3Cost,11advertising,$275.0m
+14 Mar 2008,2006--2010,Microsoft,Steve Ballmer,Rapt,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+24 Feb 2015,2011--present,Google,Larry Page,Red Hot Labs,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+25 Jan 2011,2011--present,Facebook,Mark Zuckerberg,Rel8tion,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+1 Oct 2003,2001--2005,Google,Eric Schmidt,Sprinks,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+23 Nov 2009,2006--2010,Google,Eric Schmidt,Teracent,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+24 Aug 2012,2011--present,Facebook,Mark Zuckerberg,Threadsy,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+24 Feb 2015,2011--present,Google,Larry Page,Toro,Advertising,1,Undisclosed,1Cost,11advertising,Undisclosed
+1 Aug 2012,2011--present,Google,Larry Page,Wildfire Interactive,Advertising,450,$100 - $499 million,3Cost,11advertising,$450.0m
+13 Nov 2014,2011--present,Microsoft,Satya Nadella,Aorato,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+10 Dec 2013,2011--present,Google,Larry Page,Boston Dynamics,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+7 Dec 2013,2011--present,Google,Larry Page,Bot & Dolly,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+12 Oct 2006,2006--2010,Microsoft,Steve Ballmer,Colloquis,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+3 Oct 2013,2011--present,Apple,Tim Cook,Cue,AI,50,Less than $100 million,2Cost,5AI,$50.0m
+23 Oct 2014,2011--present,Google,Larry Page,Dark Blue Labs,AI,20,Less than $100 million,2Cost,5AI,$20.0m
+26 Jan 2014,2011--present,Google,Larry Page,DeepMind,AI,625,$500 - $999 million,4Cost,5AI,$625.0m
+12 Mar 2013,2011--present,Google,Larry Page,DNNresearch,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+7 Jan 2016,2011--present,Apple,Tim Cook,Emotient,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+29 Oct 1999,1996-2000,Microsoft,Bill Gates,Entropic,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+17 Apr 2013,2011--present,Amazon,Jeff Bezos,evi,AI,26,Less than $100 million,2Cost,5AI,$26.0m
+18 Jun 2012,2011--present,Facebook,Mark Zuckerberg,Face.com,AI,100,$100 - $499 million,3Cost,5AI,$100.0m
+1 Nov 2015,2011--present,Apple,Tim Cook,Faceshift,AI,18.2,Less than $100 million,2Cost,5AI,$18.2m
+1 Apr 2005,2001--2005,Apple,Steve Jobs,FingerWorks,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+2 Oct 2013,2011--present,Google,Larry Page,Flutter,AI,40,Less than $100 million,2Cost,5AI,$40.0m
+22 Aug 2016,2011--present,Microsoft,Satya Nadella,Genee,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+6 Dec 2013,2011--present,Google,Larry Page,Holomni,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+3 Dec 2013,2011--present,Google,Larry Page,Industrial Perception,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+24 Jan 2013,2011--present,Amazon,Jeff Bezos,Ivona,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+17 Aug 2014,2011--present,Google,Larry Page,Jetpac,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+19 Mar 2012,2011--present,Amazon,Jeff Bezos,Kiva,AI,775,$500 - $999 million,4Cost,5AI,$775.0m
+5 Dec 2013,2011--present,Google,Larry Page,Meka Robotics,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+6 Jul 2016,2011--present,Google,Sundar Pichai,Moodstocks,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+13 Jan 2014,2011--present,Google,Larry Page,Nest Labs,AI,3200,$1 - 10 billion,5Cost,5AI,"$3,200.0m"
+15 Aug 2006,2006--2010,Google,Eric Schmidt,Neven Vision,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+1 Jun 2013,2011--present,Apple,Tim Cook,Novauris,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+20 May 2011,2011--present,Google,Larry Page,Numovis,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+1 Dec 2015,2011--present,Amazon,Jeff Bezos,Orbeus,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+1 Sep 2015,2011--present,Apple,Tim Cook,Perceptio,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+23 Jul 2011,2011--present,Google,Larry Page,PittPatt,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+20 Sep 2010,2006--2010,Apple,Steve Jobs,Polar Rose,AI,29,Less than $100 million,2Cost,5AI,$29.0m
+24 Mar 2011,2011--present,Facebook,Mark Zuckerberg,RecRec,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+4 Dec 2013,2011--present,Google,Larry Page,Redwood Robotics,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+24 Oct 2014,2011--present,Google,Larry Page,Revolv,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+25 Jan 2011,2011--present,Google,Larry Page,SayNow,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+2 Dec 2013,2011--present,Google,Larry Page,Schaft,AI,20,Less than $100 million,2Cost,5AI,$20.0m
+27 Apr 2010,2006--2010,Apple,Steve Jobs,Siri,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+16 Jun 2009,2006--2010,Amazon,Jeff Bezos,Snap Tell,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+5 Aug 2016,2011--present,Apple,Tim Cook,Turi,AI,200,$100 - $499 million,3Cost,5AI,$200.0m
+1 Oct 2012,2011--present,Google,Larry Page,Viewdle,AI,45,Less than $100 million,2Cost,5AI,$45.0m
+23 Oct 2014,2011--present,Google,Larry Page,Vision Factory,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+1 Sep 2015,2011--present,Apple,Tim Cook,VocalIQ,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+23 Apr 2013,2011--present,Google,Larry Page,Wavii,AI,30,Less than $100 million,2Cost,5AI,$30.0m
+6 Jan 2015,2011--present,Facebook,Mark Zuckerberg,Wit.ai,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+9 Nov 2011,2011--present,Amazon,Jeff Bezos,Yap,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+31 Mar 2008,2006--2010,Microsoft,Steve Ballmer,90 Degree Software,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+26 Apr 2004,2001--2005,Microsoft,Steve Ballmer,ActiveViews,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+1 Dec 2013,2011--present,Apple,Tim Cook,Acunu,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+24 Apr 1999,1996-2000,Amazon,Jeff Bezos,Alexa Internet,Analytics,250,$100 - $499 million,3Cost,6analytics,$250.0m
+28 Aug 2013,2011--present,Apple,Tim Cook,AlgoTrim,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+12 Apr 2013,2011--present,Google,Larry Page,Behavio,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+29 Jun 2014,2011--present,Apple,Tim Cook,BookLamp,Analytics,10,Less than $100 million,2Cost,6analytics,$10.0m
+15 May 2006,2006--2010,Microsoft,Steve Ballmer,DeepMetrix,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+16 Feb 2016,2011--present,Amazon,Jeff Bezos,Emvantage,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+20 Jan 2015,2011--present,Microsoft,Satya Nadella,Equivio,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+21 Oct 2014,2011--present,Google,Larry Page,Firebase,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+24 Mar 2015,2011--present,Apple,Tim Cook,FoundationDB,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+29 Jun 1992,1991--1995,Microsoft,Bill Gates,Fox,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+22 Aug 2016,2011--present,Apple,Tim Cook,Gliimpse,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+3 Mar 1997,1996-2000,Microsoft,Bill Gates,Interse,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+4 Aug 1998,1996-2000,Amazon,Jeff Bezos,Junglee,Analytics,190,$100 - $499 million,3Cost,6analytics,$190.0m
+8 Jan 2014,2011--present,Facebook,Mark Zuckerberg,Little Eye Labs,Analytics,15,Less than $100 million,2Cost,6analytics,$15.0m
+17 Oct 2012,2011--present,Microsoft,Steve Ballmer,MarketingPilot,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+21 Jun 2001,2001--2005,Microsoft,Steve Ballmer,Maximal,Analytics,20,Less than $100 million,2Cost,6analytics,$20.0m
+14 Feb 2006,2006--2010,Google,Eric Schmidt,Measure Map,Analytics,5,Less than $100 million,2Cost,6analytics,$5.0m
+18 Dec 2015,2011--present,Microsoft,Satya Nadella,Metanautix,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+7 May 2014,2011--present,Google,Larry Page,MyEnergy,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+12 Jul 2002,2001--2005,Microsoft,Steve Ballmer,Navision,Analytics,1330,$1 - 10 billion,5Cost,6analytics,"$1,330.0m"
+1 Apr 2003,2001--2005,Google,Eric Schmidt,Neotonic,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+19 Mar 2013,2011--present,Microsoft,Steve Ballmer,Netbreeze,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+13 Oct 2013,2011--present,Facebook,Mark Zuckerberg,Onavo,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+1 Nov 1996,1996-2000,Microsoft,Bill Gates,Panorama Software,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+3 Jun 2011,2011--present,Google,Larry Page,PostRank,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+6 Jun 2006,2006--2010,Microsoft,Steve Ballmer,ProClarity,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+23 Jan 2015,2011--present,Microsoft,Satya Nadella,Revolution Analytics,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+1 Jun 2009,2006--2010,Microsoft,Steve Ballmer,Rosetta Biosoftware,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+1 Mar 2005,2001--2005,Apple,Steve Jobs,Schemasoft,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+21 Jan 2015,2011--present,Apple,Tim Cook,Semetric,Analytics,50,Less than $100 million,2Cost,6analytics,$50.0m
+11 Oct 2011,2011--present,Google,Larry Page,SocialGrapple,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+9 May 2007,2006--2010,Microsoft,Steve Ballmer,SoftArtisans,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+17 Dec 2013,2011--present,Facebook,Mark Zuckerberg,SportStream,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+7 May 2014,2011--present,Google,Larry Page,Stackdriver,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+7 Jun 2007,2006--2010,Microsoft,Steve Ballmer,Stratature,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+2 Dec 2013,2011--present,Apple,Tim Cook,Topsy,Analytics,200,$100 - $499 million,3Cost,6analytics,$200.0m
+16 Mar 2007,2006--2010,Google,Eric Schmidt,Trendalyzer,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+28 Mar 2005,2001--2005,Google,Eric Schmidt,Urchin Software,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+3 Sep 2015,2011--present,Microsoft,Satya Nadella,VoloMetrix,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+27 Feb 2008,2006--2010,Microsoft,Steve Ballmer,YaData,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+1 Sep 2004,2001--2005,Google,Eric Schmidt,ZipDash,Analytics,1,Undisclosed,1Cost,6analytics,Undisclosed
+29 Jan 2016,2011--present,Apple,Tim Cook,Flyby Media,AR / VR,1,Undisclosed,1Cost,18AR / VR,Undisclosed
+1 May 2015,2011--present,Apple,Tim Cook,Metaio,AR / VR,1,Undisclosed,1Cost,18AR / VR,Undisclosed
+25 Mar 2014,2011--present,Facebook,Mark Zuckerberg,Oculus VR,AR / VR,2000,$1 - 10 billion,5Cost,18AR / VR,"$2,000.0m"
+16 Jul 2015,2011--present,Facebook,Mark Zuckerberg,Pebbles,AR / VR,60,Less than $100 million,2Cost,18AR / VR,$60.0m
+16 May 2014,2011--present,Google,Larry Page,Quest Visual,AR / VR,1,Undisclosed,1Cost,18AR / VR,Undisclosed
+26 May 2015,2011--present,Facebook,Mark Zuckerberg,Surreal Vision,AR / VR,1,Undisclosed,1Cost,18AR / VR,Undisclosed
+16 Apr 2015,2011--present,Google,Larry Page,Tilt Brush,AR / VR,1,Undisclosed,1Cost,18AR / VR,Undisclosed
+23 May 2016,2011--present,Facebook,Mark Zuckerberg,Two Big Ears,AR / VR,1,Undisclosed,1Cost,18AR / VR,Undisclosed
+2 Mar 2011,2011--present,Facebook,Mark Zuckerberg,Beluga,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+6 Aug 2014,2011--present,Google,Larry Page,Emu,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+23 Feb 1998,1996-2000,Microsoft,Bill Gates,Flash Communications,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+9 Nov 2009,2006--2010,Google,Eric Schmidt,Gizmo5,Comms,30,Less than $100 million,2Cost,15comms,$30.0m
+2 Jul 2007,2006--2010,Google,Eric Schmidt,GrandCentral,Comms,45,Less than $100 million,2Cost,15comms,$45.0m
+31 Dec 1997,1996-2000,Microsoft,Bill Gates,Hotmail,Comms,500,$500 - $999 million,4Cost,15comms,$500.0m
+30 Sep 2015,2011--present,Google,Sundar Pichai,Jibe Mobile,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+30 Jun 1997,1996-2000,Microsoft,Bill Gates,LinkAge,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+9 Jun 2011,2011--present,Facebook,Mark Zuckerberg,MailRank,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+19 Apr 2007,2006--2010,Google,Eric Schmidt,Marratech,Comms,15,Less than $100 million,2Cost,15comms,$15.0m
+3 Nov 2005,2001--2005,Microsoft,Steve Ballmer,media-streams.com,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+4 Jun 2012,2011--present,Google,Larry Page,Meebo,Comms,100,$100 - $499 million,3Cost,15comms,$100.0m
+11 May 2005,2001--2005,Microsoft,Steve Ballmer,MessageCast,Comms,7,Less than $100 million,2Cost,15comms,$7.0m
+5 Oct 2007,2006--2010,Microsoft,Steve Ballmer,Parlano,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+18 Feb 2016,2011--present,Google,Sundar Pichai,Pie,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+10 May 2011,2011--present,Microsoft,Steve Ballmer,Skype,Comms,8500,$1 - 10 billion,5Cost,15comms,"$8,500.0m"
+29 Aug 2005,2001--2005,Microsoft,Steve Ballmer,Teleo,Comms,1,Undisclosed,1Cost,15comms,Undisclosed
+19 Feb 2014,2011--present,Facebook,Mark Zuckerberg,WhatsApp,Comms,19000,$11- 20 billion,6Cost,15comms,"$19,000.0m"
+28 Sep 2015,2011--present,Microsoft,Satya Nadella,Adxstudio,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+25 Oct 2013,2011--present,Microsoft,Steve Ballmer,Apiphany,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+25 Jun 2014,2011--present,Google,Larry Page,Appurify,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+6 Oct 2010,2006--2010,Microsoft,Steve Ballmer,AVIcode,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+10 Jun 2015,2011--present,Microsoft,Satya Nadella,BlueStripe,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+30 Apr 2010,2006--2010,Google,Eric Schmidt,BumpTop,Dev Tools,30,Less than $100 million,2Cost,8dev tools,$30.0m
+21 Feb 2014,2011--present,Apple,Tim Cook,Burstly,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+20 Feb 2012,2011--present,Facebook,Mark Zuckerberg,Caffeinatedmind,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+15 Aug 2010,2006--2010,Facebook,Mark Zuckerberg,Chai Labs,Dev Tools,10,Less than $100 million,2Cost,8dev tools,$10.0m
+14 Jul 2016,2011--present,Amazon,Jeff Bezos,Cloud9 IDE,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+30 Apr 2015,2011--present,Amazon,Jeff Bezos,Clusterk,Dev Tools,35,Less than $100 million,2Cost,8dev tools,$35.0m
+12 Mar 1996,1996-2000,Microsoft,Bill Gates,Colusa,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+13 Jun 1997,1996-2000,Microsoft,Bill Gates,Cooper & Peters,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+3 Jan 1989,1985-1990,Apple,John Sculley,Coral Software,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+26 Mar 2007,2006--2010,Microsoft,Steve Ballmer,devBiz,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+23 Jul 2014,2011--present,Google,Larry Page,drawElements,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+30 Jul 1987,1985-1990,Microsoft,Bill Gates,Forethought,Dev Tools,14,Less than $100 million,2Cost,8dev tools,$14.0m
+12 Oct 2013,2011--present,Microsoft,Steve Ballmer,HLW,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+10 May 2004,2001--2005,Google,Eric Schmidt,Ignite Logic,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+3 Jun 2013,2011--present,Microsoft,Steve Ballmer,InRelease,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+4 Aug 2010,2006--2010,Google,Eric Schmidt,Instantiations,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+28 Jun 1999,1996-2000,Microsoft,Bill Gates,Intrinsa,Dev Tools,58.9,Less than $100 million,2Cost,8dev tools,$58.9m
+31 Oct 2006,2006--2010,Google,Eric Schmidt,JotSpot,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+3 Feb 1997,1996-2000,Microsoft,Bill Gates,NetCarta,Dev Tools,20,Less than $100 million,2Cost,8dev tools,$20.0m
+15 Nov 1994,1991--1995,Microsoft,Bill Gates,One Tree Software,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+10 Dec 2009,2006--2010,Microsoft,Steve Ballmer,Opalis,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+19 Jul 2007,2006--2010,Facebook,Mark Zuckerberg,Parakey,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+27 Sep 2012,2011--present,Apple,Tim Cook,Particle,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+27 Dec 2005,2001--2005,Google,Eric Schmidt,Phatbits,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+20 Jun 2002,2001--2005,Apple,Steve Jobs,Propel,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+2 Aug 2011,2011--present,Facebook,Mark Zuckerberg,Push Pop Press,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+25 Sep 2015,2011--present,Amazon,Jeff Bezos,Safaba,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+9 Jun 2011,2011--present,Facebook,Mark Zuckerberg,Sofa,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+17 Jul 2006,2006--2010,Microsoft,Steve Ballmer,Softricity,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+19 Sep 1999,1996-2000,Microsoft,Bill Gates,Softway,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+8 Nov 2011,2011--present,Facebook,Mark Zuckerberg,Strobe,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+2 Jul 2014,2011--present,Microsoft,Satya Nadella,SyntaxTree,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+16 Jan 1996,1996-2000,Microsoft,Bill Gates,Vermeer,Dev Tools,1,Undisclosed,1Cost,8dev tools,Undisclosed
+3 Dec 2010,2006--2010,Google,Eric Schmidt,Widevine,Dev Tools,160,$100 - $499 million,3Cost,8dev tools,$160.0m
+1 Aug 2008,2006--2010,Amazon,Jeff Bezos,AbeBooks,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+11 Jun 1999,1996-2000,Amazon,Jeff Bezos,Accept.com,E-Commerce,102,$100 - $499 million,3Cost,4e-commerce,$102.0m
+7 May 2014,2011--present,Google,Larry Page,Appetas,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+31 Jan 2008,2006--2010,Amazon,Jeff Bezos,Audible.com,E-Commerce,300,$100 - $499 million,3Cost,4e-commerce,$300.0m
+4 Jun 2012,2011--present,Amazon,Jeff Bezos,Avalon Books,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+7 Mar 2011,2011--present,Google,Larry Page,BeatThatQuote.com,E-Commerce,65,Less than $100 million,2Cost,4e-commerce,$65.0m
+28 Apr 1998,1996-2000,Amazon,Jeff Bezos,Bookpages,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+17 Dec 2008,2006--2010,Amazon,Jeff Bezos,Box Office Mojo,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+23 May 2007,2006--2010,Amazon,Jeff Bezos,Brilliance Audio,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+30 Nov 2012,2011--present,Google,Larry Page,BufferBox,E-Commerce,17,Less than $100 million,2Cost,4e-commerce,$17.0m
+4 Oct 2010,2006--2010,Amazon,Jeff Bezos,BuyVIP,E-Commerce,96.5,Less than $100 million,2Cost,4e-commerce,$96.5m
+1 Jan 2003,2001--2005,Amazon,Jeff Bezos,CDNow,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+6 Feb 2013,2011--present,Google,Larry Page,Channel Intelligence,E-Commerce,125,$100 - $499 million,3Cost,4e-commerce,$125.0m
+11 Mar 2002,2001--2005,Microsoft,Steve Ballmer,Classic Custom Vacations,E-Commerce,78,Less than $100 million,2Cost,4e-commerce,$78.0m
+4 Mar 1999,1996-2000,Microsoft,Bill Gates,CompareNet,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+5 Aug 2007,2006--2010,Amazon,Jeff Bezos,CustomFlix,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+19 Sep 2011,2011--present,Google,Larry Page,DailyDeal,E-Commerce,114,$100 - $499 million,3Cost,4e-commerce,$114.0m
+3 Mar 2003,2001--2005,Microsoft,Steve Ballmer,DCG,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+1 Aug 2011,2011--present,Google,Larry Page,Dealmap,E-Commerce,30,Less than $100 million,2Cost,4e-commerce,$30.0m
+4 Dec 2001,2001--2005,Amazon,Jeff Bezos,Egghead,E-Commerce,6,Less than $100 million,2Cost,4e-commerce,$6.0m
+11 Jun 1996,1996-2000,Microsoft,Bill Gates,eShop,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+26 Apr 1999,1996-2000,Amazon,Jeff Bezos,Exchange.com,E-Commerce,645,$500 - $999 million,4Cost,4e-commerce,$645.0m
+25 Jul 2008,2006--2010,Amazon,Jeff Bezos,Fabric.com,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+14 Apr 2008,2006--2010,Microsoft,Steve Ballmer,Farecast,E-Commerce,115,$100 - $499 million,3Cost,4e-commerce,$115.0m
+13 Aug 2012,2011--present,Google,Larry Page,Frommer's,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+28 Sep 2008,2006--2010,Microsoft,Steve Ballmer,Greenfield Online,E-Commerce,486,$100 - $499 million,3Cost,4e-commerce,$486.0m
+28 Nov 2012,2011--present,Google,Larry Page,Incentive Targeting,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+2 May 2001,2001--2005,Microsoft,Steve Ballmer,Intellisol,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+1 Jul 2010,2006--2010,Google,Eric Schmidt,ITA Software,E-Commerce,676,$500 - $999 million,4Cost,4e-commerce,$676.0m
+2 Oct 2007,2006--2010,Microsoft,Steve Ballmer,Jellyfish.com,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+19 Aug 2004,2001--2005,Amazon,Jeff Bezos,Joyo.com,E-Commerce,75,Less than $100 million,2Cost,4e-commerce,$75.0m
+1 Jun 2012,2011--present,Google,Larry Page,KikScore,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+15 Aug 2010,2006--2010,Google,Eric Schmidt,Like.com,E-Commerce,100,$100 - $499 million,3Cost,4e-commerce,$100.0m
+31 May 2001,2001--2005,Microsoft,Steve Ballmer,NCompass Labs,E-Commerce,36,Less than $100 million,2Cost,4e-commerce,$36.0m
+8 Jul 2010,2006--2010,Facebook,Mark Zuckerberg,Nextstop,E-Commerce,2.5,Less than $100 million,2Cost,4e-commerce,$2.5m
+21 Sep 2015,2011--present,Google,Sundar Pichai,Oyster,E-Commerce,30,Less than $100 million,2Cost,4e-commerce,$30.0m
+7 Jan 2014,2011--present,Microsoft,Steve Ballmer,Parature,E-Commerce,100,$100 - $499 million,3Cost,4e-commerce,$100.0m
+8 Jul 2011,2011--present,Google,Larry Page,Punchd,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+11 Aug 2010,2006--2010,Amazon,Jeff Bezos,Quidsi,E-Commerce,545,$500 - $999 million,4Cost,4e-commerce,$545.0m
+2 May 2014,2011--present,Google,Larry Page,Rangespan,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+21 May 2010,2006--2010,Google,Eric Schmidt,Ruba,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+22 May 2002,2001--2005,Microsoft,Steve Ballmer,Sales Management Systems,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+10 Apr 2015,2011--present,Amazon,Jeff Bezos,Shoefitr,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+1 Mar 2013,2011--present,Amazon,Jeff Bezos,Shopbob,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+23 May 2011,2011--present,Google,Larry Page,Sparkbuy,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+13 Apr 2012,2011--present,Facebook,Mark Zuckerberg,Tagtile,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+2 Feb 2012,2011--present,Amazon,Jeff Bezos,Teachstreet,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+28 Apr 1998,1996-2000,Amazon,Jeff Bezos,Telebook,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+2 Oct 2015,2011--present,Microsoft,Satya Nadella,Telekinesys Research,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+5 Jul 2011,2011--present,Amazon,Jeff Bezos,The Book Depository,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+14 Mar 2015,2011--present,Facebook,Mark Zuckerberg,TheFind,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+17 Mar 2000,1996-2000,Microsoft,Steve Ballmer,Travelscape,E-Commerce,89.75,Less than $100 million,2Cost,4e-commerce,$89.8m
+2 Apr 2012,2011--present,Google,Larry Page,TxVia,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+17 Mar 2001,2001--2005,Microsoft,Steve Ballmer,Vacationspot,E-Commerce,70.85,Less than $100 million,2Cost,4e-commerce,$70.9m
+30 Jun 2010,2006--2010,Amazon,Jeff Bezos,Woot,E-Commerce,110,$100 - $499 million,3Cost,4e-commerce,$110.0m
+8 Sep 2011,2011--present,Google,Larry Page,Zagat,E-Commerce,151,$100 - $499 million,3Cost,4e-commerce,$151.0m
+22 Jul 2009,2006--2010,Amazon,Jeff Bezos,Zappos,E-Commerce,928,$500 - $999 million,4Cost,4e-commerce,$928.0m
+7 Sep 2011,2011--present,Google,Larry Page,Zave Networks,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+7 May 2009,2006--2010,Microsoft,Steve Ballmer,BigPark,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+12 Dec 1995,1991--1995,Microsoft,Bill Gates,Bruce Artwick Organization,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+19 Jun 2000,1996-2000,Microsoft,Steve Ballmer,Bungie,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+16 Aug 2016,2011--present,Amazon,Jeff Bezos,Curse,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+6 Feb 2014,2011--present,Amazon,Jeff Bezos,Double Helix Games,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+17 Jun 1996,1996-2000,Microsoft,Bill Gates,Electric Gravity,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+16 Apr 1996,1996-2000,Microsoft,Bill Gates,Exos,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+11 Jan 1999,1996-2000,Microsoft,Bill Gates,FASA Interactive,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+12 Mar 2014,2011--present,Google,Larry Page,GreenThrottle,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+29 Aug 2003,2001--2005,Microsoft,Steve Ballmer,High Heat Baseball Game,Gaming,0.45,Less than $100 million,2Cost,12gaming,$0.5m
+3 Aug 2015,2011--present,Microsoft,Satya Nadella,Incent Games,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+6 Apr 2006,2006--2010,Microsoft,Steve Ballmer,Lionhead Studios,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+4 May 2006,2006--2010,Microsoft,Steve Ballmer,Massive Incorporated,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+6 Nov 2014,2011--present,Microsoft,Satya Nadella,Mojang,Gaming,2500,$1 - 10 billion,5Cost,12gaming,"$2,500.0m"
+12 Jul 2000,1996-2000,Microsoft,Steve Ballmer,NetGames,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+3 Dec 2010,2006--2010,Google,Eric Schmidt,Phonetic Arts,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+24 Sep 2002,2001--2005,Microsoft,Steve Ballmer,Rare,Gaming,375,$100 - $499 million,3Cost,12gaming,$375.0m
+21 Oct 2008,2006--2010,Amazon,Jeff Bezos,Reflexive Entertainment,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+23 Apr 2013,2011--present,Facebook,Mark Zuckerberg,Spaceport,Gaming,1,Undisclosed,1Cost,12gaming,Undisclosed
+25 Aug 2014,2011--present,Amazon,Jeff Bezos,Twitch,Gaming,970,$500 - $999 million,4Cost,12gaming,$970.0m
+1 Mar 2009,2006--2010,Microsoft,Steve Ballmer,3DV,Hardware,35,Less than $100 million,2Cost,14hardware,$35.0m
+20 Apr 2010,2006--2010,Google,Eric Schmidt,Agnilux,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+20 Dec 2011,2011--present,Apple,Tim Cook,Anobit,Hardware,390,$100 - $499 million,3Cost,14hardware,$390.0m
+27 Mar 2014,2011--present,Facebook,Mark Zuckerberg,Ascenta,Hardware,20,Less than $100 million,2Cost,14hardware,$20.0m
+1 Aug 2014,2011--present,Apple,Tim Cook,Beats Electronics,Hardware,3000,$1 - 10 billion,5Cost,14hardware,"$3,000.0m"
+29 Oct 2010,2006--2010,Microsoft,Steve Ballmer,Canesta,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+20 Jun 2014,2011--present,Google,Larry Page,Dropcam,Hardware,555,$500 - $999 million,4Cost,14hardware,$555.0m
+23 Aug 2014,2011--present,Google,Larry Page,Gecko Design,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+27 Apr 2010,2006--2010,Apple,Steve Jobs,Intrinsity,Hardware,121,$100 - $499 million,3Cost,14hardware,$121.0m
+10 Sep 2014,2011--present,Google,Larry Page,Lift Labs,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+7 Feb 1997,1996-2000,Apple,Steve Jobs,NeXT,Hardware,404,$100 - $499 million,3Cost,14hardware,$404.0m
+24 Apr 2008,2006--2010,Apple,Steve Jobs,P.A. Semi,Hardware,278,$100 - $499 million,3Cost,14hardware,$278.0m
+1 Aug 2013,2011--present,Apple,Tim Cook,Passif Semiconductor,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+2 Sep 1997,1996-2000,Apple,Steve Jobs,Power Computing,Hardware,110,$100 - $499 million,3Cost,14hardware,$110.0m
+24 Nov 2013,2011--present,Apple,Tim Cook,PrimeSense,Hardware,345,$100 - $499 million,3Cost,14hardware,$345.0m
+1 Jan 2010,2006--2010,Apple,Steve Jobs,RareLight,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+3 Nov 1999,1996-2000,Apple,Steve Jobs,Raycer Graphics,Hardware,15,Less than $100 million,2Cost,14hardware,$15.0m
+23 Feb 1995,1991--1995,Microsoft,Bill Gates,RenderMorphics,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+4 Apr 2002,2001--2005,Apple,Steve Jobs,Zayante,Hardware,13,Less than $100 million,2Cost,14hardware,$13.0m
+23 Dec 2013,2011--present,Apple,Tim Cook,BroadMap,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+1 Aug 2011,2011--present,Apple,Tim Cook,C3 Technologies,Mapping,267,$100 - $499 million,3Cost,13mapping,$267.0m
+1 Apr 2015,2011--present,Apple,Tim Cook,Coherent Navigation,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+22 Aug 2013,2011--present,Apple,Tim Cook,Embark,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+18 Dec 2006,2006--2010,Google,Eric Schmidt,Endoxon,Mapping,28,Less than $100 million,2Cost,13mapping,$28.0m
+2 Dec 2011,2011--present,Facebook,Mark Zuckerberg,Gowalla,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+19 Jul 2013,2011--present,Apple,Tim Cook,HopStop.com,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+27 Oct 2004,2001--2005,Google,Eric Schmidt,Keyhole,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+19 Jul 2013,2011--present,Apple,Tim Cook,Locationary,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+1 Sep 2015,2011--present,Apple,Tim Cook,Mapsense,Mapping,30,Less than $100 million,2Cost,13mapping,$30.0m
+12 Dec 2007,2006--2010,Microsoft,Steve Ballmer,Multimap.com,Mapping,50,Less than $100 million,2Cost,13mapping,$50.0m
+1 Nov 1994,1991--1995,Microsoft,Bill Gates,NextBase,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+7 Jul 2009,2006--2010,Apple,Steve Jobs,Placebase,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+14 Jul 2010,2006--2010,Apple,Steve Jobs,Poly9,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+4 May 2006,2006--2010,Microsoft,Steve Ballmer,Vexcel,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+13 Dec 2002,2001--2005,Microsoft,Steve Ballmer,Vicinity,Mapping,95.849,Less than $100 million,2Cost,13mapping,$95.8m
+11 Jun 2013,2011--present,Google,Larry Page,Waze,Mapping,966,$500 - $999 million,4Cost,13mapping,$966.0m
+1 Oct 2004,2001--2005,Google,Eric Schmidt,Where2,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+23 Mar 2013,2011--present,Apple,Tim Cook,WiFiSlam,Mapping,20,Less than $100 million,2Cost,13mapping,$20.0m
+8 Sep 2010,2006--2010,Amazon,Jeff Bezos,Amie Street,Media,1,Undisclosed,1Cost,7media,Undisclosed
+8 Jul 2016,2011--present,Google,Sundar Pichai,Anvato,Media,1,Undisclosed,1Cost,7media,Undisclosed
+8 Aug 2016,2011--present,Microsoft,Satya Nadella,Beam Interactive,Media,1,Undisclosed,1Cost,7media,Undisclosed
+26 Jul 2016,2011--present,Apple,Tim Cook,Carpool Karaoke,Media,1,Undisclosed,1Cost,7media,Undisclosed
+14 May 2007,2006--2010,Amazon,Jeff Bezos,Digital Photography Review,Media,1,Undisclosed,1Cost,7media,Undisclosed
+2 Apr 2010,2006--2010,Google,Eric Schmidt,Episodic,Media,1,Undisclosed,1Cost,7media,Undisclosed
+16 Mar 2011,2011--present,Google,Larry Page,Green Parrot Pictures,Media,1,Undisclosed,1Cost,7media,Undisclosed
+9 Feb 2016,2011--present,Microsoft,Satya Nadella,Groove,Media,1,Undisclosed,1Cost,7media,Undisclosed
+20 Jul 2007,2006--2010,Google,Eric Schmidt,ImageAmerica,Media,1,Undisclosed,1Cost,7media,Undisclosed
+27 Apr 1998,1996-2000,Amazon,Jeff Bezos,IMDB,Media,55,Less than $100 million,2Cost,7media,$55.0m
+6 Dec 2009,2006--2010,Apple,Steve Jobs,Lala.com,Media,17,Less than $100 million,2Cost,7media,$17.0m
+20 Jan 2011,2011--present,Amazon,Jeff Bezos,LoveFilm,Media,317,$100 - $499 million,3Cost,7media,$317.0m
+13 Aug 2013,2011--present,Apple,Tim Cook,Matcha,Media,1,Undisclosed,1Cost,7media,Undisclosed
+2 Jul 2012,2011--present,Apple,Tim Cook,MOG,Media,14,Less than $100 million,2Cost,7media,$14.0m
+13 Sep 2000,1996-2000,Microsoft,Steve Ballmer,MongoMusic,Media,65,Less than $100 million,2Cost,7media,$65.0m
+15 Nov 2007,2006--2010,Microsoft,Steve Ballmer,Musiwave,Media,1,Undisclosed,1Cost,7media,Undisclosed
+7 Mar 2011,2011--present,Google,Larry Page,Next New Networks,Media,1,Undisclosed,1Cost,7media,Undisclosed
+17 Sep 2012,2011--present,Google,Larry Page,Nik,Media,1,Undisclosed,1Cost,7media,Undisclosed
+30 Jul 2008,2006--2010,Google,Eric Schmidt,Omnisio,Media,15,Less than $100 million,2Cost,7media,$15.0m
+27 Sep 2000,1996-2000,Microsoft,Steve Ballmer,Pacific Microsonics,Media,1,Undisclosed,1Cost,7media,Undisclosed
+2 Feb 2013,2011--present,Microsoft,Steve Ballmer,Pando Networks,Media,1,Undisclosed,1Cost,7media,Undisclosed
+1 Jun 2007,2006--2010,Google,Eric Schmidt,Panoramio,Media,1,Undisclosed,1Cost,7media,Undisclosed
+29 Feb 2000,1996-2000,Microsoft,Steve Ballmer,Peach Networks,Media,1,Undisclosed,1Cost,7media,Undisclosed
+30 Apr 2003,2001--2005,Microsoft,Steve Ballmer,PlaceWare,Media,200,$100 - $499 million,3Cost,7media,$200.0m
+4 Dec 2006,2006--2010,Apple,Steve Jobs,Proximity,Media,1,Undisclosed,1Cost,7media,Undisclosed
+28 Jul 2011,2011--present,Amazon,Jeff Bezos,Pushbutton,Media,1,Undisclosed,1Cost,7media,Undisclosed
+13 Sep 2010,2006--2010,Google,Eric Schmidt,Quiksee,Media,10,Less than $100 million,2Cost,7media,$10.0m
+2 Jun 2012,2011--present,Apple,Tim Cook,Redmatica,Media,1,Undisclosed,1Cost,7media,Undisclosed
+9 Dec 2011,2011--present,Google,Larry Page,RightsFlow,Media,1,Undisclosed,1Cost,7media,Undisclosed
+18 Jun 2011,2011--present,Google,Larry Page,SageTV,Media,1,Undisclosed,1Cost,7media,Undisclosed
+20 May 2010,2006--2010,Google,Eric Schmidt,Simplify Media,Media,1,Undisclosed,1Cost,7media,Undisclosed
+10 Jun 2014,2011--present,Google,Larry Page,Skybox Imaging,Media,500,$500 - $999 million,4Cost,7media,$500.0m
+1 Jul 2014,2011--present,Google,Larry Page,Songza,Media,1,Undisclosed,1Cost,7media,Undisclosed
+29 Jun 2014,2011--present,Apple,Tim Cook,Swell,Media,30,Less than $100 million,2Cost,7media,$30.0m
+2 May 2016,2011--present,Google,Sundar Pichai,Synergyse,Media,1,Undisclosed,1Cost,7media,Undisclosed
+5 Aug 1997,1996-2000,Microsoft,Bill Gates,VXtreme,Media,1,Undisclosed,1Cost,7media,Undisclosed
+30 Apr 1997,1996-2000,Microsoft,Bill Gates,WebTV Networks,Media,425,$100 - $499 million,3Cost,7media,$425.0m
+17 Jan 2008,2006--2010,Amazon,Jeff Bezos,Withoutabox,Media,1,Undisclosed,1Cost,7media,Undisclosed
+9 Oct 2006,2006--2010,Google,Eric Schmidt,YouTube,Media,1650,$1 - 10 billion,5Cost,7media,"$1,650.0m"
+17 Nov 2005,2001--2005,Microsoft,Steve Ballmer,5th Finger,Mobile,3.153,Less than $100 million,2Cost,3mobile,$3.2m
+2 Jun 2015,2011--present,Microsoft,Satya Nadella,6Wunderkinder,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+2 Dec 2014,2011--present,Microsoft,Satya Nadella,Acompli,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+20 Jul 2012,2011--present,Facebook,Mark Zuckerberg,Acrylic Software,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+18 Jun 2015,2011--present,Google,Larry Page,Agawi,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+31 Dec 2005,2001--2005,Google,Eric Schmidt,allPAY,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+17 Aug 2005,2001--2005,Google,Eric Schmidt,Android,Mobile,50,Less than $100 million,2Cost,3mobile,$50.0m
+22 Jan 2015,2011--present,Amazon,Jeff Bezos,Annapurna Labs,Mobile,370,$100 - $499 million,3Cost,3mobile,$370.0m
+3 Jan 2015,2011--present,Google,Larry Page,Apportable,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+4 Jan 2014,2011--present,Google,Larry Page,Bitspin,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Oct 2010,2006--2010,Google,Eric Schmidt,BlindType,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+31 Dec 2005,2001--2005,Google,Eric Schmidt,bruNET,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+16 Sep 2013,2011--present,Google,Larry Page,Bump,Mobile,30,Less than $100 million,2Cost,3mobile,$30.0m
+1 May 2014,2011--present,Microsoft,Satya Nadella,Capptain,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+13 Dec 2011,2011--present,Google,Larry Page,Clever Sense,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+15 Apr 2008,2006--2010,Microsoft,Steve Ballmer,Danger,Mobile,500,$500 - $999 million,4Cost,3mobile,$500.0m
+14 Apr 2015,2011--present,Microsoft,Satya Nadella,Datazen,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+6 Aug 2014,2011--present,Google,Larry Page,Directr,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+19 May 2014,2011--present,Google,Larry Page,Divide,Mobile,120,$100 - $499 million,3Cost,3mobile,$120.0m
+13 Oct 2015,2011--present,Google,Sundar Pichai,Divshot,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+11 Sep 2015,2011--present,Microsoft,Satya Nadella,Double Labs,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Jun 2014,2011--present,Apple,Tim Cook,Dryft,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+25 Jan 2011,2011--present,Google,Larry Page,fflick,Mobile,10,Less than $100 million,2Cost,3mobile,$10.0m
+22 Oct 2013,2011--present,Google,Larry Page,FlexyCore,Mobile,23,Less than $100 million,2Cost,3mobile,$23.0m
+16 Dec 2013,2011--present,Amazon,Jeff Bezos,GoPago,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+11 Dec 2014,2011--present,Microsoft,Satya Nadella,HockeyApp,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Aug 2014,2011--present,Microsoft,Satya Nadella,Inception Mobile,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+27 Apr 2010,2006--2010,Google,Eric Schmidt,LabPixies,Mobile,25,Less than $100 million,2Cost,3mobile,$25.0m
+27 Jul 2016,2011--present,Google,Sundar Pichai,LaunchKit,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+4 Feb 2015,2011--present,Google,Larry Page,Launchpad Toys,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+27 Apr 2009,2006--2010,Amazon,Jeff Bezos,Lexcycle,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+14 Apr 2015,2011--present,Apple,Tim Cook,LinX,Mobile,20,Less than $100 million,2Cost,3mobile,$20.0m
+13 May 2013,2011--present,Amazon,Jeff Bezos,Liquavista,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+2 May 2014,2011--present,Apple,Tim Cook,LuxVue Technology,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+26 Jun 2008,2006--2010,Microsoft,Steve Ballmer,Mobicomp,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+5 Nov 2015,2011--present,Microsoft,Satya Nadella,Mobile Data Labs,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+31 May 2005,2001--2005,Amazon,Jeff Bezos,Mobipocket,Mobile,2.5,Less than $100 million,2Cost,3mobile,$2.5m
+20 May 2011,2011--present,Google,Larry Page,Modu,Mobile,4.9,Less than $100 million,2Cost,3mobile,$4.9m
+13 Feb 2006,2006--2010,Microsoft,Steve Ballmer,MotionBridge,Mobile,17.858,Less than $100 million,2Cost,3mobile,$17.9m
+15 Aug 2011,2011--present,Google,Larry Page,Motorola Mobility,Mobile,12500,$11- 20 billion,6Cost,3mobile,"$12,500.0m"
+12 Feb 2015,2011--present,Microsoft,Satya Nadella,N-trig,Mobile,200,$100 - $499 million,3Cost,3mobile,$200.0m
+2 Sep 2013,2011--present,Microsoft,Steve Ballmer,Nokia Mobile,Mobile,7200,$1 - 10 billion,5Cost,3mobile,"$7,200.0m"
+15 Jun 1999,1996-2000,Microsoft,Bill Gates,Omnibrowse,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Mar 2013,2011--present,Facebook,Mark Zuckerberg,osmeta,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+25 Apr 2013,2011--present,Facebook,Mark Zuckerberg,Parse,Mobile,85,Less than $100 million,2Cost,3mobile,$85.0m
+9 Jul 2012,2011--present,Microsoft,Steve Ballmer,Perceptive Pixel,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+21 Jul 2015,2011--present,Google,Larry Page,Pixate,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+24 Apr 2014,2011--present,Facebook,Mark Zuckerberg,ProtoGeo Oy,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+28 May 2015,2011--present,Google,Larry Page,Pulse.io,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+19 Nov 2014,2011--present,Google,Larry Page,RelativeWave,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Jul 2005,2001--2005,Google,Eric Schmidt,Reqwireless,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+3 May 2007,2006--2010,Microsoft,Steve Ballmer,ScreenTonic,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Jul 1999,1996-2000,Microsoft,Bill Gates,Sendit,Mobile,125.4,$100 - $499 million,3Cost,3mobile,$125.4m
+20 Mar 2011,2011--present,Facebook,Mark Zuckerberg,Snaptu,Mobile,70,Less than $100 million,2Cost,3mobile,$70.0m
+23 Feb 2015,2011--present,Google,Larry Page,Softcard,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+20 Jul 2012,2011--present,Google,Larry Page,Sparrow,Mobile,25,Less than $100 million,2Cost,3mobile,$25.0m
+14 Jul 2012,2011--present,Facebook,Mark Zuckerberg,Spool,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+21 Jul 1999,1996-2000,Microsoft,Bill Gates,STNC,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+26 Apr 2011,2011--present,Google,Larry Page,TalkBin,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+21 Dec 2015,2011--present,Microsoft,Satya Nadella,Talko,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+3 May 2007,2006--2010,Microsoft,Steve Ballmer,Tellme Networks,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+4 May 2015,2011--present,Google,Larry Page,Timeful,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+3 Feb 2010,2006--2010,Amazon,Jeff Bezos,Touchco,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+3 Feb 2016,2011--present,Microsoft,Satya Nadella,TouchType,Mobile,250,$100 - $499 million,3Cost,3mobile,$250.0m
+26 Aug 2014,2011--present,Facebook,Mark Zuckerberg,WaveGroup Sound,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Jun 2012,2011--present,Google,Larry Page,WIMM Labs,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+24 Feb 2016,2011--present,Microsoft,Satya Nadella,Xamarin,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+1 Aug 2010,2006--2010,Google,Eric Schmidt,Zetawire,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed
+12 Mar 2015,2011--present,Amazon,Jeff Bezos,2lemetry,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+19 Jun 2014,2011--present,Google,Larry Page,Alpental,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+10 Apr 2015,2011--present,Amazon,Jeff Bezos,Amiato,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+26 Apr 2006,2006--2010,Microsoft,Steve Ballmer,AssetMetrix,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+11 Nov 2015,2011--present,Google,Sundar Pichai,bebop,Networking,380,$100 - $499 million,3Cost,9networking,$380.0m
+25 Feb 2003,2001--2005,Microsoft,Steve Ballmer,Connectix,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+31 Mar 1991,1991--1995,Microsoft,Bill Gates,Consumers Software,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+16 Sep 2008,2006--2010,Microsoft,Steve Ballmer,DATAllegro,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+12 Feb 2001,2001--2005,Google,Eric Schmidt,Deja,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+2 Oct 2006,2006--2010,Microsoft,Steve Ballmer,DesktopStandard,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+29 Oct 2010,2006--2010,Facebook,Mark Zuckerberg,Drop.io,Networking,10,Less than $100 million,2Cost,9networking,$10.0m
+2 Mar 2005,2001--2005,Microsoft,Steve Ballmer,en'tegrate,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+4 Jun 2007,2006--2010,Microsoft,Steve Ballmer,Engyro,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+16 Jul 2015,2011--present,Microsoft,Satya Nadella,FieldOne Systems,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+27 May 2003,2001--2005,Microsoft,Steve Ballmer,G.A. Sullivan,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+5 Apr 2001,2001--2005,Microsoft,Steve Ballmer,Great Plains Software,Networking,939.8,$500 - $999 million,4Cost,9networking,$939.8m
+1 May 2014,2011--present,Microsoft,Satya Nadella,GreenButton,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+26 Sep 2006,2006--2010,Microsoft,Steve Ballmer,Gteko,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+22 Sep 2009,2006--2010,Microsoft,Steve Ballmer,Interactive Supercomputing,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+23 May 2013,2011--present,Google,Larry Page,Makani Power,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+28 Apr 1998,1996-2000,Microsoft,Bill Gates,MESA Group,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+4 Mar 2013,2011--present,Microsoft,Steve Ballmer,MetricsHub,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+6 Nov 1995,1991--1995,Microsoft,Bill Gates,Netwise,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+2 Mar 1988,1985-1990,Apple,John Sculley,Network Innovations,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+10 Jul 1995,1991--1995,Microsoft,Bill Gates,Network Managers,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+11 Feb 2016,2011--present,Amazon,Jeff Bezos,NICE,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+8 Aug 2016,2011--present,Google,Sundar Pichai,Orbitera,Networking,100,$100 - $499 million,3Cost,9networking,$100.0m
+7 Jun 1988,1985-1990,Apple,John Sculley,Orion Network Systems,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+5 Jun 2007,2006--2010,Google,Eric Schmidt,PeakStream,Networking,20.3,Less than $100 million,2Cost,9networking,$20.3m
+4 Jun 2008,2006--2010,Microsoft,Steve Ballmer,Quadreon,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+29 Jun 2007,2006--2010,Microsoft,Steve Ballmer,Savvis Inc-Data Centers,Networking,200,$100 - $499 million,3Cost,9networking,$200.0m
+3 May 2016,2011--present,Microsoft,Satya Nadella,Solair,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+16 Oct 2012,2011--present,Microsoft,Steve Ballmer,StorSimple,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+15 Mar 2013,2011--present,Google,Larry Page,Talaria,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+14 Apr 2014,2011--present,Google,Larry Page,Titan Aerospace,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+3 Nov 2014,2011--present,Apple,Tim Cook,Union Bay Networks,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+25 Aug 1998,1996-2000,Microsoft,Bill Gates,Valence Research,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+10 Sep 2002,2001--2005,Microsoft,Steve Ballmer,XDegrees,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+7 Jul 1999,1996-2000,Microsoft,Bill Gates,Zoomit,Networking,1,Undisclosed,1Cost,9networking,Undisclosed
+11 May 2001,2001--2005,Apple,Steve Jobs,bluebuzz,Other,1,Undisclosed,1Cost,16other,Undisclosed
+1 Sep 2006,2006--2010,Google,Eric Schmidt,Cold North Wind,Other,1,Undisclosed,1Cost,16other,Undisclosed
+10 Apr 2014,2011--present,Amazon,Jeff Bezos,Comixology,Other,1,Undisclosed,1Cost,16other,Undisclosed
+7 Jul 2005,2001--2005,Google,Eric Schmidt,Current Comms Group,Other,100,$100 - $499 million,3Cost,16other,$100.0m
+23 Aug 2005,2001--2005,Facebook,Mark Zuckerberg,facebook.com domain name,Other,0.2,Less than $100 million,2Cost,16other,$0.2m
+15 Nov 2010,2006--2010,Facebook,Mark Zuckerberg,FB.com domain name,Other,8.5,Less than $100 million,2Cost,16other,$8.5m
+1 Nov 2007,2006--2010,Microsoft,Steve Ballmer,HOB Business Solutions,Other,1,Undisclosed,1Cost,16other,Undisclosed
+14 Mar 2013,2011--present,Facebook,Mark Zuckerberg,Hot Studio,Other,1,Undisclosed,1Cost,16other,Undisclosed
+30 Apr 1999,1996-2000,Microsoft,Bill Gates,Jump Networks,Other,1,Undisclosed,1Cost,16other,Undisclosed
+29 Jul 2002,2001--2005,Microsoft,Steve Ballmer,Mobilocity,Other,1,Undisclosed,1Cost,16other,Undisclosed
+23 Sep 2014,2011--present,Apple,Tim Cook,Prss,Other,1,Undisclosed,1Cost,16other,Undisclosed
+8 Apr 2011,2011--present,Google,Larry Page,PushLife,Other,25,Less than $100 million,2Cost,16other,$25.0m
+27 Oct 2014,2011--present,Amazon,Jeff Bezos,Rooftop Media,Other,1,Undisclosed,1Cost,16other,Undisclosed
+1 Oct 2013,2011--present,Amazon,Jeff Bezos,TenMarks Education,Other,1,Undisclosed,1Cost,16other,Undisclosed
+12 Apr 2000,1996-2000,Microsoft,Steve Ballmer,Titus Communications,Other,944.8,$500 - $999 million,4Cost,16other,$944.8m
+22 Jun 2016,2011--present,Google,Sundar Pichai,Webpass,Other,1,Undisclosed,1Cost,16other,Undisclosed
+1 Jul 2001,2001--2005,Microsoft,Steve Ballmer,Yupi,Other,1,Undisclosed,1Cost,16other,Undisclosed
+19 Jul 2005,2001--2005,Google,Eric Schmidt,Akwan,Search,1,Undisclosed,1Cost,17search,Undisclosed
+10 Nov 2011,2011--present,Google,Larry Page,Apture,Search,1,Undisclosed,1Cost,17search,Undisclosed
+23 Feb 2012,2011--present,Apple,Tim Cook,Chomp,Search,50,Less than $100 million,2Cost,17search,$50.0m
+25 Apr 2008,2006--2010,Microsoft,Steve Ballmer,Fast Search & Transfer,Search,1191,$1 - 10 billion,5Cost,17search,"$1,191.0m"
+30 Sep 2003,2001--2005,Google,Eric Schmidt,Kaltix,Search,1,Undisclosed,1Cost,17search,Undisclosed
+16 Jul 2004,2001--2005,Microsoft,Steve Ballmer,Lookout,Search,1,Undisclosed,1Cost,17search,Undisclosed
+9 Mar 2007,2006--2010,Microsoft,Steve Ballmer,Medstory,Search,1,Undisclosed,1Cost,17search,Undisclosed
+16 Jul 2010,2006--2010,Google,Eric Schmidt,Metaweb,Search,1,Undisclosed,1Cost,17search,Undisclosed
+7 Mar 2006,2006--2010,Microsoft,Steve Ballmer,Onfolio,Search,1,Undisclosed,1Cost,17search,Undisclosed
+9 Apr 2006,2006--2010,Google,Eric Schmidt,Orion,Search,1,Undisclosed,1Cost,17search,Undisclosed
+1 Jun 2013,2011--present,Apple,Tim Cook,OttoCat,Search,1,Undisclosed,1Cost,17search,Undisclosed
+20 Sep 2001,2001--2005,Google,Eric Schmidt,Outride,Search,1,Undisclosed,1Cost,17search,Undisclosed
+12 Apr 2010,2006--2010,Google,Eric Schmidt,Plink,Search,1,Undisclosed,1Cost,17search,Undisclosed
+11 Aug 2008,2006--2010,Microsoft,Steve Ballmer,Powerset,Search,100,$100 - $499 million,3Cost,17search,$100.0m
+17 Feb 2010,2006--2010,Google,Eric Schmidt,reMail,Search,1,Undisclosed,1Cost,17search,Undisclosed
+20 Jul 2011,2011--present,Google,Larry Page,Scoopler,Search,1,Undisclosed,1Cost,17search,Undisclosed
+22 Nov 2011,2011--present,Microsoft,Steve Ballmer,Videosurf,Search,100,$100 - $499 million,3Cost,17search,$100.0m
+19 Jul 2015,2011--present,Microsoft,Satya Nadella,Adallom,Security,320,$100 - $499 million,3Cost,10security,$320.0m
+19 Sep 2005,2001--2005,Microsoft,Steve Ballmer,Alacris,Security,1,Undisclosed,1Cost,10security,Undisclosed
+27 Jul 2012,2011--present,Apple,Tim Cook,AuthenTec,Security,356,$100 - $499 million,3Cost,10security,$356.0m
+31 Aug 2005,2001--2005,Microsoft,Steve Ballmer,FrontBridge,Security,1,Undisclosed,1Cost,10security,Undisclosed
+10 Jun 2003,2001--2005,Microsoft,Steve Ballmer,GeCAD,Security,1,Undisclosed,1Cost,10security,Undisclosed
+16 Dec 2004,2001--2005,Microsoft,Steve Ballmer,GIANT Company Software,Security,1,Undisclosed,1Cost,10security,Undisclosed
+11 May 2007,2006--2010,Google,Eric Schmidt,GreenBorder,Security,1,Undisclosed,1Cost,10security,Undisclosed
+15 Jan 2014,2011--present,Google,Larry Page,Impermium,Security,1,Undisclosed,1Cost,10security,Undisclosed
+11 Jul 2014,2011--present,Microsoft,Satya Nadella,InMage,Security,1,Undisclosed,1Cost,10security,Undisclosed
+19 Mar 2008,2006--2010,Microsoft,Steve Ballmer,Komoku,Security,5,Less than $100 million,2Cost,10security,$5.0m
+3 Feb 2016,2011--present,Apple,Tim Cook,LegbaCore,Security,1,Undisclosed,1Cost,10security,Undisclosed
+18 Jul 2013,2011--present,Facebook,Mark Zuckerberg,Monoidics,Security,1,Undisclosed,1Cost,10security,Undisclosed
+7 Jan 2000,1996-2000,Apple,Steve Jobs,NetSelector,Security,1,Undisclosed,1Cost,10security,Undisclosed
+4 Oct 2012,2011--present,Microsoft,Steve Ballmer,PhoneFactor,Security,1,Undisclosed,1Cost,10security,Undisclosed
+9 Jul 2007,2006--2010,Google,Eric Schmidt,Postini,Security,625,$500 - $999 million,4Cost,10security,$625.0m
+7 Aug 2014,2011--present,Facebook,Mark Zuckerberg,PrivateCore,Security,1,Undisclosed,1Cost,10security,Undisclosed
+7 Jun 2011,2011--present,Microsoft,Steve Ballmer,Prodiance,Security,1,Undisclosed,1Cost,10security,Undisclosed
+16 Sep 2009,2006--2010,Google,Eric Schmidt,reCAPTCHA,Security,1,Undisclosed,1Cost,10security,Undisclosed
+9 Nov 2015,2011--present,Microsoft,Satya Nadella,Secure Islands,Security,1,Undisclosed,1Cost,10security,Undisclosed
+10 Dec 2009,2006--2010,Microsoft,Steve Ballmer,Sentillion,Security,1,Undisclosed,1Cost,10security,Undisclosed
+16 Feb 2014,2011--present,Google,Larry Page,SlickLogin,Security,1,Undisclosed,1Cost,10security,Undisclosed
+21 Feb 2014,2011--present,Google,Larry Page,spider.io,Security,1,Undisclosed,1Cost,10security,Undisclosed
+21 Jun 2005,2001--2005,Microsoft,Steve Ballmer,Sybari,Security,1,Undisclosed,1Cost,10security,Undisclosed
+7 Sep 2012,2011--present,Google,Larry Page,VirusTotal.com,Security,1,Undisclosed,1Cost,10security,Undisclosed
+26 Jul 2006,2006--2010,Microsoft,Steve Ballmer,Whale Communications,Security,1,Undisclosed,1Cost,10security,Undisclosed
+18 Jul 2006,2006--2010,Microsoft,Steve Ballmer,Winternals,Security,1,Undisclosed,1Cost,10security,Undisclosed
+1 Mar 2011,2011--present,Google,Larry Page,Zynamics,Security,1,Undisclosed,1Cost,10security,Undisclosed
+12 Feb 2010,2006--2010,Google,Eric Schmidt,Aardvark,Social,50,Less than $100 million,2Cost,1social,$50.0m
+30 Aug 2010,2006--2010,Google,Eric Schmidt,Angstro,Social,1,Undisclosed,1Cost,1social,Undisclosed
+13 Jan 2014,2011--present,Facebook,Mark Zuckerberg,Branch,Social,15,Less than $100 million,2Cost,1social,$15.0m
+12 Nov 2012,2011--present,Apple,Tim Cook,Color Labs,Social,7,Less than $100 million,2Cost,1social,$7.0m
+23 Jun 2008,2006--2010,Facebook,Mark Zuckerberg,ConnectU,Social,31,Less than $100 million,2Cost,1social,$31.0m
+12 May 2005,2001--2005,Google,Eric Schmidt,Dodgeball,Social,1,Undisclosed,1Cost,1social,Undisclosed
+21 Jul 2011,2011--present,Google,Larry Page,Fridge,Social,1,Undisclosed,1Cost,1social,Undisclosed
+10 Oct 2011,2011--present,Facebook,Mark Zuckerberg,Friend.ly,Social,1,Undisclosed,1Cost,1social,Undisclosed
+10 Aug 2009,2006--2010,Facebook,Mark Zuckerberg,FriendFeed,Social,47.5,Less than $100 million,2Cost,1social,$47.5m
+13 May 2010,2006--2010,Facebook,Mark Zuckerberg,Friendster patents,Social,40,Less than $100 million,2Cost,1social,$40.0m
+1 Oct 2003,2001--2005,Google,Eric Schmidt,Genius Labs,Social,1,Undisclosed,1Cost,1social,Undisclosed
+5 May 2012,2011--present,Facebook,Mark Zuckerberg,Glancee,Social,1,Undisclosed,1Cost,1social,Undisclosed
+28 Mar 2013,2011--present,Amazon,Jeff Bezos,Goodreads,Social,1,Undisclosed,1Cost,1social,Undisclosed
+9 Apr 2005,2001--2005,Microsoft,Steve Ballmer,Groove Networks,Social,1,Undisclosed,1Cost,1social,Undisclosed
+20 Aug 2010,2006--2010,Facebook,Mark Zuckerberg,Hot Potato,Social,10,Less than $100 million,2Cost,1social,$10.0m
+9 Apr 2012,2011--present,Facebook,Mark Zuckerberg,Instagram,Social,1000,$1 - 10 billion,5Cost,1social,"$1,000.0m"
+9 Oct 2007,2006--2010,Google,Eric Schmidt,Jaiku,Social,12,Less than $100 million,2Cost,1social,$12.0m
+10 Aug 2010,2006--2010,Google,Eric Schmidt,Jambool,Social,70,Less than $100 million,2Cost,1social,$70.0m
+20 Jul 2011,2011--present,Google,Larry Page,JustSpotted,Social,1,Undisclosed,1Cost,1social,Undisclosed
+21 May 2012,2011--present,Facebook,Mark Zuckerberg,Karma,Social,1,Undisclosed,1Cost,1social,Undisclosed
+14 Nov 2011,2011--present,Google,Larry Page,Katango,Social,1,Undisclosed,1Cost,1social,Undisclosed
+12 Jul 2016,2011--present,Google,Sundar Pichai,Kifi,Social,1,Undisclosed,1Cost,1social,Undisclosed
+15 May 2012,2011--present,Facebook,Mark Zuckerberg,Lightbox.com,Social,1,Undisclosed,1Cost,1social,Undisclosed
+14 Jun 2016,2011--present,Microsoft,Satya Nadella,LinkedIn,Social,26000,Over $20 billon,7Cost,1social,"$26,000.0m"
+16 Mar 2012,2011--present,Google,Larry Page,Milk,Social,1,Undisclosed,1Cost,1social,Undisclosed
+11 Sep 2014,2011--present,Google,Larry Page,Polar,Social,1,Undisclosed,1Cost,1social,Undisclosed
+1 Feb 2003,2001--2005,Google,Eric Schmidt,Pyra Labs,Social,1,Undisclosed,1Cost,1social,Undisclosed
+26 May 2010,2006--2010,Facebook,Mark Zuckerberg,ShareGrove,Social,1,Undisclosed,1Cost,1social,Undisclosed
+25 Aug 2008,2006--2010,Amazon,Jeff Bezos,Shelfari,Social,1,Undisclosed,1Cost,1social,Undisclosed
+5 Aug 2010,2006--2010,Google,Eric Schmidt,Slide,Social,228,$100 - $499 million,3Cost,1social,$228.0m
+30 Aug 2010,2006--2010,Google,Eric Schmidt,SocialDeck,Social,1,Undisclosed,1Cost,1social,Undisclosed
+6 Jun 2014,2011--present,Apple,Tim Cook,Spotsetter,Social,1,Undisclosed,1Cost,1social,Undisclosed
+20 Aug 2007,2006--2010,Google,Eric Schmidt,Tianya.cn,Social,1,Undisclosed,1Cost,1social,Undisclosed
+12 Sep 2008,2006--2010,Google,Eric Schmidt,TNC,Social,1,Undisclosed,1Cost,1social,Undisclosed
+25 Jun 2012,2011--present,Microsoft,Steve Ballmer,Yammer,Social,1200,$1 - 10 billion,5Cost,1social,"$1,200.0m"
+27 Sep 2007,2006--2010,Google,Eric Schmidt,Zingku,Social,1,Undisclosed,1Cost,1social,Undisclosed
+14 Mar 2006,2006--2010,Google,Eric Schmidt,@Last,Software,1,Undisclosed,1Cost,2software,Undisclosed
+1 Jun 2006,2006--2010,Google,Eric Schmidt,2Web,Software,1,Undisclosed,1Cost,2software,Undisclosed
+27 Sep 1994,1991--1995,Microsoft,Bill Gates,Altamira,Software,1,Undisclosed,1Cost,2software,Undisclosed
+6 Mar 1996,1996-2000,Microsoft,Bill Gates,Animation Software,Software,1,Undisclosed,1Cost,2software,Undisclosed
+4 Dec 2009,2006--2010,Google,Eric Schmidt,AppJet,Software,1,Undisclosed,1Cost,2software,Undisclosed
+7 Mar 2006,2006--2010,Microsoft,Steve Ballmer,Apptimum,Software,1,Undisclosed,1Cost,2software,Undisclosed
+23 Apr 1996,1996-2000,Microsoft,Bill Gates,Aspect Software Engineering,Software,14.15,Less than $100 million,2Cost,2software,$14.2m
+11 Apr 2000,1996-2000,Apple,Steve Jobs,Astarte,Software,1,Undisclosed,1Cost,2software,Undisclosed
+17 Oct 1995,1991--1995,Microsoft,Bill Gates,Blue Ribbon SoundWorks,Software,1,Undisclosed,1Cost,2software,Undisclosed
+1 Jun 2001,2001--2005,Apple,Steve Jobs,Bluefish Labs,Software,1,Undisclosed,1Cost,2software,Undisclosed
+7 Feb 2008,2006--2010,Microsoft,Steve Ballmer,Caligari Corporation,Software,1,Undisclosed,1Cost,2software,Undisclosed
+22 Jan 2008,2006--2010,Microsoft,Steve Ballmer,Calista,Software,1,Undisclosed,1Cost,2software,Undisclosed
+1 Jan 2015,2011--present,Apple,Tim Cook,Camel Audio,Software,1,Undisclosed,1Cost,2software,Undisclosed
+23 Dec 2013,2011--present,Apple,Tim Cook,Catch.com,Software,1,Undisclosed,1Cost,2software,Undisclosed
+11 Jul 1988,1985-1990,Apple,John Sculley,Claris,Software,1,Undisclosed,1Cost,2software,Undisclosed
+27 Apr 2011,2011--present,Facebook,Mark Zuckerberg,DayTum,Software,1,Undisclosed,1Cost,2software,Undisclosed
+17 Oct 2015,2011--present,Google,Sundar Pichai,Digisfera,Software,1,Undisclosed,1Cost,2software,Undisclosed
+7 May 1997,1996-2000,Microsoft,Bill Gates,Dimension X,Software,1,Undisclosed,1Cost,2software,Undisclosed
+2 Mar 2010,2006--2010,Facebook,Mark Zuckerberg,Divvyshot,Software,1,Undisclosed,1Cost,2software,Undisclosed
+5 Mar 2010,2006--2010,Google,Eric Schmidt,DocVerse,Software,25,Less than $100 million,2Cost,2software,$25.0m
+13 Jan 2011,2011--present,Google,Larry Page,eBook Technologies,Software,1,Undisclosed,1Cost,2software,Undisclosed
+3 Sep 2015,2011--present,Amazon,Jeff Bezos,Elemental,Software,500,$500 - $999 million,4Cost,2software,$500.0m
+1 Jul 2002,2001--2005,Apple,Steve Jobs,Emagic,Software,30,Less than $100 million,2Cost,2software,$30.0m
+3 Jun 2007,2006--2010,Google,Eric Schmidt,FeedBurner,Software,100,$100 - $499 million,3Cost,2software,$100.0m
+11 Nov 2015,2011--present,Google,Sundar Pichai,Fly Labs,Software,1,Undisclosed,1Cost,2software,Undisclosed
+16 Jul 2010,2006--2010,Google,Eric Schmidt,Freebase,Software,1,Undisclosed,1Cost,2software,Undisclosed
+18 May 2010,2006--2010,Google,Eric Schmidt,Global IP Solutions,Software,68.2,Less than $100 million,2Cost,2software,$68.2m
+3 Jan 2013,2011--present,Microsoft,Steve Ballmer,id8 Group R2 Studios,Software,1,Undisclosed,1Cost,2software,Undisclosed
+14 Sep 2010,2006--2010,Apple,Steve Jobs,IMSense,Software,1,Undisclosed,1Cost,2software,Undisclosed
+27 Apr 1999,1996-2000,Microsoft,Bill Gates,Interactive Objects,Software,1,Undisclosed,1Cost,2software,Undisclosed
+27 Jun 2006,2006--2010,Microsoft,Steve Ballmer,iView Multimedia,Software,1,Undisclosed,1Cost,2software,Undisclosed
+12 Aug 2013,2011--present,Facebook,Mark Zuckerberg,Jibbigo,Software,1,Undisclosed,1Cost,2software,Undisclosed
+26 May 2008,2006--2010,Microsoft,Steve Ballmer,Kidaro,Software,100,$100 - $499 million,3Cost,2software,$100.0m
+28 Jan 2016,2011--present,Apple,Tim Cook,LearnSprout,Software,1,Undisclosed,1Cost,2software,Undisclosed
+26 Mar 2015,2011--present,Microsoft,Satya Nadella,LiveLoop,Software,1,Undisclosed,1Cost,2software,Undisclosed
+12 Sep 2010,2006--2010,Google,Eric Schmidt,MentorWave,Software,12,Less than $100 million,2Cost,2software,$12.0m
+9 Mar 2016,2011--present,Facebook,Mark Zuckerberg,MSQRD (Masquerade),Software,1,Undisclosed,1Cost,2software,Undisclosed
+1 Feb 2002,2001--2005,Apple,Steve Jobs,Nothing Real,Software,15,Less than $100 million,2Cost,2software,$15.0m
+26 Mar 1999,1996-2000,Microsoft,Bill Gates,Numinous,Software,1,Undisclosed,1Cost,2software,Undisclosed
+19 Feb 2010,2006--2010,Facebook,Mark Zuckerberg,Octazen,Software,1,Undisclosed,1Cost,2software,Undisclosed
+8 Feb 2015,2011--present,Google,Larry Page,Odysee,Software,1,Undisclosed,1Cost,2software,Undisclosed
+5 Aug 2009,2006--2010,Google,Eric Schmidt,On2,Software,133,$100 - $499 million,3Cost,2software,$133.0m
+13 Jul 2004,2001--2005,Google,Eric Schmidt,Picasa,Software,1,Undisclosed,1Cost,2software,Undisclosed
+1 Mar 2010,2006--2010,Google,Eric Schmidt,Picnik,Software,1,Undisclosed,1Cost,2software,Undisclosed
+4 Aug 2008,2006--2010,Amazon,Jeff Bezos,PlanetAll,Software,90,Less than $100 million,2Cost,2software,$90.0m
+28 Sep 2010,2006--2010,Google,Eric Schmidt,Plannr,Software,1,Undisclosed,1Cost,2software,Undisclosed
+31 Dec 2001,2001--2005,Apple,Steve Jobs,PowerSchool,Software,66.1,Less than $100 million,2Cost,2software,$66.1m
+21 Jun 2002,2001--2005,Apple,Steve Jobs,Prismo Graphics,Software,20,Less than $100 million,2Cost,2software,$20.0m
+8 Jan 2015,2011--present,Facebook,Mark Zuckerberg,Quickfire Networks,Software,1,Undisclosed,1Cost,2software,Undisclosed
+5 Jun 2012,2011--present,Google,Larry Page,Quickoffice,Software,1,Undisclosed,1Cost,2software,Undisclosed
+13 Feb 2006,2006--2010,Microsoft,Steve Ballmer,Seadragon,Software,1,Undisclosed,1Cost,2software,Undisclosed
+7 Jun 1999,1996-2000,Microsoft,Bill Gates,ShadowFactor,Software,1,Undisclosed,1Cost,2software,Undisclosed
+16 Oct 2006,2006--2010,Apple,Steve Jobs,Silicon Color,Software,1,Undisclosed,1Cost,2software,Undisclosed
+11 Jun 2002,2001--2005,Apple,Steve Jobs,Silicon Grail,Software,20,Less than $100 million,2Cost,2software,$20.0m
+1 Nov 2005,2001--2005,Google,Eric Schmidt,Skia,Software,1,Undisclosed,1Cost,2software,Undisclosed
+4 Jan 2014,2011--present,Apple,Tim Cook,SnappyLabs,Software,1,Undisclosed,1Cost,2software,Undisclosed
+28 Feb 1994,1991--1995,Microsoft,Bill Gates,Softimage,Software,1,Undisclosed,1Cost,2software,Undisclosed
+1 Oct 2000,1996-2000,Apple,Steve Jobs,SoundJam MP,Software,1,Undisclosed,1Cost,2software,Undisclosed
+9 Jul 2001,2001--2005,Apple,Steve Jobs,Spruce,Software,14.9,Less than $100 million,2Cost,2software,$14.9
+27 Jun 1988,1985-1990,Apple,John Sculley,Styleware,Software,1,Undisclosed,1Cost,2software,Undisclosed
+4 Feb 2015,2011--present,Microsoft,Satya Nadella,Sunrise Atelier,Software,100,$100 - $499 million,3Cost,2software,$100.0m
+19 Jan 2016,2011--present,Microsoft,Satya Nadella,Teacher Gaming,Software,1,Undisclosed,1Cost,2software,Undisclosed
+16 Apr 2015,2011--present,Google,Larry Page,Thrive Audio,Software,1,Undisclosed,1Cost,2software,Undisclosed
+17 Apr 2007,2006--2010,Google,Eric Schmidt,Tonic,Software,1,Undisclosed,1Cost,2software,Undisclosed
+9 Mar 2006,2006--2010,Google,Eric Schmidt,Upstartle,Software,1,Undisclosed,1Cost,2software,Undisclosed
+17 Dec 2014,2011--present,Google,Larry Page,Vidmaker,Software,1,Undisclosed,1Cost,2software,Undisclosed
+7 Jan 2000,1996-2000,Microsoft,Steve Ballmer,Visio,Software,1375,$1 - 10 billion,5Cost,2software,"$1,375.0m"
+8 Jan 1999,1996-2000,Apple,Steve Jobs,Xemplar Education,Software,4.926,Less than $100 million,2Cost,2software,$4.9m
+19 Jun 2007,2006--2010,Google,Eric Schmidt,Zenter,Software,1,Undisclosed,1Cost,2software,Undisclosed
+26 Aug 2014,2011--present,Google,Larry Page,Zync Render,Software,1,Undisclosed,1Cost,2software,Undisclosed
+11 Oct 2016,2011--present,Google,Sundar Pichai,FameBit,E-Commerce,1,Undisclosed,1Cost,4e-commerce,Undisclosed
+22 Sep 2016,2011--present,Apple,Tim Cook,Tuplejump,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+20 Sep 2016,2011--present,Amazon,Jeff Bezos,Angel.ai,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+19 Sep 2016,2011--present,Facebook,Mark Zuckerberg,Nascent Objects,Hardware,1,Undisclosed,1Cost,14hardware,Undisclosed
+19 Sep 2016,2011--present,Google,Sundar Pichai,API.AI,AI,1,Undisclosed,1Cost,5AI,Undisclosed
+15 Sep 2016,2011--present,Google,Sundar Pichai,Urban Engines,Mapping,1,Undisclosed,1Cost,13mapping,Undisclosed
+8 Sep 2016,2011--present,Google,Sundar Pichai,Apigee,Software,650,$500 - $999 million,4Cost,2software,$650.0m
+8 Aug 2016,2011--present,Google,Sundar Pichai,Apportable,Mobile,1,Undisclosed,1Cost,3mobile,Undisclosed

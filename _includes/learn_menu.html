@@ -1,0 +1,82 @@
+  <div class="learn-nav__container">
+    <div class="dropdown-wrap">
+      <a class="dropdown" id="dropdown-learn" tabindex="1">Categories<div class="nav__down-arrow"></div></a>
+    </div>
+    <nav class="learn-nav" id="learn-nav-hideable">
+    <ul class="learn-nav-main">
+      <li class="search-tab">
+        <form id="search-form">
+          <input type="text" name="search" placeholder="Search" id="search-input">
+        </form>
+      </li>
+      {% for subpage in site.pages['learn'].pages %}
+        <li>
+          {% comment %}
+            We need to compare the current url with these subpages
+            if they match then we know the subpage is a parent and
+            we can give it an active state.
+          {% endcomment %}
+          {% assign segments = url | split: '/' %}
+          {% assign urlStart = '/' | append: segments[1] | append: '/' | append: segments[2] %}
+          {% if urlStart == subpage.url %}
+            {% assign stateClass = "active" %}
+          {% else %}
+            {% assign stateClass = "inactive" %}
+          {% endif %}
+          <a class="{{stateClass}}" data-slug="{{subpage.slug}}" href="{{subpage.url}}/">{{subpage.title}}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    <ul class="learn-nav-main">
+      <li>
+        <a class="support-tab" href="https://community.geckoboard.com">Developer Community</a>
+      </li>
+      <li class="support-tab">
+        <a href="http://support.geckoboard.com">Help &amp; Support</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<script>
+  $(function() {
+    $("#dropdown-learn").click(function() {
+      $("#learn-nav-hideable").toggleClass("active");
+    });
+  });
+</script>
+{% capture navscripts %}
+<script>
+ (function () {
+
+    var parentURL = trimPath('{{url}}');
+
+    showActive(parentURL);
+
+    $('.parent-anchor').on('click', showChildren);
+
+    function showChildren(e) {
+      var parentURL   = trimPath($(this).attr('href')),
+          sectionSlug = $(this).data('section-slug');
+
+      e.preventDefault();
+      $('[data-parent-page]').not('[data-parent-page="' + parentURL + '"]').hide();
+      $('[data-parent-page="' + parentURL + '"]').toggle();
+
+    }
+
+    function trimPath(path) {
+      return path.split('/')
+               .slice(0,4)
+               .join('/');
+    }
+
+    function showActive(parentURL) {
+      $('[data-parent-page]').hide();
+      $('[data-parent-page="' + parentURL + '"]').show();
+    }
+
+  }());
+</script>
+{% endcapture %}
+
+{% assign extrascripts = extrascripts | append: navscripts %}

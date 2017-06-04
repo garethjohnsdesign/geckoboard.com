@@ -1,0 +1,61 @@
+{% capture extrascripts %}
+  {% include 'includes/learn_search' %}
+{% endcapture %}{% capture content %}
+<section class="main-content learn-section">
+  <div class="container learn-outer">
+    <div class="table-container_learn">
+      <div class="table-container-row_learn">
+      {% include 'includes/learn_menu_kpi' %}
+        <div class="learn-content default-grid">
+          <div class="container-grid">
+            <a class="back-to-parent" href="/learn/kpi-examples/">&larr; KPI Examples</a>
+            <h1 class="default-grid__title">{{title}}</h1>
+            <p class="default-grid__text">{{meta['description']}}</p>
+            <div class="default-grid__col">
+              <ul class="default-grid__list col-3 kpi-grid">
+                {% assign sorted = posts | sort:"title" %}
+                {% for post in sorted %}
+                <li>
+                <a class="default-grid__img" href="{{post.url}}/" title="{{post.title}}">
+                  {% if post.assets.first %}
+                    <img alt="{{post.title}} thumbnail" src="{{post.assets.first}}"/>
+                  {% endif %}
+                </a>
+                <div class="default-grid__content">
+                  <a href="{{post.url}}/" title="{{post.title}}">
+                    <h2 class="full-size">{{post.title}}</h2>
+                  </a>
+                  <p>{{post.meta.intro}}</p>
+                </div>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% if slug == "sales-kpis" %}
+              <div class="kpi-closing">
+                <h3 class="kpi-closing-title">Ready to start communicating your sales KPIs and metrics? Check out our sales dashboard examples to get inspiration.</h3>
+                <a class="round-btn" href="/learn/dashboard-examples/sales-dashboard-example/">View sales dashboard examples</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+        {% include 'includes/learn-recommend' %}
+      </div>
+    </div>
+  </div>
+  <div class="learn-email-register">
+    <div class="container">
+      <div class="sign-up_form">
+        <p>Get notified when new resources are released</p>
+        <form action="//geckoboard.us1.list-manage.com/subscribe/post?u=f8c11c17753d5c653c8d22b3d&amp;id=1d9b0f4b86" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll" class="blog">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address" required>
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_f8c11c17753d5c653c8d22b3d_1d9b0f4b86" tabindex="-1" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{% endcapture %}{% include 'layouts/default' %}

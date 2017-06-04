@@ -1,0 +1,449 @@
+---
+layout: default
+---
+
+<section class="main-content">
+  <div class="section-masthead">
+    <div class="container">
+      <h1 class="section-heading">Pricing</h1>
+    </div>
+  </div>
+  <div class="selection-strip pricing">
+    <div class="container">
+      <div class="switch-wrapper">
+        <div class="switch-bg">
+          <a class="monthly_switch switch active" id="monthly_switch" data-plan-type="monthly">
+            <span>Pay Monthly</span>
+          </a>
+          <a class="annually_switch switch" data-plan-type="annually">
+            <span>Pay Annually</span><span class="lozenge">One month free</span>
+          </a>
+        </div>
+      </div>
+      <script>
+      $(function(){
+        var starterprice = {
+          "monthly": "25",
+          "annually": "275"
+        }
+
+        var growthprice = {
+         "monthly": "149",
+         "annually": "1639"
+        }
+
+        var companyprice = {
+         "monthly": "599",
+         "annually": "6589"
+        }
+
+        var billingtype = {
+         "monthly": "/Mo",
+         "annually": "/Yr"
+        }
+
+        var dashboardprice = {
+         "monthly": "+$25/Mo per extra dashboard",
+         "annually": "+$275/Yr per extra dashboard"
+        }
+
+        var dashboardpricegrowth = {
+         "monthly": "+$25/Mo per extra dashboard",
+         "annually": "+$275/Yr per extra dashboard"
+        }
+
+        $(function() {
+          $(".switch").on("click", function(e) {
+            $(".starter-price.monthly.one").text(25);
+            $(".starter-price.annually.one").text(275);
+            $(".starter-price.monthly.two").text(50);
+            $(".starter-price.annually.two").text(550);
+            $(".starter-price.monthly.three").text(75);
+            $(".starter-price.annually.three").text(825);
+            $(".starter-price.monthly.four").text(100);
+            $(".starter-price.annually.four").text(1100);
+            $(".growth-price.monthly.one").text(149);
+            $(".growth-price.annually.one").text(1639);
+            $(".growth-price.monthly.two").text(174);
+            $(".growth-price.annually.two").text(1914);
+            $(".growth-price.monthly.three").text(199);
+            $(".growth-price.annually.three").text(2189);
+            $(".growth-price.monthly.four").text(224);
+            $(".growth-price.annually.four").text(2464);
+            $(".growth-price.monthly.five").text(249);
+            $(".growth-price.annually.five").text(2739);
+            $(".growth-price.monthly.six").text(274);
+            $(".growth-price.annually.six").text(3014);
+            $("#company-price").text(companyprice[$(this).data('plan-type')]);
+            $("#dashboard-price").text(dashboardprice[$(this).data('plan-type')]);
+            $("#dashboard-price-growth").text(dashboardpricegrowth[$(this).data('plan-type')]);
+            $(".billing-type").text(billingtype[$(this).data('plan-type')]);
+            $('.switch').removeClass('active');
+            $(this).addClass('active');
+          });
+
+          $(".monthly_switch").on("click", function(e) {
+            $(".pt-discount").removeClass("active");
+          });
+
+          $(".annually_switch").on("click", function(e) {
+            $(".pt-discount").addClass("active");
+          });
+
+          $(".faq-list-title").on("click", function(e) {
+            $(".faq-list-title").removeClass("active");
+            $(this).find(".faq-list-title").addClass('active');
+          })
+        })
+      });
+
+      (function ($) {
+        $(".annually_switch").on("click", function(e) {
+          $(".amount").addClass("annually");
+          $(".amount").removeClass("monthly");
+        });
+
+        $(".monthly_switch").on("click", function(e) {
+          $(".amount").addClass("monthly");
+          $(".amount").removeClass("annually");
+        });
+      }(jQuery));
+      </script>
+    </div>
+  </div>
+  <div class="pt-section">
+    <div class="container">
+      <ul class="pricing-table">
+        <li class="ti-wrapper">
+          <div class="table-item starter">
+            <div class="item-inner">
+              <div class="item-details">
+                <span class="t-span">Starter</span>
+                <p class="p-desc">For startups and small teams starting to build goal-oriented teams.</p>
+                <div class="pt-price starterprice">
+                  <div class="pt-wrapper">
+                    <span class="unit">$</span>
+                    <span class="amount starter-price monthly one" id="starter-price">25</span>
+                    <span class="billing-type">/Mo</span>
+                  </div>
+                  <span class="pt-vat s-small">*All prices exclude VAT</span>
+                  <div class="pt-discount">
+                    <span>Includes <strong>one month free</strong></span>
+                  </div>
+                </div>
+                <div class="pt-dashboards">
+                  <a class="function minus inactive big" id="down-st" onclick="modify_qty_st(-1)">
+                    <span class="inner"></span>
+                  </a>
+                  <div class="db-features">
+                    <div class="item">
+                      <span class="tp-pos"><span class="count db-qty-starter">1</span> <span class="d-append">Dashboard</span><i class="info-glyph" data-tooltip-index="dashboard"></i></span>
+                    </div>
+                    <div class="item">
+                      <span class="tp-pos"><span class="count u-qty-starter">1</span> <span class="u-append">User</span><i class="info-glyph" data-tooltip-index="user"></i></span>
+                    </div>
+                  </div>
+                  <a class="function plus big" id="up-st" onclick="modify_qty_st(1)">
+                    <span class="inner"></span>
+                  </a>
+                </div>
+                <span class="s-small">Up to 4 dashboards</span>
+              </div>
+              <a href="/try-geckoboard/" class="round-btn" id="try-CTA-pricing-starter">Try Free for 30 Days</a>
+            </div>
+          </div>
+          <div class="item-diff">
+            <ul>
+              <li class="tp-pos">Email &amp; In-App Support<i class="info-glyph" data-tooltip-index="emailsupport"></i></li>
+              <li class="tp-pos">Credit Card or PayPal payment<i class="info-glyph" data-tooltip-index="standardpayment"></i></li>
+              <li class="tp-pos">Geckoboard Branding<i class="info-glyph" data-tooltip-index="geckobranded"></i></li>
+            </ul>
+          </div>
+        </li>
+        <li class="ti-wrapper">
+          <div class="pp-banner">
+            <span class="t-span">Most Popular</span>
+          </div>
+          <div class="table-item growth">
+            <div class="item-inner">
+              <div class="item-details">
+                <span class="t-span">Growth</span>
+                <p class="p-desc">For growing businesses who want broader usage to focus their teams.</p>
+                <div class="pt-price growthprice">
+                  <div class="pt-wrapper">
+                    <span class="unit">$</span>
+                    <span class="amount growth-price monthly one" id="growth-price">149</span>
+                    <span class="billing-type">/Mo</span>
+                  </div>
+                  <span class="pt-vat s-small">*All prices exclude VAT</span>
+                  <div class="pt-discount">
+                    <span>Includes <strong>one month free</strong></span>
+                  </div>
+                </div>
+                <div class="pt-dashboards">
+                  <div class="db-features">
+                    <div class="item">
+                      <a class="function minus inactive" id="down-gr" onclick="modify_qty_gr(-1);modify_price_gr(-25)">
+                        <span class="inner"></span>
+                      </a>
+                      <span class="tp-pos"><span class="count db-qty-growth">5</span> Dashboards<i class="info-glyph" data-tooltip-index="dashboard"></i></span>
+                      <a class="function plus" id="up-gr" onclick="modify_qty_gr(1);modify_price_gr(25)">
+                        <span class="inner"></span>
+                      </a>
+                    </div>
+                    <div class="item">
+                      <span class="tp-pos">Unlimited Users<i class="info-glyph" data-tooltip-index="user"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <span class="s-small">Up to 10 dashboards</span>
+              </div>
+              <a href="/try-geckoboard/" class="round-btn" id="try-CTA-pricing-growth">Try Free for 30 Days</a>
+            </div>
+          </div>
+          <div class="item-diff">
+            <ul>
+              <li class="tp-pos">Priority Email &amp; In-App Support<i class="info-glyph" data-tooltip-index="emailsupport"></i></li>
+              <li class="tp-pos">Credit Card or PayPal payment<i class="info-glyph" data-tooltip-index="standardpayment"></i></li>
+              <li class="tp-pos">Custom Themes<i class="info-glyph" data-tooltip-index="customthemes"></i></li>
+            </ul>
+          </div>
+        </li>
+        <li class="ti-wrapper">
+          <div class="table-item company">
+            <div class="item-inner">
+              <div class="item-details">
+                <span class="t-span">Company</span>
+                <p class="p-desc">Everything you need for a company-wide rollout to improve key metrics.</p>
+                <div class="pt-price starterprice">
+                  <div class="pt-wrapper">
+                    <span class="unit">$</span>
+                    <span class="amount company monthly" id="company-price">599</span>
+                    <span class="billing-type">/Mo</span>
+                  </div>
+                  <span class="pt-vat s-small">*All prices exclude VAT</span>
+                  <div class="pt-discount">
+                    <span>Includes <strong>one month free</strong></span>
+                  </div>
+                </div>
+                <div class="pt-dashboards">
+                  <div class="db-features">
+                    <div class="item">
+                      <span class="tp-pos">Unlimited Dashboards<i class="info-glyph" data-tooltip-index="dashboard"></i></span>
+                    </div>
+                    <div class="item">
+                      <span class="tp-pos">Unlimited Users<i class="info-glyph" data-tooltip-index="user"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <span class="s-small">&nbsp;</span>
+              </div>
+              <a href="/try-geckoboard/" class="round-btn" id="try-CTA-pricing-company">Try Free for 30 Days</a>
+            </div>
+          </div>
+          <div class="item-diff">
+            <ul>
+              <li class="tp-pos">Dedicated Customer Success Manager<i class="info-glyph" data-tooltip-index="dedicsm"></i></li>
+              <li class="tp-pos">Credit Card, PayPal or Manual Invoice<i class="info-glyph" data-tooltip-index="manualinvoice"></i></li>
+              <li class="tp-pos">Custom Themes<i class="info-glyph" data-tooltip-index="customthemes"></i></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="questions-cta">
+    <div class="container">
+      <div class="inner">
+        {% if site.meta['intercom-messenger'] == 'yes' %}
+          <p>Have questions about our plans? <a class="intercom-messenger" href="mailto:o9h85vz7@incoming.intercom.io">Contact our team</a> to get them answered.</p>
+        {% else %}
+          <p>Have questions about our plans? <a href="https://geckoboard.zendesk.com/hc/en-us/requests/new?ticket_form_id=125598&_ga=1.199198828.2144207941.1454428059">Contact our team</a> to get them answered.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="custom-themes floated left">
+    <div class="container">
+      <div class="floated-row">
+        <a href="//fast.wistia.net/embed/iframe/v0naqad9xy?popover=true&amp;playerColor=78ab49&amp;playButton=false&amp;autoPlay=true&amp;popover=true" class="wistia-popover[height=540,playerColor=78ab49,width=960]" hidden=""></a>
+        <a class="floated-element quote__play-btn">
+          <img src="/assets/png/product-features-customise.png" alt="Customization">
+          <div class="play-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 67.9 67.9" enable-background="new 0 0 67.9 67.9"><path fill="#fff" id="inner-fill" d="M33.9 67.9c-18.7 0-33.9-15.2-33.9-34s15.2-33.9 33.9-33.9 33.9 15.2 33.9 33.9-15.2 34-33.9 34zm0-64.9c-17 0-30.9 13.9-30.9 30.9s13.9 30.9 30.9 30.9 31-13.8 31-30.9-13.9-30.9-31-30.9zM28.5 48.9c-.2 0-.5-.1-.7-.2-.5-.3-.8-.8-.8-1.3v-26.9c0-.6.3-1.1.8-1.3.5-.3 1.1-.2 1.5.1l19.4 13.4c.4.3.6.7.6 1.2s-.2 1-.6 1.2l-19.4 13.5c-.2.2-.5.3-.8.3zm1.5-25.5v21.1l15.3-10.6-15.3-10.5z"/></path></svg>
+            Play Video
+          </div>
+        </a>
+        <div class="floated-content">
+          <span class="new-badge">New</span>
+          <h2>Custom Themes</h2>
+          <p>Easily add a logo and tailor your dashboard’s theme to match your company colours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="three-section features">
+    <div class="container">
+      <h2 class="section-heading mid">All Plans Include:</h2>
+      <ul class="three-section__three-list">
+        <li>
+          <div class="three-list__img">
+            <img alt="TV Dashboards icon" src="/assets/svg/pricing-tv-dashboards.svg">
+          </div>
+          <h3>Easily display on a TV</h3>
+          <p>Broadcast TV-optimized dashboards effortlessly and manage them remotely from your browser.</p>
+        </li>
+        <li>
+          <div class="three-list__img">
+            <img alt="Sharing Links icon" src="/assets/svg/pricing-sharing-links.svg">
+          </div>
+          <h3>Sharing Links</h3>
+          <p>Quickly share a link to a dashboard with your team in an email or chat, even if they’re not a user.</p>
+        </li>
+        <li>
+          <div class="three-list__img">
+            <img alt="IP Restriction icon" src="/assets/svg/pricing-ip-restriction.svg">
+          </div>
+          <h3>IP Restriction</h3>
+          <p>We provide an added layer of security by allowing you to restrict access to individual dashboards by IP address(es).</p>
+        </li>
+        <li>
+          <div class="three-list__img">
+            <img alt="Datasets icon" src="/assets/svg/pricing-datasets.svg">
+          </div>
+          <h3>Datasets API</h3>
+          <p>Visualize key metrics from any other third-party tool, database or in-house system with our well-documented API and examples.</p>
+        </li>
+        <li>
+          <div class="three-list__img">
+            <img alt="iPhone App icon"  src="/assets/svg/pricing-iphone-app.svg">
+          </div>
+          <h3>iPhone App</h3>
+          <p>Our iPhone app allows team members on-the-go to have access to key metrics, keeping them on track anywhere.</p>
+        </li>
+        <li>
+          <div class="three-list__img">
+            <img alt="Dashboard Loops icon" src="/assets/svg/pricing-dashboard-loops.svg">
+          </div>
+          <h3>Dashboard Loops</h3>
+          <p>Select several dashboards, how long you want to display them for and create a link which loops through them on a single TV screen.</p>
+        </li>
+      </ul>
+      <div class="callout-quotation btop center">
+        <blockquote class="inner">
+          <p>Life before Geckoboard was like flying a plane through fog with no instruments.</p>
+          <cite>Alejandro Pérez, CEO, Komet Sales</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq" id="faq">
+    <script>
+    $(function() {
+      $(".faq-list-title").on("click", function(e) {
+        $(this).parent('.faq-list-item').toggleClass("active");
+      })
+    });
+    </script>
+    <div class="container">
+      <h2 class="section-heading mid">Frequently Asked Questions</h2>
+      <ul class="faq-list">
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">What happens after the free trial ends?</h4>
+          </div>
+          <p class="faq-list__answer">You can try Geckoboard with all features enabled for 30 days completely free. When your trial ends, your dashboard(s) will no longer be updated and will become inaccessible. If you want to continue using Geckoboard, simply select a plan and enter a valid payment method in your account settings.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">What if I need more (or fewer) dashboards or users than I signed up for?</h4>
+          </div>
+          <p class="faq-list__answer">No problem! You can easily upgrade or downgrade your subscription adding more or fewer dashboards and users within the allowances of your plan. We’ll charge your account on a pro-rata basis and either issue a credit, or add it to your bill.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">How many dashboards will I need?</h4>
+          </div>
+          <p class="faq-list__answer">A dashboard is the size of a widescreen TV and displays multiple different metric visualizations, which you can easily move around using our drag-and-drop interface. Each dashboard tends to focus on a specific purpose or group of viewers such as sales or marketing. Here are some <a href="https://www.geckoboard.com/learn/dashboard-examples/">example dashboards</a> to give you an idea. Our most successful customers generally gain the most focus from having no more than 15 metric visualizations per dashboard (usually displayed on a TV), although you can add as many visualizations as you want. The number of dashboards you’ll need will depend on how many different teams or audiences you want to have their own dashboard.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">Can I install Geckoboard on my own server?</h4>
+          </div>
+          <p class="faq-list__answer">No. Geckoboard is a cloud-based, Software as a Service (SaaS) application. We maintain our servers, security and updates so that you don’t have to. You can read more about our commitment to secure data <a href="https://geckoboard.zendesk.com/hc/en-us/articles/203759278">here</a>.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">How many users will I need?</h4>
+          </div>
+          <p class="faq-list__answer">A user can either have admin or read-only rights. Both can view dashboards via the iOS app, but only admins can build and edit dashboards. You don’t need to be a user to view dashboards on a TV or in a desktop browser since you can use Secure Sharing Links to see the dashboard. If you want more than 4 people to be able to build and edit dashboards or view dashboards via the mobile app, then you’ll need to select a plan with unlimited users (either Growth or Company).</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">How does it work when I pay annually?</h4>
+          </div>
+          <p class="faq-list__answer">When you pay annually get one free month included, so 12 months for the price of 11. We will charge you the annual cost when you subscribe and you will have Geckoboard access for the next 12 months.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">What if I want to cancel?</h4>
+          </div>
+          <p class="faq-list__answer">You can cancel at any time. You’ll be billed for your current contract period (monthly or annual) but never again.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">Will I need Custom Themes?</h4>
+          </div>
+          <p class="faq-list__answer">Custom themes enable you to customize the look and feel of your dashboard to reflect your brand. If you want to customize the dashboards using your company branding, then you will need to select a plan with custom themes included.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">Which browsers does Geckoboard support?</h4>
+          </div>
+          <p class="faq-list__answer">Geckoboard is optimized for the latest versions of the main browsers (Google Chrome, Mozilla Firefox, Safari and Internet Explorer 10 or above). Our mobile app also supports iOS enabled mobile devices.</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">How does the sign-up process work?</h4>
+          </div>
+          <p class="faq-list__answer">Sign up with your email address and start using Geckoboard to monitor your key metrics. No credit card required. Use all Growth plan features free for 30 days, then choose a plan that suits your needs if you want to continue. That's it, no commitments!</p>
+        </li>
+        <li class="faq-list-item">
+          <div class="faq-list-title">
+            <div class="expand"></div>
+            <h4 class="faq-list__question">Will my data be private and safe?</h4>
+          </div>
+          <p class="faq-list__answer">The short answer: Yes. The long answer: Geckoboard uses no plain text communication whatsoever. Communication between all app components, including connections to the database, the message queue and other HTTP connections, are encrypted. User passwords, access tokens and any other stored information are also encrypted. <a href="https://geckoboard.zendesk.com/hc/en-us/articles/203759278">Read more about our approach to security</a>.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="sign-up">
+    <div class="container">
+      <h2 class="section-heading mid title-spark">Try Geckoboard <span>completely free for 30 days</span></h2>
+      <p class="section-subtitle alt">It takes just <strong>minutes</strong> to <strong>start visualizing your data</strong>.</p>
+      <div class="btn-container" id="try-CTA-home-footer">
+        <form action="/try-geckoboard/" method="get" class="inline__signup-form">
+          <input type="email" name="email" placeholder="Enter your email address">
+          <button class="btn" id="get-started-home-foot">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  {% include services.html %}

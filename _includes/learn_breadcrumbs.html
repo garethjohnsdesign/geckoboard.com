@@ -1,0 +1,9 @@
+<ul class="breadcrumbs">
+  {% if current.parent.parent.slug == 'learn' %}
+    {% assign ancestor = current %}
+  {% else %}
+    {% assign ancestor = current.parent %}
+  {% endif %}
+  <li><a href="{{ ancestor.parent.url }}/">{{ ancestor.parent.title }}</a></li>
+  <li>{{ ancestor.title }}</li>
+</ul>

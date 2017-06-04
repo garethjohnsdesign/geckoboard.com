@@ -1,0 +1,18 @@
+/* Site spcific hacks */
+
+/* Hack for landscape on ipad/iphone devices - works with JS */
+@media only screen and (min-device-width: 320px)  and (max-width: 480px) and (orientation: landscape){
+
+    html { 
+        max-width: 480px;
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+    html { 
+        max-width: 1024px;
+    }
+    
+}

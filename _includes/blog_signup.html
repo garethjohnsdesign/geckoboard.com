@@ -1,0 +1,29 @@
+<div class="modal-hidden overlay-modal">
+  <div class="modal-outer h-table">
+    <div class="modal-inner h-cell">
+      <div class="pop-up signup-modal" id="outside-click">
+        <a class="close-button"></a>
+        <div class="container">
+          {% include "includes/blog_signup_content" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$('.modal-hidden').click(function(e) {
+    if (!$(e.target).closest('.signup-modal').length){
+        $(".modal-hidden").toggleClass("active");
+    }
+});
+
+$(function() {
+  $('.modal-show').click(function() {
+     $('.modal-hidden').toggleClass('active');
+  });
+
+  $(".close-button").on("click", function(e) {
+    $('.modal-hidden').toggleClass("active");
+  });
+});
+</script>

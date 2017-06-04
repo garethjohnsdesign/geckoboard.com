@@ -3,13 +3,17 @@ Gareth Johns Art Direction + Design
 The team, technology & tools behind this site.
 
 
-GARETH JOHNS ART DIRECTION + DESIGN TEAM
+GARETH JOHNS ART DIRECTION + DEVELOPMENT TEAM
 --------
 
 Made with love in London.
 
+Oliver Whitehall
+Design
+@oliverwhitehall
+
 Gareth Johns
-Content, design & development
+Development
 @garethjohnsabc
 
 
@@ -25,8 +29,8 @@ TECHNOLOGY
 Siteleaf - Content management system
 siteleaf.com
 
-Foundation - Front-end framework
-foundation.zurb.com
+Compass - Front-end framework
+compass-style.org
 
 Jekyll - Static site generator
 jekyllrb.com

@@ -1,0 +1,10 @@
+<ul class="breadcrumbs">
+  {% if current.parent.parent.slug == 'integrations' %}
+    {% assign ancestor = current %}
+  {% else %}
+    {% assign ancestor = current.parent %}
+  {% endif %}
+  <li><a href="/" title="Geckoboard - live metrics dashboards for businesses">Home</a></li>
+  <li><a href="/integrations/" title="Data dashboard integrations">Integrations</a>
+  <li>{{meta.title | fallback: title | replace:'Dashboard',' '}}</li>
+</ul>

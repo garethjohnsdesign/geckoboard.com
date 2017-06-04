@@ -1,0 +1,20 @@
+#book-demo-form {
+  .error-message {
+    color: $error!important;
+    padding-top: 1em;
+    display: block;
+  }
+
+  input, select {
+    border: 2px solid $mid-grey;
+
+    &.error {
+      color: $error !important;
+      border: 2px solid $error !important;
+
+      &:focus {
+        background-color: lighten($error, 34%);
+      }
+    }
+  }
+}

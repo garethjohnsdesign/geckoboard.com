@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% if page.layout == 'index' %}
+  {% capture html_class %}url-index{% endcapture %}
+  {% capture section_class %}section-index{% endcapture %}
+{% else %}
+  {% capture html_class %}url-{{url | replace:'/',' ' | truncatewords: 2 | remove:'...' |  handleize}}{% endcapture %}
+  {% capture section_class %}section-{{url | replace:'/',' ' | truncatewords: 1 | remove:'...' |  handleize}}{% endcapture %}
+{% endif %}
+{% if title contains 'Search the learn' %}
+  {% capture html_class %}url-learn-search{% endcapture %}
+  {% capture section_class %}section-learn{% endcapture %}
+{% endif %}
+{% if parent.slug == "playbook" %}
+  {% capture html_class %}url-playbook-lesson{% endcapture %}
+  {% capture section_class %}section-playbook{% endcapture %}
+{% endif %}
+{% if parent.slug == "holiday-season-2016" %}
+  {% capture html_class %}url-holiday-season-2016-dashboard{% endcapture %}
+  {% capture section_class %}section-holiday-season-2016{% endcapture %}
+{% endif %}
+<!--[if lt IE 9]><html class="no-js ie lt-ie9 ie8 url-index" lang="en"><![endif]-->
+  <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js {{section_class}} {{html_class}}" lang="en"><!--<![endif]-->

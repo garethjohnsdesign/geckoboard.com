@@ -2,108 +2,182 @@
 layout: default
 ---
 
-<section class="index__hero">
-<div class="row">
-	<div class="small-6 columns align-self-middle">
-		<h1>Live TV dashboard software for businesses</h1>
-		<p class="lead">Geckoboard helps everyone in your team focus on work that improves the metrics that matter to your business.</p>
-
-<div class="input-group">
-  <input type="email" name="email" placeholder="Enter your email address">
-  <div class="input-group-button">
-    <input type="submit" class="button" value="Submit">
-  </div>
-</div>
-
-    <p>Create your first dashboard in minutes. <strong>Free for 30 days</strong>, no credit card required.</p>
-	</div>
-	
-	<div class="small-6 columns">
-		<img src="/assets/png/illustration-tv-dashboard-standard.png" srcset="/assets/png/illustration-tv-dashboard-standard@2x.png 2x" alt="Real-time KPI dashboards for TVs" title="Real-time KPI dashboards for TVs">
-	</div>
-	
-</div>
-</section>
-
-
-<section class="index__highlight-banner">
-  <div class="row expanded">
-  	<div class="small-12 columns text-center">
-  		Easily customize your dashboards with a logo and custom theme. 
-  	</div>
+<script src="https://fast.wistia.com/embed/medias/pmsejmuod0.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<link href="/assets/css/vendor/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+<section class="hero-container">
+  <div class="hero-container__inner">
+    <div class="hero-container__illo">
+      <img class="hero-container__illo-img" src="/assets/png/illustration-tv-dashboard-standard.png" srcset="/assets/png/illustration-tv-dashboard-standard@2x.png 2x" alt="Real-time KPI dashboards for TVs" title="Real-time KPI dashboards for TVs">
+    </div>
+    <div class="hero-container__text">
+      <h1 class="hero-container__main-heading">Live TV dashboard software for businesses</h1>
+      <p class="hero-container__sub-heading">Geckoboard helps everyone in your team focus on work that improves the metrics that matter to your business.</p>
+      <div class="btn-container" id="try-CTA-home-hero">
+        <form action="/try-geckoboard/" method="get" class="inline__signup-form">
+          <input type="email" name="email" placeholder="Enter your email address">
+          <button class="btn" id="get-started-home">Get Started</button>
+        </form>
+        <span class="subtext">Create your first dashboard in minutes. <strong>Free for 30 days</strong>, no credit card required.</span>
+      </div>
+    </div>
   </div>
 </section>
 
+{% if page.banner-highlight %}
+  {% include banner_highlight.html %}
+{% endif %}
 
-<section class="index__used-by">
-  <div class="row align-center">
-  	<div class="shrink columns text-center">
-  		<h4>Used by</h4>
+<section class="main-content">
+  <div class="logo-bar">
+    <div class="container">
+      <h4 class="section-heading small-h">Used by</h4>
       <img class="img-desktop" src="/assets/png/home-logo-bar.png" srcset="/assets/png/home-logo-bar@2x.png 2x" alt="Geckoboard customers"/>
+      <img class="img-mobile" src="/assets/png/home-logo-bar-small.png" srcset="/assets/png/home-logo-bar-small@2x.png 2x" alt="Geckoboard customers"/>
     </div>
   </div>
-</section>
-
-<section class="index__story">
-  <div class="row align-center index__story__header">
-  	<div class="small-12 medium-6 columns text-center">
-  		<h4>Fast Growing Teams Struggle with Focus</h4>
-      <p class="lead">When you grow quickly, team members lose track of company goals, get distracted by low-impact tasks, and miss what’s important right now.</p>
+  <div class="storyboard-title">
+    <div class="container">
+      <h2 class="section-heading mid">Fast-growing teams struggle with focus</h2>
+      <p class="section-subtitle alt">When you grow quickly, team members <strong>lose track of company goals</strong>, get <strong>distracted by low-impact tasks</strong>, and miss <strong>what’s important right now</strong>.</p>
     </div>
   </div>
-  
-  <div class="row align-center index__story__one">
-  	<div class="small-6 columns index__story__one__text">
-  		<h4>You understand what metric need to improve, but your team doesn't</h4>
-      <p>Focused teams need everyone to be on the same page, but your KPIs are left ignored in cluttered spreadsheets, delayed in reports or misunderstood in complex BI tools designed for 1-to-1 deep-dive analysis.</p>
+  <div class="story-one floated right">
+    <div class="container">
+      <div class="floated-row">
+        <div class="floated-element">
+          <img alt="Unfocused Team illustration" title="Burying performance metrics leads to a lack of focus" src="/assets/png/illustration-team-focus.png" srcset="/assets/png/illustration-team-focus@2x.png 2x"/>
+        </div>
+        <div class="floated-content">
+          <div class="floated-content__inner">
+            <div class="icon-heading">
+              <img class="small-vect-icon" alt="Team Metrics icon" src="/assets/svg/home-team-metrics.svg"/>
+              <h2 class="section-heading"><span>You</span> understand what metrics need to improve, but your team doesn’t</h2>
+            </div>
+            <p>Focused teams need everyone to be on the same page, but your KPIs are left <strong>ignored</strong> in cluttered spreadsheets, <strong>delayed</strong> in reports or <strong>misunderstood</strong> in complex BI tools designed for 1-to-1 deep-dive analysis.</p>
+          </div>
+          <div class="callout-quotation tiny">
+            <blockquote class="inner">
+              <p>Life before this was like flying a plane through fog with no instruments.</p>
+              <cite>Alejandro Pérez, CEO, Komet Sales</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="small-6 columns">
-      <img alt="Unfocused Team illustration" title="Burying performance metrics leads to a lack of focus" src="/assets/png/illustration-team-focus.png" srcset="/assets/png/illustration-team-focus@2x.png 2x"/>
+  </div>
+  <div class="story-two floated left">
+    <div class="container">
+      <div class="floated-row">
+        <div class="floated-element">
+          <img alt="Live TV dashboard in an office" title="Displaying live metrics on a TV dashboard brings focus" src="/assets/png/illustration-tv-dashboards.png" srcset="/assets/png/illustration-tv-dashboards@2x.png 2x"/>
+        </div>
+        <div class="floated-content">
+          <div class="floated-content__inner">
+            <div class="icon-heading">
+              <img class="small-vect-icon" alt="Team Metrics icon" src="/assets/svg/home-tv-dashboards.svg"/>
+              <h2 class="section-heading">Live TV dashboards help teams to <span>focus on what matters</span></h2>
+            </div>
+            <p>Making your KPIs <strong>highly visible and easy-to-understand</strong> with a live TV dashboard means everyone knows where to <strong>focus their work</strong> at all times and can monitor real-time progress towards business goals effortlessly.</p>
+          </div>
+          <div class="callout-quotation tiny">
+            <blockquote class="inner">
+              <p>I love having Geckoboard on the walls because every time people walk by, they see a live heartbeat of performance and prioritize actions to drive growth.</p>
+              <cite>Mark Myers, Co-founder &amp; Chief Design Officer, G2 Crowd</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  
-  <div class="row align-center index__story__two">
-    <div class="small-6 columns">
-      <img alt="Live TV dashboard in an office" title="Displaying live metrics on a TV dashboard brings focus" src="/assets/png/illustration-tv-dashboards.png" srcset="/assets/png/illustration-tv-dashboards@2x.png 2x"/>
-    </div>
-  	<div class="small-6 columns index__story__two__text">
-  		<h4>Live TV Dashboards Help Teams to Focus on What Matters</h4>
-      <p>Making your KPIs highly visible and easy-to-understand with a live TV dashboard means everyone knows where to focus their work at all times and can monitor real-time progress towards business goals effortlessly.</p>
+  <div class="integrations">
+    <div class="container">
+      <h2 class="section-heading mid">Turn the <span>most important metrics</span> from the <span>tools you use</span> into <span>easy-to-understand TV dashboards</span>.</h2>
+      <img class="logo-grid" src="/assets/png/integrations-logo-grid.png" alt="Geckoboard pre-built integrations"/>
+      <a href="/integrations/" class="underline-btn" alt="Geckboard data integrations" title="Build dashboards using live data from Google Analytics, Salesforce, Zendesk, spreadsheets and more...">View More Integrations</a>
+      <a href="/product/" class="round-btn" id="product-tour-home">Take the Product Tour</a>
     </div>
   </div>
-</section>
-
-<section class="index__integrations">
-  <div class="row align-center">
-  	<div class="small-6 columns text-center">
-  		<h4>Turn the <span>most important metrics</span> from the <span>tools you use</span> into <span>easy-to-understand TV dashboards</span>.</h4>
-  		<p class="lead">When you grow quickly, team members lose track of company goals, get distracted by low-impact tasks, and miss what’s important right now.</p>
-    </div>  
+  <div class="content-row benefits-quote second-row new-style home-quote">
+    <div class="content-row__img">
+    </div>
+    <div class="container">
+      <div class="content-row__text benefits-quote__text">
+        <blockquote class="benefits-quote__quote">
+          <p>Geckoboard has made a huge difference in behaviour by making my team constantly aware of the metrics that matter. As a result our sales have gone up by 10%.</p>
+          <cite>John Birtwhistle, Sales Operations Manager, eSynergy Solutions</cite>
+        </blockquote>
+      </div>
+    </div>
   </div>
-  
-  <div class="row align-center">
-  <div class="small-8 columns text-center">
-  		<img src="/assets/png/integrations-logo-grid.png" alt="Geckoboard pre-built integrations"/>  	
+  <div class="example-dashboards">
+    <div class="container">
+      <h2 class="section-heading">Create TV dashboards for any team</h2>
+      <ul class="default-grid__list col-2">
+        <li>
+          <a id="demo_sales" href="/learn/dashboard-examples/sales-dashboard-example/" target="_blank" alt="Sales dashboard example image" title="Sales dashboard example">
+            <div class="default-grid__img">
+              <img alt="Sales KPI dashboard example" src="/assets/png/sales-metrics-dashboard-example.png"/>
+            </div>
+            <div class="default-grid__content">
+              <h4>Sales Dashboard</h4>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a id="demo_support" href="/learn/dashboard-examples/support-dashboard-example/" target="_blank" alt="Support dashboard example image" title="Support dashboard example">
+            <div class="default-grid__img">
+              <img alt="Support KPI dashboard example" src="/assets/png/support-metrics-dashboard-example.png"/>
+            </div>
+            <div class="default-grid__content">
+              <h4>Support Dashboard</h4>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a id="demo_marketing" href="/learn/dashboard-examples/digital-marketing-dashboard-example/" target="_blank" alt="Digital marketing dashboard example image" title="Digital marketing dashboard example">
+            <div class="default-grid__img">
+              <img alt="Digital marketing KPI dashboard example" src="/assets/png/digital-marketing-metrics-dashboard-example.png"/>
+            </div>
+            <div class="default-grid__content">
+              <h4>Digital Marketing Dashboard</h4>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a id="demo_devops" href="/learn/dashboard-examples/aarrr-pirate-metrics-dashboard-example/" target="_blank" alt="Startup KPI dashboard example image" title="Startup Pirate Metrics dashboard example">
+            <div class="default-grid__img">
+              <img alt="Startup KPI dashboard example" src="/assets/png/startup-pirate-metrics-dashboard-example.png"/>
+            </div>
+            <div class="default-grid__content">
+              <h4>Startup Dashboard</h4>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a id="demo_analytics" href="/learn/dashboard-examples/web-analytics-dashboard-example/" target="_blank" alt="Web Analytics dashboard example image" title="Web Analytics dashboard example">
+            <div class="default-grid__img">
+              <img alt="Web Analytics dashboard example" src="/assets/png/web-analytics-dashboard-example.png"/>
+            </div>
+            <div class="default-grid__content">
+              <h4>Web Analytics Dashboard</h4>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <a href="/learn/dashboard-examples/" class="round-btn-small" id="more-example-dashboards">See More Dashboard Examples</a>
+    </div>
   </div>
+  <div class="sign-up">
+    <div class="container">
+      <h2 class="section-heading mid title-spark">Try Geckoboard <span>completely free for 30 days</span></h2>
+      <p class="section-subtitle alt">It takes just <strong>minutes</strong> to <strong>start visualizing your data</strong>.</p>
+      <div class="btn-container" id="try-CTA-home-footer">
+        <form action="/try-geckoboard/" method="get" class="inline__signup-form">
+          <input type="email" name="email" placeholder="Enter your email address">
+          <button class="btn" id="get-started-home-foot">Get Started</button>
+        </form>
+      </div>
+    </div>
   </div>
-  
-  <div class="row align-center index__integrations__cta">
-  <div class="shrink columns text-center">
-    <div class="index__integrations__cta__text"><a href="/integrations/" alt="Geckboard data integrations" title="Build dashboards using live data from Google Analytics, Salesforce, Zendesk, spreadsheets and more...">View More Integrations</a></div>
-    <div class="index__integrations__cta__button"><a class="button large" href="#">Take the Product Tour</a></div>
-  </div>
-  </div>
-    
-</section>
-
-
-<section class="index__quote">
-  <div class="row">
-  	<div class="small-6 columns">
-      <blockquote>
-      Geckoboard has made a huge difference in behaviour by making my team constantly aware of the metrics that matter. As a result our sales have gone up by 10%.
-      <cite>John Birtwhistle, Sales Operations Manager, eSynergy Solutions</cite>
-      </blockquote>
-  	</div>
-  </div>
+{% include page-end-links.html %}
 </section>

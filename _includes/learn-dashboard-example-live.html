@@ -1,0 +1,109 @@
+{% capture content %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<iframe height="100%" width="100%" marginwidth="0" style="overflow: hidden;" frameborder="0" src="{{meta.dashboard_url}}" allowfullscreen frameborder="0" scrolling="no" onload="resizeIframe(this)"> </iframe>
+<div id="toolbar-container" class="animated">
+  <div id="toolbar" class="branded-share">
+    <div class="toolbar-left">
+      <a href="{{parent.url}}" title="Back to Dashboard Example">
+        <div class="back-btn">
+          <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+        </div>
+        <h1>{{meta.title}}</h1>
+      </a>
+    </div>
+    <div class="toolbar-center">
+      {% if meta.custom_case_study == '1' %}
+      <div class="toolbar-center-img-container">
+        <div class="toolbar-center-img" {% if assets.first %}style="background-image: url({{assets.first}})"{% endif %}></div>
+      </div>
+      <div class="container">
+        <div class="content-row__text benefits-quote__text">
+        <h2>Featured Case Study</h2>
+        <p>{{meta.case_study_intro | strip_html | truncate: 100}}</p>
+        <a class="round-btn-small" href="{{meta.case_study_link}}">Read the Full Case Study</a>
+        </div>
+      </div>
+      {% else %}
+      <div class="toolbar-center-img-container">
+        <div class="toolbar-center-img" style="background-image: url('/assets/Komet-Sales-dashboard-examples-min.jpg')"></div>
+      </div>
+      <div class="container">
+        <div class="content-row__text benefits-quote__text">
+        <h2>Featured Case Study</h2>
+        <p>Komet Sales is a Software as a Service (SaaS) business to business platform. The platform allows...</p>
+        <a class="round-btn-small" href="/learn/case-studies/komet-sales">Read the Full Case Study</a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    <div class="toolbar-right">
+      <a href="https://www.geckoboard.com" title="KPI dashboard software for businesses" target="_blank">
+        <img src="/assets/svg/logo.svg" alt="Geckoboard logo">
+      </a>
+    </div>
+    <a href="#" class="show"></a>
+  </div>
+</div>
+<script>
+$(document).ready(main);
+
+function main()
+{
+  $('iframe').attr('src', getIframeUrl() );
+  registerEvents();
+  resizeIframe();
+}
+
+function getIframeUrl()
+{
+  var url = window.location.href;
+  var iframe_url = '{{meta.dashboard_url}}';
+  var param_start = url.indexOf("iframe=");
+  if( param_start != -1 )
+    iframe_url = url.substr(param_start+7,url.length-param_start-7);
+  if( iframe_url.indexOf("http://") == -1)
+    iframe_url = "http://" + iframe_url;
+
+  return iframe_url;
+}
+function resizeIframe()
+{
+  $("#iframe").height( WindowHeight() - getObjHeight(document.getElementById("toolbar-container")) );
+}
+
+function WindowHeight()
+{
+  var de = document.documentElement;
+  return self.innerHeight ||
+    (de &amp;amp;amp;&amp;amp;amp; de.clientHeight ) ||
+    document.body.clientHeight;
+}
+
+function getObjHeight(obj)
+{
+  if( obj.offsetWidth )
+  {
+    return obj.offsetHeight;
+  }
+  return obj.clientHeight;
+}
+$(window).resize( function() {resizeIframe();} );
+
+</script>
+<script>
+$( ".show" ).click(function() {
+  if ($(this).hasClass("active")) {
+      $('#toolbar-container').removeClass('hideDown');
+
+  } else{
+      $('#toolbar-container').addClass('hideDown');
+  }
+});
+</script>
+<script>
+  document.querySelector('.show').addEventListener('click', function () {
+    this.classList.toggle('active');
+  });
+</script>
+{% endcapture %}
+{% include 'layouts/plain' %}

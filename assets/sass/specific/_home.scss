@@ -1,0 +1,839 @@
+.url-index {
+  .page-head {
+    .navigation {
+      background-color: $bg-grey;
+
+      &.scroll {
+        background-color: $brand-grey;
+      }
+    }
+
+    .nav-signup input[type="email"] {
+      background-color: rgba(255,255,255,.15);
+
+      @include placeholder {
+        color: #fff;
+      }
+    }
+
+    .page-head__nav li {
+      a {
+        color: #fff;
+
+        @include mq($med-large) {
+          color: #AFB9C2;
+        }
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      .login-button {
+        opacity: 1;
+        color: #fff;
+
+        &:hover {
+          opacity: .75;
+        }
+      }
+
+      .demo-button {
+        opacity: 1;
+        color: $brand-green;
+
+        &:hover {
+          color: darken($brand-green,7%);
+        }
+      }
+    }
+
+    .page-head__nav .sub-nav li a {
+      color: $brand-mid-grey;
+
+      &:hover {
+        color: #fff;
+      }
+
+      @include mq($med-large) {
+        &:hover {
+          color: $brand-grey;
+        }
+      }
+    }
+  }
+
+  .hero-container {
+    padding: 0;
+    position: relative;
+    background-color: $bg-grey;
+    overflow: hidden;
+    padding: 3em 1em;
+
+    @include mq($small) {
+      padding: 2em;
+    }
+
+    @include mq($large-small) {
+      padding: 0;
+    }
+  }
+
+  .hero-container__btn {
+    @include round-btn-dark;
+
+    @include mq($small) {
+      display: inline-block;
+    }
+  }
+
+  .hero-container__img {
+    background-image: url(../png/datasets-hero-background.png);
+    opacity: 1;
+    background-position: 50% 50%;
+    background-size: 1830px 382px;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 382px;
+    z-index: 0;
+    margin: 0;
+
+    @include retina {
+      background-image: url(../png/datasets-hero-background@2x.png);
+    }
+  }
+
+  .hero-container__illo {
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+    position: relative;
+    display: none;
+    margin: 0 auto;
+
+    @include mq($small) {
+      display: block;
+    }
+
+    @include mq($large-small) {
+      position: absolute;
+      width: 410px;
+      height: 436px;
+      right: 0;
+      top: 60px;
+      display: block;
+      overflow: hidden;
+    }
+
+    @include mq($large) {
+      width: 488px;
+      height: 440px;
+    }
+
+    @include mq($extra-large) {
+      width: 640px;
+      height: 465px;
+    }
+
+    .hero-container__illo-img {
+      position: relative;
+      width: 100%;
+      max-width: 480px;
+
+      @include mq($large-small) {
+        position: absolute;
+        left: 0;
+        right: 0;
+        min-width: 600px;
+        max-width: 640px;
+      }
+
+      @include mq($extra-large) {
+        min-width: 640px;
+      }
+    }
+  }
+
+  .hero-container__main-heading {
+    line-height: 1.2em !important;
+    font-weight: 600;
+    margin-bottom: 16px;
+
+    @include mq($med-large) {
+      @include font-size(30px);
+      line-height: 1.4em;
+    }
+
+    @include mq($large-small) {
+      @include font-size(30px);
+      line-height: 1.4em;
+    }
+
+    @include mq($large) {
+      @include font-size(32px);
+      line-height: 1.4em;
+    }
+
+    @include mq($extra-large) {
+      @include font-size(36px);
+      line-height: 1.4em;
+    }
+  }
+
+  .hero-container__sub-heading {
+    @include font-size(18px);
+    line-height: 1.4em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    max-width: 640px;
+
+    @include mq($med-large) {
+      @include font-size(21px);
+      line-height: 1.4em;
+    }
+  }
+
+  .btn-container {
+    .inline__signup-form {
+      position: relative;
+      max-width: 532px;
+      margin: 0 auto;
+      margin-bottom: 1em;
+
+      @include mq($small) {
+        @include flex-wrap(nowrap);
+      }
+
+      @include mq($large-small) {
+        margin: 0;
+        margin-bottom: 1em;
+      }
+
+      input, button {
+        height: 48px;
+      }
+
+      button {
+        @include mq($small) {
+          position: relative;
+          right: 0;
+          width: 200px;
+          padding: 12px 24px;
+        }
+      }
+
+      input[type="email"] {
+        border: 0;
+        width: 100%;
+
+        @include placeholder {
+          color: $body-grey;
+        }
+      }
+    }
+
+    .subtext {
+      color: #AEB8C1;
+      @include font-size(14px);
+
+      @include mq($medium) {
+        @include font-size(15px);
+      }
+
+      strong {
+        color: #fff;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .hero-container__inner {
+    padding: 0;
+    position: relative;
+
+    @include mq($large-small) {
+      padding: 5em 2em;
+      margin: 0 auto;
+      max-width: 80em;
+    }
+
+    @include mq($large) {
+      padding: 6em 2em;
+    }
+  }
+
+  .hero-container__text {
+    max-width: 100%;
+    text-align: center;
+    z-index: 1;
+
+    @include mq($medium) {
+      text-align: center;
+    }
+
+    @include mq($large-small) {
+      margin-right: 440px;
+      padding: 0;
+      text-align: left;
+    }
+
+    @include mq($large) {
+      margin-right: 500px;
+    }
+
+    @include mq($extra-large) {
+      margin-right: 640px;
+      max-width: 540px;
+      margin-left: 0;
+    }
+  }
+
+  .icon-heading {
+    .section-heading {
+      margin-bottom: 0;
+    }
+  }
+
+  .main-content {
+    .container {
+      padding: 2em 1em;
+
+      @include mq($small) {
+        padding: 3em 2em;
+      }
+
+      @include mq($medium) {
+        padding: 4em 2em;
+      }
+    }
+  }
+
+  .logo-bar {
+    text-align: center;
+    background-color: $light-blue-grey;
+
+    .container {
+      padding: 2em 1em;
+
+      @include mq($medium) {
+        padding: 2em;
+      }
+    }
+
+    .section-heading {
+      margin-bottom: 1em;
+      @include font-size(14px);
+      line-height: 1.4em;
+
+      @include mq($med-large) {
+        @include font-size(16px);
+        line-height: 1.4em;
+      }
+    }
+
+    .img-desktop, .img-mobile {
+      margin: 0 auto;
+    }
+
+    .img-desktop {
+      max-width: 745px;
+      width: 100%;
+      margin: 0 auto;
+      height: auto;
+    }
+  }
+
+  .storyboard-title {
+    .container {
+      padding-bottom: 0;
+    }
+
+    .section-heading {
+      margin-bottom: 12px;
+    }
+
+    .section-subtitle {
+      display: block;
+      max-width: 680px;
+      margin-bottom: 0;
+    }
+  }
+
+  .story-one, .story-two {
+    &.right {
+      .floated-row {
+        @include mq($large) {
+          padding-right: 580px;
+        }
+      }
+    }
+
+    &.left {
+      .floated-row {
+        @include mq($large) {
+          padding-left: 580px;
+        }
+      }
+    }
+
+    .floated-element {
+      max-width: 520px;
+
+      @include mq($large-small) {
+        max-width: 460px;
+      }
+
+      @include mq($large) {
+        max-width: 520px;
+      }
+    }
+
+    .floated-content {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .floated-content__inner {
+      border-top: 2px solid #EBEDEF;
+      border-bottom: 2px solid #EBEDEF;
+      padding: 2em 0;
+      text-align: left;
+    }
+
+    .section-heading {
+      @include font-size(18px);
+      line-height: 1.4em;
+      font-weight: 500;
+      text-align: center;
+
+      @include mq($small) {
+        text-align: left;
+      }
+
+      @include mq($medium) {
+        @include font-size(20px);
+        line-height: 1.4em;
+      }
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    .small-vect-icon {
+      margin: 0 auto;
+
+      @include mq($small) {
+        margin: 0;
+      }
+    }
+
+    .floated-content__inner > p {
+      @include font-size(16px);
+      line-height: 1.6em;
+      text-align: left;
+
+      @include mq($small) {
+        @include font-size(18px);
+        line-height: 1.6em;
+      }
+    }
+
+    .mini-blockquote {
+      .blockquote-wrapper {
+        position: relative;
+        margin-top: 1em;
+
+        @include mq($small) {
+          padding-left: 24px;
+        }
+
+        &:before {
+          content: "";
+          display: inline-block;
+          position: relative;
+          left: 0;
+          margin-bottom: .5em;
+          width: 16px;
+          height: 16px;
+          background-repeat: no-repeat;
+          background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4yLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMCAyNy43IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMCAyNy43OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojOERDNjNGO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMCwxOC45QzAsMTAuNyw1LjEsMy42LDguMywwLjdjMS0wLjksMS44LTAuOCwyLjQtMC4yTDEyLDEuOGMwLjUsMC41LDAuNCwxLjUtMC42LDIuNGMtMSwwLjktNi4xLDUuMi02LjEsMTIuNA0KCWMwLjQtMC4xLDAuOC0wLjEsMS4yLTAuMWMzLjEsMCw1LjYsMi42LDUuNiw1LjZjMCwzLjEtMi42LDUuNi01LjYsNS42QzMuMywyNy43LDAsMjUuOSwwLDE4Ljl6IE0xNy43LDE4LjljMC04LjIsNS4xLTE1LjIsOC4zLTE4LjINCgljMS0wLjksMS44LTAuOCwyLjQtMC4ybDEuNCwxLjRjMC41LDAuNSwwLjQsMS41LTAuNiwyLjRTMjMsOS40LDIzLDE2LjZjMC40LTAuMSwwLjgtMC4xLDEuMi0wLjFjMywwLDUuNiwyLjYsNS42LDUuNg0KCWMwLDMuMS0yLjYsNS42LTUuNiw1LjZDMjEuMSwyNy43LDE3LjcsMjUuOSwxNy43LDE4Ljl6Ii8+DQo8L3N2Zz4NCg==');
+
+          @include mq($small) {
+            position: absolute;
+            top: 4px;
+          }
+        }
+      }
+
+      blockquote {
+        @include font-size(14px);
+        line-height: 1.6em;
+        font-style: italic;
+        margin-bottom: 6px;
+
+        @include mq($small) {
+          @include font-size(16px);
+          line-height: 1.6em;
+        }
+      }
+
+      cite {
+        color: $brand-mid-grey;
+        font-family: $default-sans;
+        text-transform: uppercase;
+        @include font-size(11px);
+        line-height: 1.4em;
+        letter-spacing: 0.05em;
+        font-style: normal;
+        font-weight: 600;
+        display: block;
+
+        @include mq($small) {
+          @include font-size(12px);
+          line-height: 1.4em;
+        }
+      }
+    }
+  }
+
+  .example-dashboards {
+    background: $brand-grey;
+    color: #fff;
+
+    .container {
+      text-align: center;
+      padding: 2em 1em;
+      max-width: 80em;
+
+      @include mq($small) {
+        padding: 3em 2em;
+      }
+    }
+
+    h2 {
+      color: #fff;
+      margin-bottom: 1.5em;
+      @include font-size(21px);
+      line-height: 1.4em;
+
+      @include mq($small) {
+        @include font-size(24px);
+        line-height: 1.4em;
+      }
+
+      &:after {
+        background-color: rgba(255,255,255,.1);
+      }
+    }
+
+    .default-grid__list {
+      @include mq($tiny) {
+        @include display-flex;
+        @include flex-wrap(wrap);
+        align-items: flex-start;
+      }
+
+      li {
+        list-style-type: none;
+        margin: 0;
+        margin-bottom: 1em;
+        vertical-align: top;
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+        padding: 0;
+        display: inline-block;
+        background-color: darken($brand-grey,5%);
+
+        @include mq($tiny) {
+          margin-right: 2%;
+          width: 49%;
+
+          &:nth-child(2n) {
+            margin-right: 0;
+          }
+        }
+
+        @include mq($small) {
+          margin-right: 2%;
+          width: 32%;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &:nth-child(2n) {
+            margin-right: 2%;
+          }
+
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+        }
+
+        @include mq($med-large) {
+          margin-right: 1%;
+          width: 19.2%;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &:nth-child(2n) {
+            margin-right: 1%;
+          }
+
+          &:nth-child(3n) {
+            margin-right: 1%;
+          }
+        }
+
+        a {
+          display: inline-block;
+          text-align: center;
+          width: 100%;
+
+          h4 {
+            text-align: center;
+            margin-bottom: 0;
+            @include font-size(16px);
+            text-transform: none;
+          }
+
+          p {
+            text-align: left;
+            opacity: .7;
+            @include font-size(16px);
+            line-height: 1.6em;
+          }
+
+          &:hover {
+            h4 {
+              color: $brand-green;
+            }
+          }
+        }
+
+        .default-grid__content {
+          @include font-size(16px);
+          line-height: 1.6em;
+          text-transform: none;
+          width: 100%;
+          vertical-align: middle;
+          color: #fff;
+          padding: .5em;
+          @include transition(all .25s);
+          text-align: center;
+
+          @include mq($med-large) {
+            margin-top: 0;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+
+        .default-grid__img {
+          background-color: #101214;
+          vertical-align: middle;
+          display: block;
+          border-top-right-radius: 4px;
+          border-top-left-radius: 4px;
+
+          @include mq($large) {
+            width: 100%;
+          }
+
+          img {
+            width:100%;
+            vertical-align: middle;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+          }
+        }
+      }
+    }
+
+    .round-btn-small {
+      @include round-btn-small;
+      color: #fff;
+      background-color: transparent;
+      border: 2px solid;
+      border-color: rgba(255,255,255,.1);
+      border-radius: 4px;
+      display: block;
+      max-width: 310px;
+      margin: 0 auto;
+      margin-top: 2em;
+      padding: .5em 1em;
+
+      &:hover {
+        border-color: rgba(255,255,255,.2);
+        background-color: transparent;
+      }
+    }
+  }
+
+  .integrations {
+    text-align: center;
+    background-color: $light-blue-grey;
+    position: relative;
+
+    .container {
+      padding: 2em 1em;
+
+      @include mq($small) {
+        padding: 3em 2em;
+      }
+
+      @include mq($medium) {
+        padding: 4em 2em;
+      }
+    }
+
+    .section-heading {
+      font-weight: 400;
+      display: block;
+      margin: 0 auto;
+      max-width: 740px;
+      margin-bottom: 1.5em;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    .logo-grid {
+      max-width: 640px;
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 3em;
+    }
+
+    .underline-btn {
+      @include underline-btn;
+    }
+
+    .round-btn {
+      @include mq($small) {
+        width: 260px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .home-quote {
+    .content-row__img {
+      background-image: url(../img/home-quote-esynergy-1.jpg);
+      background-position: 50% 20%;
+    }
+  }
+
+  .sign-up {
+    text-align: center;
+    background-color: $brand-green;
+
+    .container {
+      padding: 2em 1em;
+      max-width: 840px;
+
+      @include mq($small) {
+        padding: 3em 2em;
+      }
+
+      @include mq($medium) {
+        padding: 4em 2em;
+      }
+
+      @include mq($large) {
+        max-width: 80em;
+      }
+    }
+
+    .default-grid__list {
+      justify-content: center;
+    }
+
+    .section-heading {
+      font-weight: 400;
+      display: inline-block;
+      margin: 0 auto;
+      margin-bottom: 4px;
+      color: #fff;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    .section-subtitle {
+      color: #4F7C10;
+      margin-bottom: 1em;
+
+      strong {
+        font-style: italic;
+        font-weight: 700;
+      }
+    }
+
+    .btn-container {
+      .inline__signup-form {
+        position: relative;
+        max-width: 520px;
+        margin: 0 auto;
+
+        input, button {
+          height: 48px;
+        }
+
+        button {
+          background-color: $brand-grey;
+
+          &:hover {
+            background-color: darken($brand-grey,10%);
+          }
+
+          @include mq($small) {
+            position: absolute;
+            right: 0;
+            width: auto;
+            padding: 12px 24px;
+          }
+        }
+
+        input[type="email"] {
+          border: 0;
+          width: 100%;
+
+          @include mq($small) {
+            margin-right: 142px;
+          }
+
+          @include placeholder {
+            color: $brand-grey;
+            opacity: .75;
+          }
+
+          &:hover {
+            @include placeholder {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .page-end-links {
+    .container {
+      padding: 0;
+
+      @include mq($med-large) {
+        padding: 2.5em 2em;
+      }
+    }
+  }
+}//url-index

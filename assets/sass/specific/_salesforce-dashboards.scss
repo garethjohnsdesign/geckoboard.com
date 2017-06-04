@@ -1,0 +1,855 @@
+.url-salesforce-dashboards {
+  .page-head {
+    display: none;
+  }
+
+  .page-foot {
+    display: none;
+  }
+
+  .page-head-mini {
+    .container {
+      max-width: 80em;
+      padding: 0;
+      display: table;
+      width: 100%;
+
+      @include mq($medium) {
+        padding: .75em 2em;
+      }
+    }
+
+    .logo-mini {
+      @extend %logo;
+      width: 200px;
+      height: 33px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      vertical-align: middle;
+      display: block;
+      margin: 1em auto;
+
+      @include mq($medium) {
+        display: inline-block;
+        margin: 0;
+      }
+    }
+
+    .back-home {
+      color: #fff;
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-family: $default-sans;
+      @include font-size(13px);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      font-weight: 500;
+      border-top: 1px solid;
+      border-color: rgba(255,255,255,.1);
+      padding: 1em 0;
+
+      &:hover {
+        opacity: .7;
+      }
+
+      @include mq($medium) {
+        display: inline-block;
+        float: right;
+        border-top: 0;
+        margin-top: 5px;
+        padding: 0;
+        width: auto;
+        text-align: right;
+      }
+    }
+  }
+
+  #footer {
+    @include mq($med-large) {
+      height: 2em;
+    }
+  }
+
+  #sticky-anchor {
+    display: none;
+
+    @include mq($med-large) {
+      height: 2em;
+      display: block;
+    }
+  }
+
+  #page-anchor {
+    display: none;
+
+    @include mq($large) {
+      display: block;
+      width: 100%;
+      height: 1em;
+      position: relative;
+    }
+  }
+
+  .main-content {
+    background-color: $light-grey;
+    width: 100%;
+
+    .container {
+      max-width: 80em;
+      padding: 1em;
+
+      @include mq($small) {
+        padding: 2em;
+      }
+
+      @include mq($med-large) {
+        padding: 0 2em;
+      }
+    }
+  }
+
+  #sidebar {
+    display: none;
+
+    @include mq($med-large) {
+      position: absolute;
+      max-width: 20em;
+      background-position: 50% -190px;
+      float: left;
+      display: block;
+      position: relative;
+      width: 100%;
+    }
+
+    @include mq($large) {
+      max-width: 24em;
+    }
+
+    &.fixed {
+      position: fixed ;
+      top: 0;
+    }
+  }
+
+  .signup-box {
+    background-color: $brand-grey;
+    background-size: 512px 512px;
+    background-position: 50% -230px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 4px;
+
+    @include mq($medium) {
+      background-position: 50% -190px;
+    }
+
+    .container {
+      padding: 1em;
+
+      @include mq($medium) {
+        padding: 2em;
+      }
+
+      @include mq($med-large) {
+        padding: 2em 1em;
+      }
+
+      @include mq($large) {
+        padding: 2em;
+      }
+    }
+
+    .salesforce-signup-icon {
+      max-width: 220px;
+      margin: 0 auto;
+      margin-bottom: 1em;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    h2 {
+      color: #fff;
+      @include font-size(16px);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: .5em;
+      line-height: 1.4em;
+      padding: 0.5em 0;
+    }
+
+    p {
+      color: #fff;
+      @include font-size(18px);
+      text-align: center;
+      opacity: .9;
+      margin-bottom: 1em;
+      margin-top: 1.5em;
+    }
+
+    .form-signup {
+      .form-group {
+        margin-bottom: 1em;
+        position: relative;
+
+        .error-message {
+          color: #fff;
+          font-family: $default-sans;
+          display: block;
+          position: absolute;
+          background-color: #e45858;
+          padding: .1em .5em;
+          border-radius: 2px;
+          right: 0;
+          z-index: 2;
+          text-align: center;
+          top: -12px;
+          @include font-size(12px);
+          font-weight: 500;
+
+          &:after {
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: rgba(228, 88, 88, 0);
+            border-top-color: #e45858;
+            border-width: 5px;
+            margin-left: -5px;
+          }
+        }
+      }
+
+      input {
+        width: 100%;
+        display: block;
+        border: 0;
+        @include font-size(16px);
+        -webkit-appearance: none;
+        padding: .75em;
+        border-radius: 3px;
+        outline-offset: 0;
+        outline: 0;
+        @include transition(all .25s);
+        background: #f9f9f9;
+        color: #3d4351;
+        border: 1px solid transparent;
+        cursor: inherit;
+
+        &.error {
+          border: 1px solid;
+          border-color: #e45858 !important;
+        }
+
+        &:active, &:focus, &:hover {
+          -webkit-appearance: none;
+          outline-offset: 0;
+          outline: 0;
+        }
+
+        @include placeholder {
+          color: #3d4351;
+          opacity: .5;
+          @include transition(all .25s);
+        }
+
+        &:hover {
+          background: lighten(#f9f9f9,10%);
+        }
+
+        &:focus {
+          background: lighten(#f9f9f9,10%);
+        }
+      }
+
+      input[type="submit"] {
+        @include round-btn;
+        outline-offset: 0;
+        outline: 0;
+        -webkit-appearance: none;
+        border: 0;
+        cursor: pointer;
+      }
+
+      .legal {
+        color: #9da0a7;
+        @include font-size(14px);
+        text-align: center;
+        margin-bottom: 0;
+        display: block;
+        line-height: 1.6em;
+        margin-top: 1em;
+
+        a {
+          color: $brand-green;
+
+          &:hover {
+            color: darken($brand-green,10%);
+          }
+        }
+      }
+
+      h4 {
+        @include font-size(10px);
+        color: #fff;
+        padding: 10px 0;
+      }
+    }
+  }
+
+  #sidebar-small {
+    display: block;
+    margin-bottom: 1em;
+
+    @include mq($med-large) {
+      display: none;
+    }
+
+    .signup-box {
+      .sidebar-small-form-container__btn {
+        color: #fff;
+        background-color: darken($brand-grey,5%);
+        display: block;
+        padding: 1em;
+        font-family: $default-sans;
+        font-weight: 600;
+        text-transform: uppercase;
+        outline: 0;
+        @include font-size(14px);
+        position: relative;
+
+        &:hover {
+          background-color: darken($brand-grey,8%);
+        }
+
+        &:after {
+          content:"\f107";
+          display: inline-block;
+          @include font-size(21px);
+          font-family: FontAwesome;
+          opacity: .5;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: .75em;
+        }
+
+        span {
+          padding-right: 1.75em;
+          display: block;
+        }
+
+        &.open {
+          background-color: darken($brand-grey,8%);
+
+          &:after {
+            content:"\f106";
+          }
+        }
+      }
+
+      .sidebar-small-form-container {
+        padding: 1em;
+        display: none;
+
+        &.open {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .salesforce-content {
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: rgba(61,67,81,.1);
+
+    @include mq($med-large) {
+      margin-left: 22em !important;
+    }
+
+    @include mq($large) {
+      margin-left: 26em !important;
+    }
+
+    .header-section {
+      position: relative;
+
+      .container {
+        padding: 1.5em;
+
+        @include mq($small) {
+          padding: 2em;
+        }
+      }
+
+      .title-banner {
+        background-color: #fff;
+        position: relative;
+        overflow: hidden;
+
+        .container {
+          padding-bottom: 0;
+
+          @include mq($small) {
+            max-width: 85%;
+          }
+        }
+
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 218px;
+
+        }
+
+        .header-section__main-title {
+          @include font-size(20px);
+          font-weight: 400;
+          line-height: 1.6em;
+          color: #3d4351;
+          letter-spacing: 0;
+          font-family: "brandon-grotesque",sans-serif;
+          text-transform: uppercase;
+
+          @include mq($small) {
+            @include font-size(24px);
+            line-height: 1.6em;
+          }
+        }
+      }
+
+      .video-container {
+        max-width: 620px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    .callout-section {
+      border-top: none;
+      border-color: rgba(61,67,81,.1);
+      background-color: #fff;
+
+      .container {
+        padding: 1.5em;
+
+        @include mq($small) {
+          padding: 4em 3em;
+        }
+      }
+
+      p {
+        font-family: $default-serif;
+        @include font-size(18px);
+        text-align: left;
+        text-transform: none;
+        font-weight: 400;
+        line-height: 1.6em;
+      }
+    }
+
+    .testimonial-bar {
+      text-align: center;
+
+      .container {
+        max-width: 540px;
+        margin: 0 auto;
+        margin-bottom: 3em;
+
+        @include mq($small) {
+          margin: 0 auto;
+        }
+      }
+
+      .blockquote-container {
+        display: block;
+        width: 100%;
+
+        .blockquote-avatar {
+          position: absolute;
+          z-index: 2;
+          bottom: -36px;
+          left: 50%;
+          margin-top: -36px;
+          margin-left: -36px;
+          width: 72px;
+          height: 72px;
+          overflow: hidden;
+          border-radius: 99px;
+          background-size: cover;
+          background-position: 50% 50%;
+          border: 1px solid #eee;
+
+          @include mq($small) {
+            top: 50%;
+            bottom: auto;
+            left: -32px;
+            margin-top: -32px;
+            width: 64px;
+            height: 64px;
+            margin-left: 0;
+          }
+
+          img {
+            border-radius: 4px;
+          }
+        }
+
+        .blockquote-content {
+          display: block;
+          position: relative;
+
+          @include mq($small) {
+            margin-left: 2em;
+          }
+
+          blockquote {
+            background: #f8f8f8;
+            border-left: 3px solid $brand-green;
+            padding: 1em;
+            padding-bottom: 3em;
+            margin-bottom: 0;
+
+            @include mq($small) {
+              padding: 2em 1.5em;
+            }
+
+            p {
+              text-align: center;
+              @include font-size(17px);
+              line-height: 1.6em;
+              font-style: normal;
+              color: $brand-grey;
+              margin-bottom: 0;
+
+              @include mq($small) {
+                @include font-size(19px);
+                line-height: 1.6em;
+              }
+            }
+
+            strong {
+              display: block;
+            }
+
+            cite {
+              color: $brand-grey;
+
+              &:before {
+                content: "";
+                width: 48px;
+                height: 3px;
+                display: block;
+                background: rgba(61,67,81,0.1);
+                margin: 1em 0;
+              }
+            }
+          }
+        }
+      }
+
+      h2 {
+        color: $brand-grey;
+        margin-bottom: 1.5em;
+        @include font-size(12px);
+        letter-spacing: 0.1em;
+        border-bottom: 2px solid;
+        border-color: rgba(61,67,87,0.1);
+        display: inline;
+      }
+
+      img {
+        margin: 2em auto 1em auto;
+      }
+
+      ul {
+        @include display-flex;
+        @include flex-wrap(wrap);
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 1em;
+
+        li {
+          display: inline-block;
+          padding: 0;
+          margin: 0 auto;
+          width: 60%;
+          margin-bottom: 2em;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          @include mq($tiny-small) {
+            width: 31%;
+            margin: 0;
+            margin-bottom: 2em;
+            margin-right: 2%;
+
+            &:nth-child(4n) {
+              margin-bottom: 0;
+            }
+
+            &:nth-child(5n) {
+              margin-bottom: 0;
+            }
+          }
+
+          @include mq($medium) {
+            width: 18%;
+            margin-right: 2%;
+            margin-bottom: 0;
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+
+          img {
+            width: 100%;
+            display: block;
+            max-width:100%;
+          }
+        }
+      }
+    }
+
+    .key-points {
+      .container {
+        padding: 1.5em;
+
+        @include mq($small) {
+          padding: 2em;
+        }
+      }
+
+      .title-banner {
+        position: relative;
+        overflow: hidden;
+
+        .container {
+          padding-bottom: 0;
+        }
+
+        h2 {
+          @include font-size(20px);
+          line-height: 1.6em;
+          margin-bottom: 0em;
+          font-weight: 500;
+          font-family: $default-serif;
+          text-transform: none;
+          color: $brand-grey;
+          max-width: 25em;
+          display: block;
+          margin: 0 auto;
+          text-align: left;
+
+          @include mq($small) {
+            @include font-size(24px);
+            line-height: 1.6em;
+            text-align: center;
+          }
+
+          &:after {
+            content: "";
+            display: block;
+            margin: 1em auto;
+            width: 48px;
+            height: 3px;
+            background-color: rgba(61,67,81,.1);
+          }
+        }
+      }
+
+      ul {
+        width: 100%;
+        list-style-type: none;
+        text-align: left;
+
+        li {
+          display: block;
+          width: 100%;
+          border-bottom: 1px solid;
+          border-color: rgba(61,67,81,.1);
+          @include font-size(18px);
+          line-height: 1.6em;
+          padding: 1em;
+
+          @include mq($small) {
+            padding: 1.5em;
+            @include display-flex;
+            @include align-content(center);
+            @include align-items(center);
+          }
+
+          &:last-child {
+            border: 0;
+          }
+
+          .key-points-content {
+            @include mq($small) {
+              display: inline-block;
+            }
+          }
+
+          img {
+            width: 58px;
+            min-width: 58px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 1em;
+
+            @include mq($small) {
+              display: inline-block;
+              margin-right: 1em;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .example-dashboards {
+      border-top: 1px solid;
+      border-color: rgba(61,67,81,.1);
+      background-color: #fff;
+
+      .container {
+        padding: 2em 1.5em;
+
+        @include mq($small) {
+          padding: 3em 1.5em;
+        }
+      }
+
+      h2 {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1.5em;
+        display: block;
+        color: $brand-grey;
+        @include font-size(18px);
+        line-height: 1.6em;
+
+        @include mq($small) {
+          @include font-size(21px);
+          line-height: 1.6em;
+        }
+      }
+
+      .default-grid__list.col-3 {
+        @include display-flex;
+        @include flex-wrap(wrap);
+        left: 0;
+        max-width: 100%;
+
+        li {
+          margin-right: 0;
+          width: 100%;
+
+          @include mq($medium) {
+            margin-right: 2%;
+            width: 32%;
+            margin-bottom: 0;
+
+            &:nth-child(2n) {
+              margin-right: 2%;
+            }
+
+            &:nth-child(3n) {
+              margin-right: 0;
+            }
+          }
+
+          .default-grid__img {
+            border-radius: 4px;
+
+            img {
+              border-radius: 4px;
+            }
+
+            &:hover {
+              img {
+                opacity: .8;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .cta-callout {
+      position: relative;
+      text-align: center;
+
+      .container {
+        padding: 1.5em;
+        text-align: center;
+
+        @include mq($small) {
+          padding: 2em;
+        }
+      }
+
+      .title-banner {
+        background-color: $brand-grey;
+        position: relative;
+        overflow: hidden;
+
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 218px;
+          background-image: url('/assets/png/pattern-bg-salesforce-dark.png');
+          background-repeat: repeat-x;
+          top: 0;
+          background-size: 1080px 218px;
+          opacity: .4;
+        }
+
+        .cta-callout__main-title {
+          @include font-size(28px);
+          font-weight: 400;
+          line-height: 1.6em;
+          color: darken($brand-green, 20%);
+          color: #fff;
+          letter-spacing: 0;
+          font-family: $default-serif;
+          text-transform: none;
+          margin-bottom: .25em;
+        }
+
+        p {
+          color: #c4c6ca;
+          text-align: center;
+          @include font-size(18px);
+          line-height: 1.6em;
+          max-width: 26em;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+
+  .featured-quote {
+    max-width: 75em;
+    margin: 0 auto;
+  }
+}

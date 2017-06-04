@@ -1,0 +1,9 @@
+/* JS specific logic */
+
+#js-main-nav[data-state="closed"]{
+  display:none;
+
+  @include mq($med-large) {
+    display: inline-block;
+  }
+}

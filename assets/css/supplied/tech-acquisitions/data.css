@@ -1,0 +1,97 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: aktiv-grotesk, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #31353d;
+	color: #fff;
+	font-weight: lighter;
+	-webkit-text-size-adjust: none;
+}
+a {
+	color: rgb(78, 179, 211);
+}
+
+header h1, main, footer p {
+	max-width: 1100px;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+}
+
+header {
+	background: rgba(23, 27, 33, 0.9);
+}
+header h1 {
+	max-width: 1100px;
+	margin: 0 auto 0 auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.1;
+	letter-spacing: 2.9px;
+	font-family: brandon-grotesque, "Helvetica Neue", Helvetica, sans-serif; 
+	text-transform: uppercase;
+}
+
+main {
+	padding-bottom: 80px;
+}
+main p {
+	line-height: 1.5;
+}
+main p, main table {
+	font-size: 14px;
+	margin: 0 0 1.5em 0;
+}
+main table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+main th, main td {
+	vertical-align: top;
+	text-align: left;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid #31353d;
+	background: rgba(255, 255, 255, 0.1);
+}
+main th:first-child, main td:first-child {
+	border-left: none;
+}
+main th {
+	background: rgba(23, 27, 33, 0.9);
+	font-weight: normal;
+}
+@media (max-width: 799px) {
+	main th, main td {
+		padding: 10px;
+	}
+}
+@media (max-width: 479px) {
+	main th, main td {
+		font-size: 12px;
+		padding: 6px 4px 6px 4px;
+	}
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(23, 27, 33, 0.9);
+}
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1.1;
+	letter-spacing: 2.2px;
+	font-family: brandon-grotesque, "Helvetica Neue", Helvetica, sans-serif; 
+	text-transform: uppercase;
+}

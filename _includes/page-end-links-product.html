@@ -1,0 +1,31 @@
+<div class="page-end-links">
+  <div class="container">
+    <ul class="inline-grid__list col-4">
+      <li>
+        <a href="/learn/dashboard-examples/">
+          <img src="/assets/svg/icon-dashboard-examples-small.svg">
+          <h4>Dashboard Examples</h4>
+        </a>
+      </li>
+      <li>
+        <a href="/pricing/">
+          <img src="/assets/svg/icon-pricing-small.svg">
+          <h4>Pricing</h4>
+        </a>
+      </li>
+      <li>
+        {% if site.meta['book-a-demo'] == 'yes' %}
+        <a href="/book-a-demo/">
+          <img src="/assets/svg/icon-book-demo-small.svg">
+          <h4>Book a Demo</h4>
+        </a>
+        {% else %}
+        <a href="{{site.meta['watch-a-demo-link']}}">
+          <img src="/assets/svg/icon-book-demo-small-alt.svg">
+          <h4>Watch a Demo</h4>
+        </a>
+        {% endif %}
+      </li>
+    </ul>
+  </div>
+</div>

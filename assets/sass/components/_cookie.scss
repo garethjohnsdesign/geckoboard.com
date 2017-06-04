@@ -1,0 +1,65 @@
+.cc-bar {
+  background-color: #fff;
+  @include box-shadow(inset 0px -1px 0 0px rgba(61,67,81,0.1));
+
+  .cc-bar-inner {
+    padding: .5em 1em;
+    max-width: 80em;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+
+    @include mq($medium) {
+      padding: .5em 1.5em;
+    }
+
+    @include mq($med-large) {
+      padding: .5em 2em;
+    }
+  }
+
+  .cc-msg {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    margin-top: 0;
+    @include font-size(11px);
+    line-height: 1.6em;
+    color: $brand-grey;
+    font-weight: 400;
+    margin-right: 2em;
+
+    .cc_more_info {
+      color: $brand-green;
+
+      &:hover {
+        border-bottom: 2px solid;
+      }
+    }
+  }
+
+  .cc-btn {
+    padding: 0;
+    cursor: pointer;
+    background-image: url(../svg/cookie-close.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 14px;
+    width: 16px;
+    height: 14px;
+    position: absolute;
+    top: 10px;
+    right: 1em;
+    opacity: .5;
+
+    @include mq($medium) {
+      right: 1.5em;
+    }
+
+    @include mq($med-large) {
+      right: 2em;
+    }
+
+    &:hover {
+      opacity: .75;
+    }
+  }
+}

@@ -1,0 +1,500 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en">        <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en">               <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Geckoboard (Datachoice Solutions Ltd.)">
+    <meta name="description" content="">
+    <meta name="generator" content="HubSpot">
+    <title></title>
+    <link rel="shortcut icon" href="http://cdn2.hubspot.net/hub/326854/file-366618180-ico/favicon.ico" />
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">hsjQuery = window['jQuery']</script>
+    <link href="https://static.hsappstatic.net/content_shared_assets/static-1.3687/css/public_common.css" rel="stylesheet" >
+    <meta property="og:description" content="">
+    <meta property="og:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="">
+    <link rel="canonical" href="http://www.geckoboard.com/6-golden-rules-to-successful-dashboard-design/" />
+
+<script src="//cdn2.hubspot.net/hub/326854/file-390436834-js/jquery-cookie.js" type="text/javascript"></script>
+            <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16139750-6']);
+  _gaq.push(['_setDomainName', 'geckoboard.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript" async="" src="http://cdn2.hubspot.net/hub/326854/file-605126866-js/landing-page-files/signup2.js"></script>
+<script src="//cdn.optimizely.com/js/170983546.js"></script>
+<script src="https://d28q98t4icjy0h.cloudfront.net/assets/libs/uuid.js"></script>
+<script src="https://d28q98t4icjy0h.cloudfront.net/assets/libs/mixpanel_tracking-477b3bf0a48cff3dfb4696aff1b7adc0.js"></script>
+<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("a7c0a3d5e7e221e70cb0e45004c200bf");
+mixpanel.set_config({
+    track_links_timeout: 1000,
+    loaded: GB.IDuser
+});</script><!-- end Mixpanel -->
+<script type="text/javascript">
+    GB.Tracker.track('page viewed', {'page name' : document.title, 'url' : window.location.pathname});
+    mixpanel.register_once({ 'landing page': window.location.pathname });
+</script>
+<!--- Mobile Optimization --->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+
+  /* prepend menu icon */
+  $('.hs-menu-flow-horizontal').prepend('<div id="menu-icon">Menu</div>');
+  
+  /* toggle nav */
+  $("#menu-icon").on("click", function(){
+    $(".hs-menu-wrapper.hs-menu-flow-horizontal > ul").slideToggle();
+    $(this).toggleClass("active");
+  });
+
+});
+</script>
+<script type="text/javascript" src="http://cdn2.hubspot.net/hub/326854/file-379083930-js/docs/jquery.main.js"></script>
+<script src="http://cdn2.hubspot.net/hub/326854/file-377656262-js/docs/jquery_003.js"></script>
+
+    
+    <!--[if lt IE 9]>
+    <script src="https://static.hsappstatic.net/content_shared_assets/static-1.3687/js/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/_hcms/raw-resource?portalId=326854&path=custom/styles/default/hs_default_custom_style.css" />
+    <link rel="stylesheet" href="//cdn2.hubspot.net/hub/326854/hub_generated/style_manager/1396447193635/custom/page/Geckoboard_Theme_v1/site.min.css" />
+</head>
+<body class=" " style="">
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<div class='page-center'>        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span3 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="3">
+                <div class="cell-wrapper layout-widget-wrapper">
+                    <span id="hs_cos_wrapper_module_138375549142616" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div id="custom-logo"><a id="hs-link-logo" style="border-width: 0px; border: 0px;" href="http://www.geckoboard.com"><img class="hs-image-widget " style="width: 221px; border-width: 0px; border: 0px;" title="Geckoboard" src="http://cdn2.hubspot.net/hub/326854/file-368707379-gif/images/logo.gif" alt="Geckoboard" width="221"></a></div></span>
+                </div><!--end layout-widget-wrapper -->
+            </div><!--end widget-span -->
+            <div class="span7 widget-span widget-type-menu custom-menu" style="" data-widget-type="menu" data-x="3" data-w="7">
+                <div class="cell-wrapper layout-widget-wrapper">
+                    <span id="hs_cos_wrapper_module_138375549142617" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_module_138375549142617" class="hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal" data-sitemap-name="default">
+    <ul>
+        <li class="hs-menu-item hs-menu-depth-1   "><a href="http://www.geckoboard.com/statusboard-features">Features</a>
+        </li>
+        <li class="hs-menu-item hs-menu-depth-1   "><a href="http://www.geckoboard.com/widget-directory">Widgets</a>
+        </li>
+        <li class="hs-menu-item hs-menu-depth-1   "><a href="http://www.geckoboard.com/plans-and-pricing">Pricing</a>
+        </li>
+        <li class="hs-menu-item hs-menu-depth-1   "><a href="http://www.geckoboard.com/customers">Customers</a>
+        </li>
+        <li class="hs-menu-item hs-menu-depth-1   "><a href="http://support.geckoboard.com/">Support</a>
+        </li>
+        <li class="hs-menu-item hs-menu-depth-1   "><a href="http://www.geckoboard.com/blog">Blog</a>
+        </li>
+        <li class="hs-menu-item hs-menu-depth-1   "><a href="http://www.geckoboard.com/geckofuel">GeckoFuel</a>
+        </li>
+    </ul>
+</div><!-- hs_menu_wrapper --></span>
+                </div><!--end layout-widget-wrapper -->
+            </div><!--end widget-span -->
+            <div class="span2 widget-span widget-type-rich_text header-buttons" style="" data-widget-type="rich_text" data-x="10" data-w="2">
+                <div class="cell-wrapper layout-widget-wrapper">
+                    <span id="hs_cos_wrapper_module_138375549142618" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div id="header-right"><a class="btn-green-sm" href="http://www.geckoboard.com/free-signup"><span>Free Trial</span></a> <a class="btn-grey-sm" href="https://app.geckoboard.com/login"><span>Login</span></a></div></span>
+                </div><!--end layout-widget-wrapper -->
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+</div>
+                    </div><!--end widget-span -->
+                </div><!--end row-->
+                </div><!--end row-wrapper -->
+            </div><!--end widget-span -->
+    </div><!--end row-->
+    </div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-rich_text custom_error_message" style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                <div class="cell-wrapper layout-widget-wrapper">
+                    <span id="hs_cos_wrapper_main_copy" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h2 style="text-align: center;">Page not found</h2>
+<h3 style="text-align: center;">Error 404 -&nbsp;Sorry, but what you are looking for isn't here. Have a pic of a sad Pug instead...</h3>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://cdn2.hubspot.net/hub/326854/file-391641118-jpg/citypug2.jpg" alt="citypug2"><br class="Apple-interchange-newline"><br></p></span>
+                </div><!--end layout-widget-wrapper -->
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+        <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                        <div class="cell-wrapper layout-widget-wrapper">
+                            <span id="hs_cos_wrapper_module_138556241197464" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></span>
+                        </div><!--end layout-widget-wrapper -->
+                    </div><!--end widget-span -->
+                </div><!--end row-->
+                </div><!--end row-wrapper -->
+            </div><!--end widget-span -->
+    </div><!--end row-->
+    </div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
+
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+<div class=''>        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell custom-footer" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-cell custom-footer-white" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                        <div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                                <div class="row-fluid-wrapper row-depth-3 row-number-1 ">
+                                <div class="row-fluid ">
+                                    <div class="span12 widget-span widget-type-rich_text page-center" style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                        <div class="cell-wrapper layout-widget-wrapper">
+                                            <span id="hs_cos_wrapper_module_13837537168714" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="holder"><strong class="heading">In the Press</strong>
+<ul>
+<li><img src="http://cdn2.hubspot.net/hub/326854/file-393091239-gif/landing-page-files/the-guardian.gif" alt="Image"></li>
+<li><img src="http://cdn2.hubspot.net/hub/326854/file-393126849-gif/landing-page-files/logo-tc.gif" alt="Image"></li>
+<li><img src="http://cdn2.hubspot.net/hub/326854/file-393059474-gif/landing-page-files/logo-tw.gif" alt="Image"></li>
+<li><img src="http://cdn2.hubspot.net/hub/326854/file-393123604-gif/landing-page-files/logo-mashable.gif" alt="Image"></li>
+<li><img src="http://cdn2.hubspot.net/hub/326854/file-393126264-gif/landing-page-files/the-observer.gif" alt="Image"></li>
+</ul>
+</div></span>
+                                        </div><!--end layout-widget-wrapper -->
+                                    </div><!--end widget-span -->
+                                </div><!--end row-->
+                                </div><!--end row-wrapper -->
+                            </div><!--end widget-span -->
+                    </div><!--end row-->
+                    </div><!--end row-wrapper -->
+                </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell custom-footer-grey" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-cell page-center" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                        <div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_13837537168726" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="holder"><a class="btn-footer" href="http://www.geckoboard.com/free-signup"><span>start a free trial today</span></a> <strong class="txt">Try it free for 30 days. No credit card required.</strong>
+<p>No commitment, no auto subscriptions, just data.</p>
+</div></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                    </div><!--end widget-span -->
+            </div><!--end row-->
+            </div><!--end row-wrapper -->
+        </div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-0 row-number-1 ">
+<div class="row-fluid ">
+    <div class="span12 widget-span widget-type-cell custom-footer-black" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-cell page-center" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                <div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+                <div class="row-fluid ">
+                    <div class="span8 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="8">
+
+                        <div class="row-fluid-wrapper row-depth-2 row-number-1 ">
+                        <div class="row-fluid ">
+                            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                                <div class="cell-wrapper layout-widget-wrapper">
+                                    <span id="hs_cos_wrapper_module_13837537168729" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="footer-l">
+<div class="column">
+<h3>product</h3>
+<div class="menu-product-container">
+<ul id="menu-product" class="menu">
+<li id="46" class="46"><a href="/statusboard-features/">Features</a></li>
+<li><a href="/widget-directory/">Widgets</a></li>
+<li><a href="/plans-and-pricing/">Pricing</a></li>
+<li><a href="/customers/">Customers</a></li>
+<li><a href="http://www.geckoboard.com/free-signup">Free Trial</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<h3>developers</h3>
+<div class="menu-developers-container">
+<ul id="menu-developers" class="menu">
+<li><a href="/developers/welcome/getting-started/">Getting Started</a></li>
+<li><a href="/developers/custom-widgets/">Custom Widgets</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<h3>company</h3>
+<div class="menu-company-container">
+<ul id="menu-company" class="menu">
+<li><a href="/about/">About</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/geckofuel/">GeckoFuel</a></li>
+<li><a href="/about/geckoboard/events/">Events</a></li>
+<li><a href="/jobs/">Jobs</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<h3>users</h3>
+<div class="menu-users-container">
+<ul id="menu-users" class="menu">
+<li><a href="http://www.geckoboard.com/get-started/">Get started</a></li>
+<li><a href="http://support.geckoboard.com">Support</a></li>
+<li><a href="/about/legal/terms/">Terms</a></li>
+<li><a href="/about/legal/privacy/">Privacy</a></li>
+<li><a href="/about/legal/cancellations/">Cancellations</a></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<h3>By Sector</h3>
+<div class="menu-sectors-container">
+<ul id="menu-sectors" class="menu">
+<li id="17723" class=" 17723"><a href="/digital-agency-dashboard/">Agencies</a></li>
+<li><a href="/startup-accelerator">Accelerators</a></li>
+</ul>
+</div>
+</div>
+</div></span>
+                                </div><!--end layout-widget-wrapper -->
+                            </div><!--end widget-span -->
+                        </div><!--end row-->
+                        </div><!--end row-wrapper -->
+                    </div><!--end widget-span -->
+                <div class="span4 widget-span widget-type-cell footer-right" style="" data-widget-type="cell" data-x="8" data-w="4">
+
+                    <div class="row-fluid-wrapper row-depth-2 row-number-2 ">
+                    <div class="row-fluid ">
+                        <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                            <div class="cell-wrapper layout-widget-wrapper">
+                                <span id="hs_cos_wrapper_module_138375371687211" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><h3>Newsletter</h3>
+<h4>Stay up to date with product announcements</h4></span>
+                            </div><!--end layout-widget-wrapper -->
+                        </div><!--end widget-span -->
+                    </div><!--end row-->
+                    </div><!--end row-wrapper -->
+                    <div class="row-fluid-wrapper row-depth-2 row-number-3 ">
+                    <div class="row-fluid ">
+                        <span class="newsletterform">
+                        <div class="span12 widget-span widget-type-raw_html " style="" data-widget-type="raw_html" data-x="0" data-w="12">
+                            <div class="cell-wrapper layout-widget-wrapper">
+                                <span id="hs_cos_wrapper_module_138572071970564" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_raw_html" style="" data-hs-cos-general-type="widget" data-hs-cos-type="raw_html"><script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
+<script>
+  hbspt.forms.create({ 
+    portalId: '326854',
+    formId: '0a3d556a-5605-4cfe-abdc-9dcdd7ba581c'
+  });
+</script></span>
+                            </div><!--end layout-widget-wrapper -->
+                        </div><!--end widget-span -->
+                        </span>
+                    </div><!--end row-->
+                    </div><!--end row-wrapper -->
+                    <div class="row-fluid-wrapper row-depth-2 row-number-4 ">
+                    <div class="row-fluid ">
+                        <div class="span12 widget-span widget-type-raw_html " style="" data-widget-type="raw_html" data-x="0" data-w="12">
+                            <div class="cell-wrapper layout-widget-wrapper">
+                                <span id="hs_cos_wrapper_module_138375371687213" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_raw_html" style="" data-hs-cos-general-type="widget" data-hs-cos-type="raw_html"><p style="color: #A7A7A7; font-size: 12px;">We don't do spam, and you can unsubscribe any time.</p>
+<div>		                            
+<br /><ul class="social-networks"><li><a href="https://twitter.com/geckoboard" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com']);" class="twitter twitter-follow-button" data-show-count="true" data-width="225px">Follow</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> </li><li> <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fgeckoboard&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true"></iframe> </li></ul>		                        </div></span>
+                            </div><!--end layout-widget-wrapper -->
+                        </div><!--end widget-span -->
+                    </div><!--end row-->
+                    </div><!--end row-wrapper -->
+                </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+        <div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+        <div class="row-fluid ">
+            <div class="span12 widget-span widget-type-rich_text " style="" data-widget-type="rich_text" data-x="0" data-w="12">
+                <div class="cell-wrapper layout-widget-wrapper">
+                    <span id="hs_cos_wrapper_module_138375371687214" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div class="copyrights">
+<p style="color: #868686; ; font-size: 14px;">Copyright © 2014 Geckoboard. All rights reserved.</p>
+</div></span>
+                </div><!--end layout-widget-wrapper -->
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+    </div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div>
+            </div><!--end widget-span -->
+        </div><!--end row-->
+        </div><!--end row-wrapper -->
+
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
+
+    
+
+<script type="text/javascript" src="https://static.hsappstatic.net/content_shared_assets/static-1.3687/js/public_common.js"></script>
+
+
+
+<script type="text/javascript">
+var hsVars = {
+    ticks: 1400166690434,
+    page_id: 0,
+    content_group_id: 0,
+    portal_id: 326854,
+    app_hs_base_url: "https://app.hubspot.com"
+}
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    if ($('.client_quote').cycle) {
+        $('.client_quote').cycle({
+	    fx: 'fade',
+	    speed:    900, 
+	    timeout:  5000
+	});
+    };
+	
+    $(".csblock").mouseover(function(){
+        $(".cs_intro_text").css("color", "white");
+ 	}, function() {
+	    // on mouseout, reset the background colour
+	    $('#cs_intro_text').css('background-color', '');
+	  });
+	});
+</script>
+<script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+  @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+</style>
+<script type="text/javascript">
+  if (typeof(Zenbox) !== "undefined") {
+    Zenbox.init({
+      dropboxID:   "20300347",
+      url:         "https://geckoboard.zendesk.com",
+      tabTooltip:  "Support",
+      tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_support.png",
+      tabColor:    "black",
+      tabPosition: "Left"
+    });
+  }
+</script>
+<!-- begin olark code -->
+<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
+f[z]=function(){
+(a.s=a.s||[]).push(arguments)};var a=f[z]._={
+},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+0:+new Date};a.P=function(u){
+a.p[u]=new Date-a.p[0]};function s(){
+a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+b.contentWindow[g].open()}catch(w){
+c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('4741-240-10-6359');/*]]>*/</script><noscript><a href="https://www.olark.com/site/4741-240-10-6359/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+<!-- end olark code -->
+    <script src="//cdn2.hubspot.net/hub/326854/file-390435829-js/setcookie.js" type="text/javascript"></script> 
+<script>
+	$(document).ready(function(){
+		// FIXED NAV
+		var $window = $(window);
+		var $body = $("body");
+		var $nav = $(".nav-holder");
+		var $keyMetrics = $(".key-metrics");
+		var navOffset = $keyMetrics.offset();
+
+		function fixedNav(){
+			if(navOffset && $window.scrollTop() >= navOffset.top){
+				$body.addClass("fixed-nav");
+                $nav.addClass("show");
+			}
+			else{
+				$body.removeClass("fixed-nav");
+				$nav.removeClass("show");
+			}
+		}
+		fixedNav();
+		$window.scroll(fixedNav);
+
+// SMOOTH SCROLLING
+$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+	});
+</script>
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+</body>
+</html>

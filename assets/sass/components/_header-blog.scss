@@ -1,0 +1,202 @@
+@import "compass/css3/flexbox";
+
+.page-head.blog {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+
+  @include mq($med-large) {
+    position: absolute;
+  }
+
+  .navigation {
+    background-color: $brand-grey;
+    width: 100%;
+
+    @include mq($med-large) {
+      background-color: transparent;
+    }
+
+    &.scroll {
+      display: none;
+    }
+  }
+
+  .page-head__nav {
+    top: 48px;
+    background-color: $brand-green;
+
+    @include mq($med-large) {
+      position: relative;
+      height: auto;
+      padding: 0;
+      top: 0;
+      background-color: transparent;
+    }
+
+
+    li {
+      border-bottom: 1px solid rgba(255,255,255,0.25);
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      @include mq($med-large) {
+        border-bottom: 0;
+      }
+
+      a {
+        @include font-size(12px);
+        color: #fff;
+
+        &:hover {
+          opacity: .8;
+          color: #fff;
+          background-color: darken($brand-green,7%);
+        }
+
+        @include mq($med-large) {
+          @include font-size(11px);
+
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+
+      .newsletter-signup {
+        @include mq($med-large) {
+          border: 1px solid rgba(255,255,255,.1);
+          @include border-radius(4px);
+          padding: 10px;
+          line-height: 1.0;
+
+          &:hover {
+            opacity: 1;
+            border: 1px solid rgba(255,255,255,.2);
+          }
+        }
+      }
+    }
+  }
+
+  .blog-search {
+    border-bottom: 0;
+
+    form {
+      overflow: hidden;
+    }
+
+    input {
+      font-size: 16px;
+      padding: 14px;
+      text-indent: 3px;
+      color: #fff;
+      border: 0;
+      border-color: rgba(61,67,87,0.1);
+      width: 100%;
+      cursor: text;
+      font-family: $default-sans;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 13px;
+      padding: 16px;
+      width: 100%;
+      letter-spacing: 0.1em;
+      background-color: #fff;
+      @extend %mag;
+      background-size: 16px 16px;
+      background-position: 14px 50%;
+      background-repeat: no-repeat;
+      padding-left: 40px;
+
+      @include placeholder {
+        color: $brand-mid-grey;
+      }
+
+      @include mq($med-large) {
+        background-position: 8px 50%;
+        padding-left: 28px;
+        width: 210px;
+        padding: 8px;
+        padding-left: 28px;
+        @include border-radius(3px);
+        background-color: darken($brand-grey,5%);
+        background-image: url(../svg/mag.svg);
+
+        @include placeholder {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.url-blog-topics, .url-blog-search {
+  .page-head.blog {
+    position: relative;
+  }
+}
+
+.url-blog-post {
+  .page-head.blog {
+    background-color: #fff;
+    border-bottom: 1px solid rgba($brand-grey,.1);
+
+    @include mq($med-large) {
+      position: relative;
+      background-color: #fff;
+    }
+
+    .logo {
+      @include mq($large) {
+        background-image: url(../svg/logo-green-light.svg)
+      }
+    }
+
+    .page-head__nav {
+      li {
+        a {
+          @include mq($med-large) {
+            color: $brand-grey;
+
+            &:hover {
+              opacity: .8;
+              color: $brand-grey;
+              background-color: transparent;
+            }
+          }
+        }
+
+        .newsletter-signup {
+          @include mq($med-large) {
+            border: 1px solid rgba($brand-grey,.1);
+
+            &:hover {
+              opacity: 1;
+              border: 1px solid rgba($brand-grey,.2);
+            }
+          }
+        }
+      }
+    }
+
+    .blog-search {
+      input {
+        background-color: #fff;
+        @extend %mag;
+        background-repeat: no-repeat;
+        color: $brand-mid-grey;
+
+        @include mq($med-large) {
+          background-color: $light-blue-grey;
+        }
+
+        @include placeholder {
+          color: $brand-mid-grey;
+        }
+      }
+    }
+  }
+}
