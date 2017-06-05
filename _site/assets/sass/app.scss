@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+// Testing
+@import "development/dev-fonts";
+
 /* Setup */
 @import "settings";
 @import "imports";
@@ -33,11 +36,3 @@
 @import "components/js";
 @import "components/forms";
 @import "components/cookie";
-
-body {
-  color: blue;
-}
-
-.journal__post a h3 {
-  color: white;
-}

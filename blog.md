@@ -11,6 +11,6 @@ newslettersignupboxcopy: Can we send you a short bi-weekly email with lessons le
 newslettersignupboxbutton: Yes, send me their stories
 blognavpodcasttitle: Secrets for Scaling Podcast
 blognavnewslettertitle: Get Bi-Weekly Founder Stories
-layout: journal
+layout: blog
 ---
 

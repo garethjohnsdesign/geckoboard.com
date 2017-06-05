@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'amp-jekyll'
 gem 'jekyll'
 group :jekyll_plugins do
   gem 'jekyll-seo-tag'

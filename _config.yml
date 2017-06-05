@@ -66,3 +66,6 @@ compress_html:
   blanklines: true
   profile: false
 ampdir: amp
+book-a-demo: true
+watch-a-demo-link: https://support.geckoboard.com/hc/en-us/articles/205646908
+intercom-messenger: true

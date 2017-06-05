@@ -8,6 +8,6 @@ banner-highlight: true
 banner-highlight-link: "/blog/new-personalize-your-dashboard-with-our-easy-customization-features"
 banner-highlight-badge: New!
 banner-highlight-copy: Easily customize your dashboards with a logo and custom theme.
-banner-highlight-button: Read Launch Post2
+banner-highlight-button: Read Launch Post
 ---
 

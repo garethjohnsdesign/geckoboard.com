@@ -10,13 +10,15 @@ html{
   font-weight: 400;
   line-height: $line-height-ratio;
   color: $font-color;
-  color: red;
   background-color: $brand-grey;
-//   background-color: white;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: none;
   min-width: 320px;
 }
+
+
+//TODO: Sample TODO comment
+
 
 html,body{
   height: 100%;

@@ -14,13 +14,13 @@
         </a>
       </li>
       <li>
-        {% if site.meta['book-a-demo'] == 'yes' %}
+        {% if site.book-a-demo %}
         <a href="/book-a-demo/">
           <img src="/assets/svg/icon-book-demo-small.svg" alt="Demo icon">
           <h4>Book a Demo</h4>
         </a>
         {% else %}
-        <a href="{{site.meta['watch-a-demo-link']}}">
+        <a href="{{site.watch-a-demo-link}}">
           <img src="/assets/svg/icon-book-demo-small-alt.svg" alt="Demo icon">
           <h4>Watch a Demo</h4>
         </a>

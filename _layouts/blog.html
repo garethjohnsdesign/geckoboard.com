@@ -1,0 +1,82 @@
+---
+layout: default
+regenerate: true
+---
+
+{% assign blog_posts = site.posts %}
+{% include blog_signup.html %}
+<section class="hero-container blog">
+  <div class="splat one"></div>
+  <div class="splat two"></div>
+  <div class="splat three"></div>
+  <div class="splat four"></div>
+  <div class="hero-container__text">
+    <div class="blog-logo"></div>
+    <h1 class="hero-container__main-heading title-spark-light">Geckoboard Blog</h1>
+    <h2 class="hero-container__sub-heading">Helping online business leaders <span class="break"><span>focus their team</span> and <span>grow their company</span>.</span></h2>
+  </div>
+</section>
+<section class="main-content blog">
+{% include blog_categories.html %}
+<div class="blog-list">
+  <div class="post-item featured">
+    {% assign sticky_posts = site.posts | where:"page.blog-featured","yes" %}
+    {% for post in sticky_posts %}
+    <span class="featured-title">Featured Post</span>
+    <div class="post-item__inner flex">
+      <div class="flex-col col-1of2">
+        <a href="{{post.url}}/" class="featured__img">
+          <img src="{{post.assets.first}}" alt="{{post.title}}">
+        </a>
+      </div>
+      <div class="flex-col col-1of2 post-info">
+        <ul class="post-topic">
+          {% for tag in post.taxonomy['topics'] %}
+          <li>
+            <a href="{{tag.url}}/" class="{{ tag.value | handleize }}" itemprop="articleSection">{{tag.value}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        <a href="{{post.url}}/">
+          <h2 class="post-title">{{post.title}}</h2>
+        </a>
+        <span class="post-author">by {{post.author.firstname | default: 'Geckoboard'}} {{post.author.lastname | default: 'Staff'}}</span>
+        <span class="post-date">{{post.date | date: "%B %-d, %Y"}}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% for post in blog_posts limit:8 %}
+  <div class="post-item full {{post.meta['blog-featured']}}">
+    <div class="post-item__inner flex">
+      <ul class="post-topic">
+        {% for tag in post.taxonomy['topics'] %}
+        <li>
+          <a href="{{tag.url}}/" class="{{ tag.value | handleize }}" itemprop="articleSection">{{tag.value}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="flex-col col-1of2">
+        <a href="{{post.url}}/">
+          <h2 class="post-title">{{post.title}}</h2>
+        </a>
+        <span class="post-author">by {{post.author.firstname | default: 'Geckoboard'}} {{post.author.lastname | default: 'Staff'}}</span>
+        <span class="post-date">{{post.date | date: "%B %-d, %Y"}}</span>
+      </div>
+      <div class="flex-col col-1of2 post-excerpt">
+        <a href="{{post.url}}/">
+          <p>{{post.excerpt | strip_html | truncate: 170}}</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="blog-nav">
+  <div class="container">
+    <a href="/blog/page/2/index.html" class="post-nav right">Older posts</a>
+  </div>
+</div>
+</section>
+

@@ -39,12 +39,6 @@
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
-	"\/_data\/footer.yml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_data\/footer.yml",
-		"oF": 0
-		},
 	"\/_data\/navigation.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -927,10 +921,28 @@
 		"oAP": "\/_layouts\/amp.html",
 		"oF": 0
 		},
+	"\/_layouts\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/blog.html",
+		"oF": 0
+		},
 	"\/_layouts\/compress.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/compress.html",
+		"oF": 0
+		},
+	"\/_layouts\/default-blog-post.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/default-blog-post.html",
+		"oF": 0
+		},
+	"\/_layouts\/default-blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/default-blog.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -943,12 +955,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/index.html",
-		"oF": 0
-		},
-	"\/_layouts\/journal.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/journal.html",
 		"oF": 0
 		},
 	"\/_layouts\/missing.html": {
@@ -2647,6 +2653,30 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/assets\/data\/data.csv",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/BrandonText-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/BrandonText-Medium.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/BrandonText-Medium.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/BrandonText-Medium.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/ChaparralPro-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/ChaparralPro-Regular.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/ChaparralPro-Regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/ChaparralPro-Regular.woff2",
 		"oF": 0
 		},
 	"\/_site\/assets\/fonts\/fontawesome-webfont.eot": {
@@ -10382,6 +10412,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/benefits\/index.html",
+		"oF": 0
+		},
+	"\/_site\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog.html",
 		"oF": 0
 		},
 	"\/_site\/blog\/10-excel-experts-to-follow-to-become-a-spreadsheet-jedi\/index.html": {
@@ -38894,7 +38930,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_uploads\/bunnies.JPG": {
+	"\/_uploads\/bunnies.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
@@ -41443,7 +41479,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_uploads\/fareharbor-lawrence-hester.JPG": {
+	"\/_uploads\/fareharbor-lawrence-hester.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
@@ -46574,7 +46610,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_uploads\/klara-flowchart-sticky-notes.JPG": {
+	"\/_uploads\/klara-flowchart-sticky-notes.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
@@ -48976,6 +49012,30 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/data\/data.csv",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BrandonText-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BrandonText-Medium.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/BrandonText-Medium.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/BrandonText-Medium.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/ChaparralPro-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/ChaparralPro-Regular.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/ChaparralPro-Regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/ChaparralPro-Regular.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/fontawesome-webfont.eot": {
@@ -54210,6 +54270,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/sass\/development\/_dev-fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_dev-fonts.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/sass\/generic\/_helpers.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -57569,6 +57642,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog.html",
+		"oF": 0
 		},
 	"\/blog.md": {
 		"cS": 0,
@@ -64060,10 +64139,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/index.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

@@ -1,10 +1,84 @@
 ---
-layout: default
+layout: default-blog-post
 ---
 
-<!-- Journal -->
-<section class="journal page">
-<h1>{{ page.title }}</h1>
-{{ page.content }}
+
+{% include blog_signup.html %}
+<section class="main-content blog-post">
+  <div class="title-section">
+    <div class="title-section__inner">
+      <a class="back-to" href="/blog/">Back to Blog</a>
+      <h1 class="post-title" itemprop="headline">{{title}}</h1>
+    </div>
+  </div>
+  <div class="author-details">
+    <div class="author-details__inner">
+      <div class="author-avatar"><img src="{{author.avatar}}"></div>
+      <div class="author-sub">
+        <span class="post-author">by {{author.firstname | fallback: 'Geckoboard'}} {{author.lastname | fallback: 'Staff'}}</span>
+        <div class="post-topic-date">
+          <span class="post-date">{{date | date: "%B %-d, %Y"}}</span>
+          <ul class="post-topic">
+            {% for tag in taxonomy['topics'] %}
+            <li><a href="{{tag.url}}/" class="{{ tag.value | handleize }}" itemprop="articleSection">{{tag.value}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="post-body blog-styles">
+    {% include sticky_social.html %}
+    <div class="post-body__margin"></div>
+    <div class="post-body__inner">
+      {{content}}
+      <div class="sticky-footer"></div>
+      {% if page.NewsletterSignup == 'yes' %}
+      <div class="blog-newsletter-signup">
+        <h4 class="newsletter-signup-head">{{page.NewsletterSignupHeader | default: "Can we send you a short weekly email with practical insights from CEOs and Founders on growing your business?"}}</h4>
+        <form action="//geckoboard.us1.list-manage.com/subscribe/post?u=f8c11c17753d5c653c8d22b3d&amp;id=d7a449ccce" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="required email" placeholder="Your Email Address" id="mce-EMAIL">
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f8c11c17753d5c653c8d22b3d_d7a449ccce" tabindex="-1" value=""></div>
+            <input type="submit" value="{{meta['NewsletterSignupButton']}}" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+        </form>
+      </div>
+      {% endif %}
+      <div class="comments-section">
+        <div class="container">
+          <div id="disqus_thread"></div>
+          <script>
+            var disqus_shortname = 'geckoboard';
+            var disqus_url = 'http://www.geckoboard.com{{url}}';
+            var disqus_identifier = '{{slug}}';
+            /* * * DON'T EDIT BELOW THIS LINE - disqus copy and paste code* * */
+            (function() {
+               var dsq = document.createElement('script'); dsq.async = true;
+               dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-nav">
+    <div class="container">
+      <a  class="post-nav left" href="/blog/">Back to Blog</a>
+      {% if page.previous.url %}
+      <a href="{{page.previous.url}}/" class="post-nav right">Next Post <span>{{page.previous.title | strip_html | truncate: 42}}</a>
+      {% endif %}
+    </div>
+  </div>
 </section>
-<!-- End Journal -->
+<script src="/assets/js/vendor/h5f.js"></script>
+<script src="/assets/js/vendor/jquery.placeholder.js"></script>
+<script src="/assets/js/signup.js"></script>

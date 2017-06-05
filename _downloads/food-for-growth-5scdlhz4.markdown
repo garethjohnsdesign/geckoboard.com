@@ -6,4 +6,3 @@ assets:
 - path: "/uploads/food-for-growth-cover.png"
 - path: "/uploads/Food-for-Growth-by-Geckoboard-Mention-120515.pdf"
 ---
-

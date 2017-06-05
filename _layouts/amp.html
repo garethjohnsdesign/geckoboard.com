@@ -1,7 +1,6 @@
 ---
 layout: amp
 ---
-
 <!doctype html>
 <html amp lang="en">
   <head>
@@ -15,6 +14,7 @@ layout: amp
     <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
   <body>
+{% capture header %}{% include header.html %}{% endcapture %}
 <h1 class="post-title">
 {{ header | amp_images }}
 </h1>

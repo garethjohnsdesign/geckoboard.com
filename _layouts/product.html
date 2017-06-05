@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% capture extrascripts %}
+  {% include wistia_scripts.html %}
+{% endcapture %}
+
 <section class="hero-container">
   <div class="hero-container__img"></div>
   <div class="hero-container__text">
@@ -12,4 +16,316 @@ layout: default
     <img src="/assets/png/product-hero-dashboard-full.png" srcset="/assets/png/product-hero-dashboard-full@2x.png 2x" alt="Building a live metrics dashboard">
   </div>
 </section>
+<section class="main-content">
+  <div class="three-section data-integration">
+    <div class="container">
+      <h2 class="section-heading mid">Bring Any Metric Into Geckoboard</h2>
+      <ul class="three-section__three-list">
+        <li class="integrations">
+          <a href="/integrations/">
+            <div class="three-list__img">
+              <img alt="Integrations icon" id="product-integrations-icon" src="/assets/svg/icon-product-integrations.svg">
+            </div>
+            <div class="h3-container">
+              <h3 class="three-section__underline-btn">60+ pre-built integrations</h3>
+            </div>
+            <p>Pull live metrics from popular business tools into Geckoboard without any technical know-how.</p>
+          </a>
+        </li>
+        <li class="spreadsheets">
+          <a href="/spreadsheet-dashboards/">
+            <div class="three-list__img">
+              <img alt="Spreadsheets icon" id="product-spreadsheets-icon" src="/assets/svg/icon-product-spreadsheets.svg">
+            </div>
+            <div class="h3-container">
+              <h3 class="three-section__underline-btn">Powerful Spreadsheet Integration</h3>
+            </div>
+            <p>Effortlessly turn data tracked in a Google Sheet or Excel file into live visualizations.</p>
+          </a>
+        </li>
+        <li class="datasets">
+          <a href="/datasets/">
+            <div class="three-list__img">
+              <img alt="Datasets icon" id="product-datasets-icon" src="/assets/svg/icon-product-datasets.svg">
+            </div>
+            <div class="h3-container">
+              <h3 class="three-section__underline-btn">Flexible Datasets API</h3>
+            </div>
+            <p>Visualize metrics from databases, in-house systems and third-party software.</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="visualize floated right">
+    <div class="container">
+      <div class="floated-row">
+        <div class="floated-content">
+          <h2>Quickly &amp; Easily Visualize Metrics</h2>
+          <p>Build a TV dashboard in minutes using a drag-and-drop interface that makes setup and visualization changes so simple anyone can do it.</p>
+        </div>
+        <div class="floated-element">
+          <div class="interface-img">
+            <img src="/assets/img/product-visualize.gif" srcset="/assets/img/product-visualize@2x.gif 2x" alt="Drag and drop dashboards">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="no-effort floated left">
+    <div class="container">
+      <div class="floated-row">
+        <div class="floated-element">
+          <ul class="product-viz-thumbs">
+            <li id="widgetgallery_thumb_numbergoal">
+              <div class="img-wrapper">
+                <img alt="Number KPI widget with goal example" src="/assets/png/number-goal-154.png" srcset="/assets/png/number-goal-154@2x.png 2x">
+              </div>
+            </li>
+            <li id="widgetgallery_thumb_linechart">
+              <div class="img-wrapper">
+                <img alt="Number KPI and line chart example" src="/assets/png/line-chart-154.png" srcset="/assets/png/line-chart-154@2x.png 2x">
+              </div>
+            </li>
+            <li id="widgetgallery_thumb_numberpercent">
+              <div class="img-wrapper">
+                <img alt="Number KPI and percent example" src="/assets/png/number-percent-154.png" srcset="/assets/png/number-percent-154@2x.png 2x">
+              </div>
+            </li>
+            <li id="widgetgallery_thumb_funnel">
+              <div class="img-wrapper">
+                <img alt="Bar Chart with Goal example" src="/assets/png/barchart-goal-154.png" srcset="/assets/png/barchart-goal-154@2x.png 2x">
+              </div>
+            </li>
+            <li id="widgetgallery_thumb_leaderboard">
+              <div class="img-wrapper">
+                <img alt="Leaderboard example" src="/assets/png/leaderboard-154.png" srcset="/assets/png/leaderboard-154@2x.png 2x">
+              </div>
+            </li>
+            <li id="widgetgallery_thumb_geckometer">
+              <div class="img-wrapper">
+                <img alt="KPI gauge example" src="/assets/png/geck-o-meter-154.png" srcset="/assets/png/geck-o-meter-154@2x.png 2x">
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="floated-content">
+          <h2>Make your data look great</h2>
+          <p>No distractions. No unnecessary complexity. No room for misinterpretation. Our visualizations are designed with one thing in mind: to make your most important metrics clear and easy-to-understand.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="office-wall">
+    <div class="container heading">
+      <h2 class="section-heading mid">Optimized for your office wall</h2>
+    </div>
+    <div class="office-wall-grid">
+      <ul>
+        <li>
+          <img src="/assets/img/product-office-wall-1.jpg" alt="Geckoboard TV dashboard on Casper's wall">
+        </li>
+        <li>
+          <img src="/assets/img/product-office-wall-2.jpg" alt="Geckoboard TV dashboard on Sole Trader's wall">
+        </li>
+        <li>
+          <img src="/assets/img/product-office-wall-3.jpg" alt="Geckoboard TV dashboard on Bunny Inc's wall">
+        </li>
+        <li>
+          <img src="/assets/img/product-office-wall-4.jpg" alt="Geckoboard TV dashboard on eSynergy Solutions' wall">
+        </li>
+      </ul>
+    </div>
+    <div class="container quote">
+      <div class="callout-quotation center">
+        <blockquote class="inner">
+          <p>It’s so easy to set up that you can get a dashboard live on the wall on the first day.</p>
+          <cite>Chris Peters, Director of Marketing &amp; PR, Diggerland USA</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
 
+  <div class="features">
+    <div class="container">
+      <div class="default-grid__col">
+        <ul class="default-grid__list big-features col-3">
+          <li>
+            <a href="//fast.wistia.net/embed/iframe/tfkkgjg6gq?popover=true&playerColor=78ab49" class="wistia-popover[height=540,playerColor=78ab49,width=960]" hidden></a>
+            <a class="list-item quote__play-btn" href="#" id="product_vid_screens">
+              <div class="default-grid__img">
+                <img src="/assets/png/product-features-screenmgmt.png" alt="Simple screen management screenshot"/>
+                <div class="play-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 67.9 67.9" enable-background="new 0 0 67.9 67.9"><path fill="#fff" id="inner-fill" d="M33.9 67.9c-18.7 0-33.9-15.2-33.9-34s15.2-33.9 33.9-33.9 33.9 15.2 33.9 33.9-15.2 34-33.9 34zm0-64.9c-17 0-30.9 13.9-30.9 30.9s13.9 30.9 30.9 30.9 31-13.8 31-30.9-13.9-30.9-31-30.9zM28.5 48.9c-.2 0-.5-.1-.7-.2-.5-.3-.8-.8-.8-1.3v-26.9c0-.6.3-1.1.8-1.3.5-.3 1.1-.2 1.5.1l19.4 13.4c.4.3.6.7.6 1.2s-.2 1-.6 1.2l-19.4 13.5c-.2.2-.5.3-.8.3zm1.5-25.5v21.1l15.3-10.6-15.3-10.5z"/></path></svg>
+                </div>
+              </div>
+              <div class="default-grid__content">
+                <h2>Simple Screen Management</h2>
+                <p>Securely connect to a screen and remotely manage which dashboards are displayed.</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="//fast.wistia.net/embed/iframe/v0naqad9xy?popover=true&playerColor=78ab49" class="wistia-popover[height=540,playerColor=78ab49,width=960]" hidden></a>
+            <a class="list-item quote__play-btn" href="#" id="product_vid_customization">
+              <div class="default-grid__img">
+                <img src="/assets/png/product-features-customise.png" alt="Customization"/>
+                <div class="play-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 67.9 67.9" enable-background="new 0 0 67.9 67.9"><path fill="#fff" id="inner-fill" d="M33.9 67.9c-18.7 0-33.9-15.2-33.9-34s15.2-33.9 33.9-33.9 33.9 15.2 33.9 33.9-15.2 34-33.9 34zm0-64.9c-17 0-30.9 13.9-30.9 30.9s13.9 30.9 30.9 30.9 31-13.8 31-30.9-13.9-30.9-31-30.9zM28.5 48.9c-.2 0-.5-.1-.7-.2-.5-.3-.8-.8-.8-1.3v-26.9c0-.6.3-1.1.8-1.3.5-.3 1.1-.2 1.5.1l19.4 13.4c.4.3.6.7.6 1.2s-.2 1-.6 1.2l-19.4 13.5c-.2.2-.5.3-.8.3zm1.5-25.5v21.1l15.3-10.6-15.3-10.5z"/></path></svg>
+                </div>
+              </div>
+              <div class="default-grid__content">
+                <h2>Customize to Match Your Brand</h2>
+                <p>Easily add a logo and tailor your dashboard’s theme to match your company colours.</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="//fast.wistia.net/embed/iframe/ffnvu7llrs?popover=true&playerColor=78ab49" class="wistia-popover[height=540,playerColor=78ab49,width=960]" hidden></a>
+            <a class="list-item quote__play-btn" href="#" id="product_vid_loops">
+              <div class="default-grid__img">
+                <img src="/assets/png/product-features-loops.png" alt="Create dashboard loops"/>
+                <div class="play-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 67.9 67.9" enable-background="new 0 0 67.9 67.9"><path fill="#fff" id="inner-fill" d="M33.9 67.9c-18.7 0-33.9-15.2-33.9-34s15.2-33.9 33.9-33.9 33.9 15.2 33.9 33.9-15.2 34-33.9 34zm0-64.9c-17 0-30.9 13.9-30.9 30.9s13.9 30.9 30.9 30.9 31-13.8 31-30.9-13.9-30.9-31-30.9zM28.5 48.9c-.2 0-.5-.1-.7-.2-.5-.3-.8-.8-.8-1.3v-26.9c0-.6.3-1.1.8-1.3.5-.3 1.1-.2 1.5.1l19.4 13.4c.4.3.6.7.6 1.2s-.2 1-.6 1.2l-19.4 13.5c-.2.2-.5.3-.8.3zm1.5-25.5v21.1l15.3-10.6-15.3-10.5z"/></path></svg>
+                </div>
+              </div>
+              <div class="default-grid__content">
+                <h2>Cycle through dashboards</h2>
+                <p>Display several different dashboards on a single screen.</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="default-grid__col">
+        <ul class="default-grid__list small-features col-2">
+          <li>
+            <div class="list-item">
+              <img src="/assets/svg/product-features-small-mobile.svg" alt="iPhone app icon"/>
+              <div class="default-grid__content">
+                <h2>iPhone App</h2>
+                <p>Take live metrics with you on the go. <a href="/mobile-app/">Learn More</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list-item">
+              <img src="/assets/svg/product-features-small-sharing.svg" alt="Sharing links icon"/>
+              <div class="default-grid__content">
+                <h2>Secure Sharing Links</h2>
+                <p>Quickly share a link to your dashboard in an email or chat.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list-item">
+              <img src="/assets/svg/product-features-small-collaborate.svg" alt="Collaboration icon"/>
+              <div class="default-grid__content">
+                <h2>Collaborate</h2>
+                <p>Invite colleagues to build and edit dashboards.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="list-item">
+              <img src="/assets/svg/product-features-small-secure.svg" alt="IP restriction icon"/>
+              <div class="default-grid__content">
+                <h2>IP Restriction</h2>
+                <p>Limit access to your dashboards to specific devices.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="get-support">
+    <div class="container">
+      <h2 class="section-heading mid">Global Support</h2>
+      <p class="section-subtitle alt">Our <a href="/support/" target="_blank">best-in-class</a> Customer Success team are on hand 24/5, wherever you're located.</p>
+      {% include support_bubbles.html %}
+      <div class="callout-quotation btop center">
+        <blockquote class="inner">
+          <p>Service on this ticket was top-shelf-phenomenal. A total grand slam. Timely and complete.</p>
+          <cite>Braden Nicholson, Nuvo.net</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="content-row benefits-quote second-row new-style product-quote swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="content-row__img img-one">
+        </div>
+        <div class="container">
+          <div href="/learn/case-studies/marketo/" class="content-row__text benefits-quote__text" target="_blank">
+            <blockquote class="benefits-quote__quote">
+              <p>The dashboard gives my entire team visibility of our most important metrics and visibility of what’s in the queue. Everybody’s aware. Everybody’s on the same page. It’s completely aligned the team.</p>
+              <cite>Roger Waaijer, Senior Manager Customer Support, Marketo</cite>
+            </blockquote>
+          </div>
+        </div>
+        <a class="round-btn" href="/learn/case-studies/marketo/" target="_blank">Read Case Study</a>
+      </div>
+      <div class="swiper-slide">
+        <div class="content-row__img img-two">
+        </div>
+        <div class="container">
+          <div href="/learn/case-studies/ratio/" class="content-row__text benefits-quote__text" target="_blank">
+            <blockquote class="benefits-quote__quote">
+              <p>We use Geckoboard to bring visibility to our OKRs, our chosen goal-setting framework, so everyone has a live reminder of how we are all doing against our goals and can prioritize work effectively. </p>
+              <cite>Marc Biles, CEO, Ratio</cite>
+            </blockquote>
+          </div>
+        </div>
+        <a class="round-btn" href="/learn/case-studies/ratio/" target="_blank">Read Case Study</a>
+      </div>
+      <div class="swiper-slide">
+        <div class="content-row__img img-three">
+        </div>
+        <div class="container">
+          <div href="/learn/case-studies/dashlane/" class="content-row__text benefits-quote__text">
+            <blockquote class="benefits-quote__quote" target="_blank">
+              <p>I love the flexibility of Geckoboard’s custom datasets. We can easily pull data from our internal systems and create beautiful live visualizations.</p>
+              <cite>Emmanuel le Blan, Snr Director of Analytics, Dashlane</cite>
+            </blockquote>
+          </div>
+        </div>
+        <a class="round-btn" href="/learn/case-studies/dashlane/" target="_blank">Read Case Study</a>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- Swiper JS -->
+    <script src="/assets/js/vendor/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
+    </script>
+  </div>
+  <div class="sign-up">
+    <div class="container">
+      <h2 class="section-heading title-spark">Start Focusing Today</h2>
+      <p class="section-subtitle alt"><span>Create your first dashboard in minutes</span>. Free for 30 days, no credit card required.</p>
+      <div class="btn-container" id="try-CTA-product-footer">
+        <form action="/try-geckoboard/" method="get" class="inline__signup-form">
+        <input type="email" name="email" placeholder="Enter your email address">
+        <button class="btn">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  {% include page-end-links-product.html %}
+</section>
+
+{% if site.intercom-messenger %}
+  {% include intercom_messenger.html %}
+{% else %}
+  {% include services.html" %}
+{% endif %}

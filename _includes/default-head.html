@@ -1,56 +1,44 @@
   <head>
-<!--
     {% if page.redirect %}
       <meta http-equiv="refresh" content="0;url={{page.redirect}}">
     {% endif %}
--->
-<!--     {% include dns_prefetch.html %} -->
+    {% include dns_prefetch.html %}
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-<!--
     {% if assets.first %}
       {% assign social_image = 'https://' | append: site.domain | append: assets.first %}
     {% else %}
       {% assign social_image = 'https://' | append: site.domain | append: '/assets/img/geckoboard-thumb.jpg' %}
     {% endif %}
--->
-<!--
-    {% if meta.description %}
-      {% assign social_description = meta.description | strip_html | strip_newlines | truncate: 200 %}
+    {% if page.description %}
+      {% assign social_description = page.description | strip_html | strip_newlines | truncate: 200 %}
     {% else %}
       {% assign social_description = excerpt | strip_html | strip_newlines | truncate: 200 %}
     {% endif %}
--->
-<!--
     {% assign last_char = permalink | split: '' | last %}
     {% if last_char != '/' %}
       {% assign permalink_https = permalink | replace:'http:', 'https:' | append: '/' %}
     {% else %}
       {% assign permalink_https = permalink | replace:'http:', 'https:' %}
     {% endif %}
--->
     <meta name="description" content="{{ meta.description | fallback: current.body | strip_html | strip_newlines | truncate: 160 }}">
-<!--
-    {% if url contains 'whats-new' and slug != 'whats-new' %}
+    {% if page.url contains 'whats-new' and slug != 'whats-new' %}
       <meta property="og:title" content="{{meta.UpdateTitle}} {{meta.UpdateType}}" />
     {% else %}
       <meta property="og:title" content="{{meta.title | fallback: title}} | Geckoboard" />
     {% endif %}
--->
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{permalink_https}}" />
     <meta property="og:image" content="{{social_image}}" />
     <meta property="og:description" content="{{social_description}}" />
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@geckoboard">
-<!--
-    {% if url contains 'whats-new' and slug != 'whats-new' %}
+    {% if page.url contains 'whats-new' and slug != 'whats-new' %}
       <meta name="twitter:title" content="{{meta.UpdateTitle}} {{meta.UpdateType}}">
     {% else %}
       <meta name="twitter:title" content="{{meta.title | fallback: title}} ">
     {% endif %}
--->
     <meta name="twitter:description" content="{{social_description}}">
     <meta name="twitter:creator" content="@geckoboard">
     <meta name="twitter:image" content="{{social_image}}">
@@ -71,16 +59,15 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <link rel="alternate" type="application/rss+xml" href="http://www.geckoboard.com.s3-website-us-east-1.amazonaws.com/feed.xml" title="Geckoboard Updates">
     <link href="/assets/css/app.css" rel="stylesheet" type="text/css" media="all" />
+<!--
     <script src="//use.typekit.net/hhz2hwa.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+-->
     <script src="/assets/js/vendor/modernizr.min.js"></script>
     <script src="/assets/js/vendor/jquery.min.js"></script>
-<!--
-    {% if url contains 'case-studies' %}
+    {% if page.url contains 'case-studies' %}
     <script src="/assets/js/vendor/jquery.mixitup.min.js"></script>
     {% endif %}
--->
-<!--
     {% if url contains 'kpi-examples/sales-kpis' %}
         <title>{{meta.title | fallback: title}} | Sales KPI Examples | Geckoboard</title>
     {% elsif url contains 'whats-new' and slug != 'whats-new' %}
@@ -88,6 +75,5 @@
     {% else %}
         <title>{{meta.title | fallback: title}} | Geckoboard</title>
     {% endif %}
--->
     <meta name="pocket-site-verification" content="5b99e9cd208f2e3ea87c0f81168f0b" />
   </head>
